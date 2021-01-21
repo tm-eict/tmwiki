@@ -1,8 +1,8 @@
 ---
-title: Exam example
+title: Voorbeeld examen
 description: 
 published: true
-date: 2021-01-21T16:23:45.370Z
+date: 2021-01-21T17:11:51.822Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -21,7 +21,7 @@ De vragen kan je open doen voor het antwoord
   Wow
 </details>
 
-## Extra questions
+## Extra vragen
 <details>
   <summary markdown="span">Epic 2de vraag??!</summary>
   Wow
