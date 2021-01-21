@@ -2,7 +2,7 @@
 title: Untitled Page
 description: 
 published: true
-date: 2021-01-21T15:12:22.390Z
+date: 2021-01-21T15:14:57.397Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T15:09:52.659Z
@@ -68,12 +68,12 @@ Examples:
 
 ## Accronym
 Something to help you learn:
-- 7. All - Application
-- 6. People	- Presentation
-- 5. Seem	- Session
-- 4. To	- Transport
-- 3. Need	- Network
-- 2. Data	- Data
-- 1. Processing	- Physical
+7: All - Application
+6: People	- Presentation
+5: Seem	- Session
+4: To	- Transport
+3: Need	- Network
+2: Data	- Data
+1: Processing	- Physical
 
 Source: https://youtu.be/LANW3m7UgWs
