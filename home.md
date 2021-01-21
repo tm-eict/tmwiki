@@ -1,8 +1,8 @@
 ---
-title: Thomas More ICT Wiki
+title: Home
 description: 
 published: true
-date: 2021-01-21T14:13:37.977Z
+date: 2021-01-21T15:23:30.485Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T21:12:05.187Z
