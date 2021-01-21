@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-01-21T15:42:06.699Z
+date: 2021-01-21T16:48:44.029Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T21:12:05.187Z
@@ -11,7 +11,7 @@ dateCreated: 2021-01-20T21:12:05.187Z
 # Thomas More ICT Wiki
 
 Waar je zelf de spellingsfouten mag verbeteren!
-Momenteel doen we een test met [Information Security](/Information_Security/home)
+Momenteel doen we een test met [Information Security](/Information_Security)
 
 ## Contributen
 
