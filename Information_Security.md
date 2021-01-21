@@ -2,7 +2,7 @@
 title: Information Security
 description: 
 published: true
-date: 2021-01-21T19:44:24.369Z
+date: 2021-01-21T19:56:01.275Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-20T21:15:25.761Z
@@ -20,9 +20,9 @@ remoet kontent
 
 [Voorbeeld examen](/en/Information_Security/testexam)
 
-[samenvatting_info_sec_pieter_vanderdeen.pdf](/information_security/samenvatting_info_sec_pieter_vanderdeen.pdf)
+## Samenvattingen en Documenten
 
-### 2019/2020
+[samenvatting_info_sec_pieter_vanderdeen.pdf](/information_security/samenvatting_info_sec_pieter_vanderdeen.pdf)
 [examenvragen_oplossing.pdf](/information_security/2019_2020/examenvragen_oplossing.pdf)
 [examenvragen.pdf](/information_security/2019_2020/examenvragen.pdf)
 [examenvragen.docx](/information_security/2019_2020/examenvragen.docx)
