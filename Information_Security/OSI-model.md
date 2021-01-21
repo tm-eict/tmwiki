@@ -2,7 +2,7 @@
 title: OSI-model
 description: 
 published: true
-date: 2021-01-21T15:15:32.239Z
+date: 2021-01-21T15:16:28.013Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T15:09:52.659Z
@@ -66,7 +66,7 @@ Examples:
 - Is the network card functioning?
 - Could it be a faulty cable?
 
-## Accronym
+## Acronym
 Something to help you learn:
 7: All - Application
 6: People	- Presentation
