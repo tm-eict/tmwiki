@@ -2,7 +2,7 @@
 title: OSI-model
 description: 
 published: true
-date: 2021-01-21T15:16:28.013Z
+date: 2021-01-21T15:18:33.214Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T15:09:52.659Z
@@ -10,7 +10,7 @@ dateCreated: 2021-01-21T15:09:52.659Z
 
 # OSI-model
 [Open Systems Interconnection-model](https://en.wikipedia.org/wiki/OSI-model) 
-![Different layers in OSI-model](http://electricala2z.com/wp-content/uploads/2017/10/osi-model.gif)
+![Different layers in OSI-model](http://electricala2z.com/wp-content/uploads/2017/10/osi-model.gif =512x)
 
 Extra explanation in book on page 276.
 
