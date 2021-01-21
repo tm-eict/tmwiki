@@ -2,22 +2,14 @@
 title: Hoofdstuk 1-5
 description: 
 published: true
-date: 2021-01-21T18:22:30.107Z
+date: 2021-01-21T18:27:44.433Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T17:13:23.163Z
 ---
 
 ## Cia Triad
-<style>
-p img:first-of-type
-{
-  width: 45%;
-	height: 45%;
-  float: right;
-}
-</style>
-![CIA TRIAD](https://blog.jamestyson.co.uk/wp-content/uploads/2019/09/CIA-triad.png#cia-triad)
+![CIA TRIAD](https://blog.jamestyson.co.uk/wp-content/uploads/2019/09/CIA-triad.png =384x)
 
   1. Availability
     	- Data moet beschikbaar zijn wanneer het nodig is
