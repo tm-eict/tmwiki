@@ -1,8 +1,8 @@
 ---
-title: Untitled Page
+title: OSI-model
 description: 
 published: true
-date: 2021-01-21T15:14:57.397Z
+date: 2021-01-21T15:15:32.239Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T15:09:52.659Z
