@@ -2,7 +2,7 @@
 title: Hoofdstuk 1-5
 description: 
 published: true
-date: 2021-01-21T17:35:37.014Z
+date: 2021-01-21T17:40:53.287Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T17:13:23.163Z
@@ -11,7 +11,7 @@ dateCreated: 2021-01-21T17:13:23.163Z
 # Hoofdstuk 1-5
 
 ## Cia Triad
-![CIA TRIAD](https://blog.jamestyson.co.uk/wp-content/uploads/2019/09/CIA-triad.png)
+![CIA TRIAD](https://blog.jamestyson.co.uk/wp-content/uploads/2019/09/CIA-triad.png =384x)
   1. Availability
     	- Data moet beschikbaar zijn wanneer het nodig is
         - Netwerk, authenticatie, redundante hardware, Back-up
