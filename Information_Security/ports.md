@@ -2,7 +2,7 @@
 title: Ports
 description: 
 published: true
-date: 2021-01-21T16:14:13.582Z
+date: 2021-01-21T17:02:47.633Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -23,6 +23,6 @@ Serial COM ports, Small Compuiter System Interface (SCSI) and LPT parallel print
 
 |Port picture|name|dangers|
 |--|--|--|
-|![test](https://cdn.discordapp.com/emojis/797125231679504434.png?v=1 =150x)| Joris Geens | Yes, procrastination incarnated.
+|![test](https://cdn.discordapp.com/emojis/797125231679504434.png?v=1 =150x)| Joris Geens | Yes, way too cool for us.
 
 
