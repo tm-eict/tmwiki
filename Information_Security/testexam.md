@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: 
 published: true
-date: 2021-01-22T23:27:11.483Z
+date: 2021-01-22T23:30:51.551Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -60,8 +60,12 @@ Voor NIST en vele andere vragen is het vooral dat je uitleg en redenering goed i
 
 <details>
   <summary markdown="span">Geef de 3 IP classes</summary>
-  A,B,C ...
-  verder uit te leggen...
+  Je moet de nummers niet vanbuiten kennen (zoveel hosts etc). Subnetting is voor OS-fundamentals.
+  
+  Class A: Hele grote netwerken
+  Class B: Medium netwerken
+  Class C: Privé netwerken
+  
 </details>
 
 <details>
