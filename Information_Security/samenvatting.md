@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T10:25:49.559Z
+date: 2021-01-22T10:41:05.018Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -232,6 +232,52 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 	* Network storage (NAS en SAN)
 		* NAS: Network Attached Storage
 		* SAN: Storage Area Network
+    
+## Hoofdstuk 4
+* **Intrusion-detection**
+	* Bestaat uit die zones
+		* Perimeter
+			* Becherming van openingen in de perimeter: deuren, ramen, garages, ...
+			* Interior
+			* Fire
+		* Basisonfiguratie
+			* Controller
+				* PCB (Printed Circuit Board)
+				* Processor
+				* Telefoonlijn inputs en outputs
+				* Terminals (schroeven voor sensor input)
+				* Back-up batterij
+			* Toetsenborden
+			* Binnensensors
+			* Alarmsingalen
+			* Autodialer naar telefoonlijn (sms of stem)
+			* Autodialer naar bewakingsfirma
+			* (optioneel) rookmelders
+			* (optioneel) perimeter sensoren (vensters, deuren, ...)
+		* Zones
+			* Groep van sensoren die bij elkaar horen
+			* Voorbeelden:
+				* Een aantal bewegingssensoren in een gang
+				* Beweging sensoren in een trapahal
+			* Gesloten loop van schakelaar waar een kleine stroom moet doorheen lopen (current loop). Wanner dit onderbroken wordt zal de controller dit detecteren. Dit is bteter dan een normaal open circuit omdat daarbij het doorknippen van een kabel niet kan worden gedetecteerd
+		* Sensors
+			* Magnetishe contact switches
+			* Glasbreuk sensors
+				* Acoustische sensor
+				* Trilling sensor
+				* Bewgingsmelder
+					* PIR = Pasisive InfraRed (does not emit any energy)
+				* Voertuigdetectie
+					* Photoelectric beam devices
+					* Microwave beam devices
+				* Druksensoren
+				* brandmelders
+					* Warmtesensoren
+					* rookmelders
+				* Output devices
+					* Visual Notification
+					* Audible annunciators (Alarm)
+					* Remote messaging
   
 <style type="text/css">
  	/* Indent Formatting */
