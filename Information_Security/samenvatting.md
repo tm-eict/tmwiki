@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T17:31:33.357Z
+date: 2021-01-22T17:35:19.462Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -883,7 +883,7 @@ Andere types van netwerken
 	draadloos
 * SAN (Storage Area Network)
 	Voor dataopslag
-### OSI-model
+### [OSI-model](/en/Information_Security/OSI-model)
 Open systems interconnection
 * To standardize communications (data handling) between network components
 ![OSI-model.png](^/osi-model.png =512x)
