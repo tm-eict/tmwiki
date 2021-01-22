@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T17:22:57.736Z
+date: 2021-01-22T17:26:05.526Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -383,6 +383,9 @@ Local host Security in the real world
 	* Softwarepoorten op netwerkkaart (draadloos of UTP) (H12)
 
 ### Fysieke poorten
+
+Belangrijke pagina/samenvating over poorten kan je hier vinden: [ports](/en/Information_Security/ports)
+
 * USB-poort (Universal Serial Bus poort)
 	* Daisy chains met USB-hub
 	* Indien rechtsreeks op mobo, uit teschakelen in CMOS setup
