@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T12:12:28.232Z
+date: 2021-01-22T12:57:55.141Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -320,6 +320,116 @@ Local host Security in the real world
 		* Welke schade moet hersteld worden?
 		* Backup
 		* Redundant hardware.
+    
+## Hoofdstuk 7
+* De drie zones van beveiliging
+	1. **Outer** perimter: behuizing en hardware (H7)
+	2. **Inner** perimter: operating system + programma's (H8)
+	3. **Interior**: data opslag plaatsen op het toestel (encryptie?)
+
+### Secure the local host
+* Infrastructuur
+	* Desktop in een gesloten kast
+	* Kabelsot
+	* Docking station with lock
+* Er zijn drie plaatsen waar de data beschermd moet worden
+	* geheugen (RAM - memory dump)
+	* Storage (HDD, SDD, USB-stick, SD-kaart, ...)
+	* Tijdens transfer van de ene naar de andere plaats (communicatie)(input/ouput)
+	* Hoe kunnen ze aan deze data?
+		* Via toetsenbord, muis, touchpad, touchsreen, UTP-poort, ...
+* **BIOS**: Basic Input/Ouput System
+	* Wachtwoord om toegeang te krijgen tot het systeem (bij opstarten nog voor OS wordt geladen)
+* **UEFI**: Unified Extensible Firmware Interface
+	* Opvolger van BIOS: zelfde functies maar kan meer
+	* Grafishe interface
+* Drie taken
+	1. hardware componenten opstarten
+	2. functionaliteitscheck
+	3. Bootloader opstarten (soms al direct OS in het geval van EUFI)
+* BIOS/EUFI security
+	* Wachtwoord instellen
+		* CMOS setup utility (complementary metal\-oxide\-semiconductor)
+		* Anders toegang tot inner perimeter en interior (Hoezo interrior?)
+			* Poorten (boot order) om toegang te krijgen tot de storage
+		* Wachtwoord vergeten?
+			* CMOS-batterij verwijderen
+			* Jumpers op het moederbord verplaatsen
+			* Soldeernaden lossen (oudere PC's)
+			* Daarom behuizingen beveiligen achter slot zodat niet iedereen dit kan doen
+		* Updaten!
+	* BIOS of UEFI is de eerste plaats waar sofware wordt gebruikt. Dit is dan ook de beste plaat som te starten als een hacker
+* Local system hardening
+	* **Hardening** = een computersysteem beveiligen
+		* Hardware wordt beveiligd door de BIOS/UEFI
+	* Waar begingt een hacker? Bij de firmware.
+* Andere paden naar de innner perimeter zijn
+	* Fysieke poorten
+		* Zowel input als de output nodig (resultaat van opdrachten bekijken)
+		* Input geeft toegang tot de interne communicatie bussen zoals databus, geheugen en interne opslag (chipset)
+			* Chipset = IC's die de connectieve tussen randapparatuur, de CPU en het geheugen verzorgen
+			* Twee IC's vormen samen chipset: Northbrdig een Southbridge
+				* Nortbridge
+					* Heel snel
+					* Moet meegaan met de snelheid van de CPU
+					* Afhankelijk can welke CPU is gebruikt
+					* Kan verbinden met PCIe
+					* Taak: verbinden van CPU met RAM en andere snelle perifirals
+				* Southbridge
+					* Trager
+					* Niet rechtsreeks verbonden met de CPU
+				* BIOS/UEFI en OS bepalen wat wel is toegestaan met deze chipset
+	* Softwarepoorten op netwerkkaart (draadloos of UTP) (H12)
+
+### Fysieke poorten
+* USB-poort (Universal Serial Bus poort)
+	* Daisy chains met USB-hub
+	* Indien rechtsreeks op mobo, uit teschakelen in CMOS setup
+	* **Hot-swapping**: toevoegen of verwijderen wanner het systeem actief is
+	* IDE (Integrated Drive Electronics) (Nu PATA genoemd = Parallel Advanced Technology Attachment); zorgt voor transport van data tussen ROM en RAM; tegenwoordig wordt SATA gebruikt (Serial ATA)
+	* ![usb-ports-1](/usb-ports-1.png)
+		^http://www.beginnerslessenpc.nl/USB%20Kabels%20Verschillen.htm^
+	* ![usb-ports-2](/usb-ports-2.png)
+		^https://www.cablestogo.com/learning/connector-guides/usb^
+	* ![usb-ports-3](/usb-ports-3.png)
+		^https://www.synopsys.com/designware-ip/technical-bulletin/protocol-layer-changes.html^
+	* Type A vooral gebruikt waar de kabel permanent bevestigd is (muis, toetsenbord, ...)
+	* Type B vooral gebruikt waar de kabel verwijderbaar is (printer, arduino, ...)
+	* USB 3.0 vaak blauw
+	* | Version | Speed | Bits/sec | HD movie 25GB |
+		| :----- | :----- | :----- | :----- |
+		| USB 1.1 | Low speed (LS) <br> High speed (HS) | 1.5 Mbps <br> 12 Mbps | ~9.25 hours |
+		| USB 2.0 | High speed (HS) | 480 Mbps <br> 14 Mbps | ~14 mins |
+		| USB 3.0 | SuperSpeed (SS) | 5 Gbps | ~70 sec |
+		| USB 3.1 | SuperSpeedPlus (SSP) | 10 Gbps | ~35 sec |
+	* FireWire(FW) en ThunderBolt (TB)
+		* FW is de opvolger van SCSI
+		* TB is een vervanger voor oudere SCSO, SATA, FireWire, PCI-e(Weet niet zeker?)
+		* Bandbreedte van USB, firewire e, Thunderbolt
+		
+			| Version | Bits/sec | Bytes/sec |
+			| :----- | :----- | :----- |
+			| USB 1.0 | 1.5 Mbit/s | 0.19 MB/s |
+			| USB 1.1 | 12 Mbit/s | 1.5 MB/s |
+			| USB 2.0 | 480 Mbit/s | 60 MB/s |
+			| USB 3.0 | 4.8 Gbit/s | 600 MB/s |
+			| USB 3.1 | 10 Gbit/s | 1.250 MB/s |
+			| FireWire 400 | 400 Mbit/s | 50 MB/s |
+			| FireWire 800 | 800 Mbit/s | 100 MB/s |
+			| FireWire 3200 | 3.2 Gbit/s | 400 MB/s |
+			| ThunderBolt | 2x 10 Gbit/s | 2x 1.250 MB/s |
+			| ThunderBolt 3 | 2x 20 Gbit/s | 2x 2500 MB/s |
+* ![all-ports](/all-ports.png)
+* DE-15 heb je in 2 rijen en 3 rijen
+* M = male; F = female
+* BNC connector
+ 	![bnc-connector](/bnc-connector.png =250x)
+* eSATA
+	* External SATA (Serial Advanced Technology Attachment) om aan de interne SATA-bus te koppelen
+	* Directe toegang to een bus (gevaarlijk)
+		![eSATA](/esata.png)
+		^https://en.wikipedia.org/wiki/ESATAp#/media/File:Esatap\_port.JPG^
+* POST: Power On Self Test
   
 <style type="text/css">
  	/* Indent Formatting */
