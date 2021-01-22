@@ -2,7 +2,7 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-22T15:39:46.717Z
+date: 2021-01-22T15:40:33.584Z
 tags: ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -16,8 +16,9 @@ dateCreated: 2021-01-21T16:14:13.582Z
 
 Veel poorten zijn oud en niet meer in gebruik. Soms zelfs maar 1 keer gebruikt. Het is dus moeilijk om voor alle poorten te weten of ze gevaarlijk zijn. Joris Geens heeft nog geen antwoord gegeven op de vragen hierover
 
-## Dangers?
+## Dangers
 You can find this information at p131-134.
+
 ### USB ports and devices
 USB devices can be very small which means they are easy to hide and transport. This makes it easy for they to carry/inject malicious software into local host computers.
 That's why its very important to protect USB ports in a computer, as well as controlling access of individuals.
@@ -48,14 +49,14 @@ Deze kunnen zeker een gevaar zijn. Ze kunnen data transporteren en sommige (eSAT
 |![port_aaui.png](/ports/port_aaui.png)|AAUI|(niet zeker) Deel van FriendlyNet en gefaald. Zelfde risco als rj-45.|
 |![port_coax.png](/ports/port_coax.png)|F-Connector RF/COAX|(niet zeker) Zelfde risco als rj-45|
 |![port_db25f.png](/ports/port_db25f.png)|Parallel Port/SCSI 1/DB-25F|Ja. Ze kunnen two-way communication voeren met system internal devices. 25 staat vr pins.|
+
 ## Other
 Is geen gevaarlijk (in principe [Rubber Ducky](https://www.plurilock.com/answers/rubber-ducky-attack-what-does-rubber-ducky-attack-mean/) achtige aanvallen wel mogelijk).
 |Port picture|name|extra|
 |--|--|--|
 |![port_ps2.png](/ports/port_ps2.png =100x)| PS/2 | Nee. Enkel input via interupts|
 |![port_atkeyboard.png](/ports/port_atkeyboard.png)|AT Keyboard|Nee.|
-|![port_da-15-macvideo.png](/ports/port_da-15-macvideo.png)|Mac Video/Midi/gameport/AUI<br>DA-15| ??? Heeft input, later geintrigreerd met soundcards.
-https://en.wikipedia.org/wiki/Game_port|
+|![port_da-15-macvideo.png](/ports/port_da-15-macvideo.png)|Mac Video/Midi/gameport/AUI<br>DA-15| ??? Heeft input, later geintrigreerd met soundcards. https://en.wikipedia.org/wiki/Game_port|
 
 ## Video/Audio
 Deze hebben over het algemeen geen gevaar. *Tenzij je afkijken meetelt*.
@@ -80,6 +81,7 @@ Deze hebben over het algemeen geen gevaar. *Tenzij je afkijken meetelt*.
 |![port_displayport.png](/ports/port_displayport.png)|DisplayPort|Nee.|
 |![port_dvivideo.png](/ports/port_dvivideo.png)|DVI Video|Nee.|
 |![port_de15-vga.png](/ports/port_de15-vga.png)|DE-15/HD-15/VGA/SVGA|Nee. 15 staat vr pins. Als het 15/blauw is -> VGA|
+
 ## USB
 Altijd gevaarlijk aangezien ze klein en makkelijk transporteerbaar zijn voor malicious intent.
 |USB picture|name|
