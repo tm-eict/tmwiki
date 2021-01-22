@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T13:01:46.158Z
+date: 2021-01-22T13:18:25.811Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -36,7 +36,7 @@ Deze driehoek is de basis voor information security en beveiligingsmaatregelen r
 	3. Technologie
 		1. **Encryptie**
 
-
+(P: Note: Volgorde is eigenlijk AIC, te onthouden met CIA) <br>
 Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 
 * Een agent controleert het vervallen van de groene verzekeringskaart van een chauffeur na een aanrijding.
