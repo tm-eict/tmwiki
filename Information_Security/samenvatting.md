@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T11:03:04.454Z
+date: 2021-01-22T12:12:28.232Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -90,8 +90,8 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 
 	[comment]: <> (Make inner link)
 	1. **Access\-control and monitoring** systems (H2)
-	2. **Video surveillance ** systems (H3)
-	3. ** Intrusion-detection** and reporting systems (H4)
+	2. **Video surveillance** systems (H3)
+	3. **Intrusion-detection** and reporting systems (H4)
 * **Tailgating** : An unauthorized person slips past the locking door closely behind someone who is authorized to pass through it.
 * Access-control
 	* Om fysieke toegang te vermijden (schade, vernietiging, diefstal, ...)
