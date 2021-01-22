@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T17:26:05.526Z
+date: 2021-01-22T17:31:33.357Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -932,7 +932,7 @@ Lagen
 
 Data transmissie pakketten
 * Encapsulatie: header toegevoegd in elke laag
-	![osi-building-transmission-packets.png](/osi-building-transmission-packets.png)
+	![osi-building-transmission-packets.png](/osi-building-transmission-packets.png =500x)
 	^Cybersecurity Essentials, ISBN 978-1-11936239-5 pagina 278^
 	
 OSI layer security
