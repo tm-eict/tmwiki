@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T12:57:55.141Z
+date: 2021-01-22T13:01:46.158Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -13,7 +13,8 @@ Met dank aan Pieter van der Deen's [Samenvatting](https://tmwiki.be/information_
 
 ## CIA-driehoek
 [comment]: <> (remove white background of img)
-[![cia-triad](/cia-triad.png)](https://blog.jamestyson.co.uk/the-cia-and-dad-triads)
+![cia-triad](/cia-triad.png)
+^https://blog.jamestyson.co.uk/the-cia-and-dad-triads)^
 Deze driehoek is de basis voor information security en beveiligingsmaatregelen rond IT-gerelateerde zaken. Het doel is om de CIA te waarborgen. CIA staat voor:
 
 1. **Availability**: De gegevens zijn beschikbaar voor iedereen die daar recht op heeftwanneer het nodig is.
@@ -108,7 +109,7 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 				* CPTED
 					* **C**rime **P**revention **T**hrough **E**nvironmental **D**esign
           ![cpted-example.png](/cpted-example.png)
-					https://www.ifpo.org/news/power-cpted-glue-holds-security-programs-together-bill-nesbitt/#post/0
+					^https://www.ifpo.org/news/power-cpted-glue-holds-security-programs-together-bill-nesbitt/#post/0^
 			* Territorial reinforceme
 				* Apparaten: access\-control, camera’s, intrustion\-detection, poorten, ...
 				* Borden
@@ -424,6 +425,7 @@ Local host Security in the real world
 * M = male; F = female
 * BNC connector
  	![bnc-connector](/bnc-connector.png =250x)
+  ^https://showmecables-static.scdn3.secure.raxcdn.com/media/catalog/product/cache/0aa466c0d56d23d446bcd4aa4538d2f7/3/0/301_2.jpg^
 * eSATA
 	* External SATA (Serial Advanced Technology Attachment) om aan de interne SATA-bus te koppelen
 	* Directe toegang to een bus (gevaarlijk)
