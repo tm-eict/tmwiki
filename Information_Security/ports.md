@@ -2,7 +2,7 @@
 title: Ports
 description: 
 published: true
-date: 2021-01-22T14:50:51.683Z
+date: 2021-01-22T14:59:29.576Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -67,4 +67,17 @@ Serial COM ports, Small Compuiter System Interface (SCSI) and LPT parallel print
 |![port_displayport.png](/ports/port_displayport.png)|DisplayPort|Nee.|
 |![port_dvivideo.png](/ports/port_dvivideo.png)|DVI Video|Nee.|
 |![port_de15-vga.png](/ports/port_de15-vga.png)|DE-15/HD-15/VGA/SVGA|Nee. 15 staat vr pins. Als het 15/blauw is -> VGA|
-### USB
+## USB
+Altijd gevaarlijk
+|USB picture|name|
+|--|--|
+|![port_usb-a.png](/ports/port_usb-a.png)|USB A-Type|
+|![port_usb-b.png](/ports/port_usb-b.png)|USB B-Type|
+|![port_usb-c.png](/ports/port_usb-c.png)![port_usb-c2.png](/ports/port_usb-c2.png =100x)|USB Type-C|
+|![port_micro-usb-a.png](/ports/port_micro-usb-a.png)|Micro-USB A|
+|![port_micro-usb-b.png](/ports/port_micro-usb-b.png)![port_micro-usb-2.png](/ports/port_micro-usb-2.png =100x)|Micro-USB B|
+|![port_usb-mini-b-5pin.png](/ports/port_usb-mini-b-5pin.png)|USB Mini-b (5-pin)|
+|![port_usb-mini-b-4pin.png](/ports/port_usb-mini-b-4pin.png)|USB Mini-b (4-pin)|
+|![port_usb3.0-a.png](/ports/port_usb3.0-a.png)![port_usb3.0-a2.png](/ports/port_usb3.0-a2.png =100x)|USB 3.0 A-Type|
+|![port_usb3.0-b.png](/ports/port_usb3.0-b.png)![port_usb3.0-b2.png](/ports/port_usb3.0-b2.png =100x)|USB 3.0 B-Type|
+|![port_usb3.0-micro-b.png](/ports/port_usb3.0-micro-b.png)|USB 3.0 Micro B|
