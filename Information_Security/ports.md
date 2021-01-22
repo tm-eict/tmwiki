@@ -2,7 +2,7 @@
 title: Ports
 description: 
 published: true
-date: 2021-01-22T15:15:37.631Z
+date: 2021-01-22T15:17:54.738Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -80,6 +80,11 @@ Serial COM ports, Small Compuiter System Interface (SCSI) and LPT parallel print
 |![port_aaui.png](/ports/port_aaui.png)|AAUI|(niet zeker) Deel van FriendlyNet en gefaald. Zelfde risco als rj-45.|
 |![port_coax.png](/ports/port_coax.png)|F-Connector RF/COAX|(niet zeker) Zelfde risco als rj-45|
 |![port_db25f.png](/ports/port_db25f.png)|Parallel Port/SCSI 1/DB-25F|Ja. Ze kunnen two-way communication voeren met system internal devices. 25 staat vr pins.|
+## Other
+|Port picture|name|dangers|
+|--|--|--|
+|![port_ps2.png](/ports/port_ps2.png =100x)| PS/2 | Nee. Enkel input via interupts|
+|![port_atkeyboard.png](/ports/port_atkeyboard.png)|AT Keyboard|Nee.|
 ## Video/Audio
 |Port picture|name|dangers|
 |--|--|--|
