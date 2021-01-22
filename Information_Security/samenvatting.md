@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T13:18:25.811Z
+date: 2021-01-22T13:47:00.232Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -403,11 +403,11 @@ Local host Security in the real world
 		| USB 2.0 | High speed (HS) | 480 Mbps <br> 14 Mbps | ~14 mins |
 		| USB 3.0 | SuperSpeed (SS) | 5 Gbps | ~70 sec |
 		| USB 3.1 | SuperSpeedPlus (SSP) | 10 Gbps | ~35 sec |
+    
 	* FireWire(FW) en ThunderBolt (TB)
 		* FW is de opvolger van SCSI
 		* TB is een vervanger voor oudere SCSO, SATA, FireWire, PCI-e(Weet niet zeker?)
 		* Bandbreedte van USB, firewire e, Thunderbolt
-		
 			| Version | Bits/sec | Bytes/sec |
 			| :----- | :----- | :----- |
 			| USB 1.0 | 1.5 Mbit/s | 0.19 MB/s |
@@ -420,6 +420,7 @@ Local host Security in the real world
 			| FireWire 3200 | 3.2 Gbit/s | 400 MB/s |
 			| ThunderBolt | 2x 10 Gbit/s | 2x 1.250 MB/s |
 			| ThunderBolt 3 | 2x 20 Gbit/s | 2x 2500 MB/s |
+      
 * ![all-ports](/all-ports.png)
 * DE-15 heb je in 2 rijen en 3 rijen
 * M = male; F = female
