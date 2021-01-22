@@ -2,7 +2,7 @@
 title: Information Security
 description: 
 published: true
-date: 2021-01-22T09:54:56.589Z
+date: 2021-01-22T13:47:49.694Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-20T21:15:25.761Z
@@ -20,6 +20,9 @@ remoet kontent
 
 [Samenvatting](/en/Information_Security/samenvatting)
 [Voorbeeld examen](/en/Information_Security/testexam)
+
+## Boek
+https://drive.google.com/file/d/1f_TkF0QISOQmXScrwByJxn9QEfhPXULH/view
 
 ## Samenvattingen en Documenten
 
