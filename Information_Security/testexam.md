@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: 
 published: true
-date: 2021-01-22T23:30:51.551Z
+date: 2021-01-22T23:33:06.214Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -123,8 +123,8 @@ ziet een hele kamer maar met vervormingen
   	Hierbij gebruik je twee vormen van de vorige vraag.
 </details>
 <details>
-  <summary markdown="span">Wat is hot-swapping?.</summary>
-  Toevoegen of verwijderen van harware wanneer het systeem actief is.<br>
+  <summary markdown="span">Wat is hot-swapping?</summary>
+  Toevoegen of verwijderen van hardware wanneer het systeem actief is.<br>
   Bijvoorbeeld USB-stick is hot-swappable. 
 </details>
 <details>
