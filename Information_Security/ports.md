@@ -2,7 +2,7 @@
 title: Ports
 description: 
 published: true
-date: 2021-01-22T15:35:35.662Z
+date: 2021-01-22T15:38:33.196Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -11,8 +11,10 @@ dateCreated: 2021-01-21T16:14:13.582Z
 # Ports
 ## Te kennen
 - Alle poorten hun figuren samen met naam (op deze pagina/slides).
-- Of ze gevaarlijk zijn of niet.
+- Of ze gevaarlijk zijn of niet. [^1]
 - USB versies en namen moet je kennen **(snelheden zijn niet te kennen).**
+
+Veel poorten zijn oud en niet meer in gebruik. Soms zelfs maar 1 keer gebruikt. Het is dus moeilijk om voor alle poorten te weten of ze gevaarlijk zijn. Joris Geens heeft nog geen antwoord gegeven op de vragen hierover
 
 ## Dangers?
 You can find this information at p131-134.
@@ -94,3 +96,6 @@ Altijd gevaarlijk aangezien ze klein en makkelijk transporteerbaar zijn voor mal
 |![port_usb3.0-micro-b.png](/ports/port_usb3.0-micro-b.png)|USB 3.0 Micro B|
 Versies en snelheidsnamen te kennen. **Snelheden** zelf **niet**.
 ![port_usbversions.png](/ports/port_usbversions.png)
+
+[^1]: Veel poorten zijn oud en niet meer in gebruik. Soms zelfs maar 1 keer gebruikt. Het is dus moeilijk om voor alle poorten te weten of ze gevaarlijk zijn. Joris Geens heeft nog geen antwoord gegeven op de vragen hierover.
+Mocht je zelf weten of ze gevaarlijk zijn mag je het toevoegen.
