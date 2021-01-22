@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T10:41:05.018Z
+date: 2021-01-22T11:03:04.454Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -62,6 +62,7 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 	2. Protect (PR)
 	3. Detect (DE)
 	4. Respond (RS)
+	5. Recover (RC)
 * Voorbeeld: NIST ID.AM\-1 
   | Framework |  Functie    |  Categeorie | Subcategorie |
   | -------------: | :----------: | :-----------: | :----------- |
@@ -278,6 +279,47 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 					* Visual Notification
 					* Audible annunciators (Alarm)
 					* Remote messaging
+          
+## Hoofdstuk 5
+* Meerdere factoren spelen een rol bij authenticatie
+	* **Kennis/Knowledge**: wat de persoon weet
+	* **Bezit/Possesion**: wat de persoon heeft
+	* **Erfelijkheid/nheritance**: wat de persoon is
+	* **Locatie/Location**: waar de persoon is
+* Bij two-factor authenticatie gebruik je een combinatie van twee van deze vormen
+* Een open en gesloten conditie is niet hetzelfde als een vergrendeld en ongegrendeld conditie
+
+## Hoofdstuk 6
+Local host Security in the real world
+
+* Gaat over toestellen die data kunnen verzamelen: local host
+	* Smartphone, IP camera
+	* Local hosts are all devices except for a server or sharing device
+* CSO: Chief Security Officer
+* Risk assessment met NIST
+	* NIST Identification (ID)
+		* Hardwareinventaris
+		* Softwareinventaris
+		* Data flow
+		* Infrastructuur
+		* kwetsbaarheden
+	* NIST Protect (PR)
+		* Wie mag inliggen op het systeem en wie niet
+		* Hoe de zwakke plekken beschermen?
+		* Remote access
+		* Communicatie input en output
+	* NIST Detect (DE)
+		* Genomen maatregelen monitoren
+		* Welke apparatuur hbe je nodig voor monitoring?
+			* Machine zelf
+			* Personeelsactviteiten
+	* NIST Respond (RS)
+		* Procedures om een aanval te behandelen
+			* Lagen in lekken
+	* NIST Recover 
+		* Welke schade moet hersteld worden?
+		* Backup
+		* Redundant hardware.
   
 <style type="text/css">
  	/* Indent Formatting */
