@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: 
 published: true
-date: 2021-01-22T22:43:50.767Z
+date: 2021-01-22T22:45:45.085Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -20,6 +20,10 @@ De vragen kan je open doen voor het antwoord door er op te klikken.
   Confidentiality<br>
   Integrity<br>
   Availability<br>
+</details>
+<details>
+  <summary markdown="span">Waarom is een bewakingsagent vaak beter?</summary>
+  Inschattingsvermogen, intuiteit, betere beslissingen, klanten kunnen vragen stellen richtlijnen ...
 </details>
 <details>
   <summary markdown="span">Leg het pad dat je moet afleggen als je van USB naar de CPU wilt gaan.</summary>
