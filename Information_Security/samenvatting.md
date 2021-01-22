@@ -2,9 +2,9 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T17:35:23.351Z
+date: 2021-01-22T21:21:20.810Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
 ---
 
@@ -136,7 +136,7 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 				* Authenticatie (wie ben jij - basis voor authorisatie)
 					* **Knowledge**: wat de gecontroleerde persoon weet (pincode)
 					* **Possesion**: wat de gecontroleerde persoon bezit (bankkaart)
-					* **Inheritance**: rol van de gecontroleerde persoon verantwoordelijkheden)
+					* **Inheritance**: rol van de gecontroleerde persoon (verantwoordelijkheden)
 					* **Location**: waar de gecontroleerde persoon is (containerpark)
 					* Magnetische strip lezers (magnetische data op de strook
 					* RFID: chip is not powered; powered by radio signal
