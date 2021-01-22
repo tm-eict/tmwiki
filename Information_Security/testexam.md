@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: 
 published: true
-date: 2021-01-22T22:37:22.797Z
+date: 2021-01-22T22:43:50.767Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -12,6 +12,8 @@ dateCreated: 2021-01-21T16:23:45.370Z
 Te kunnen examen vragen zijn vragen (/vragen over leerstof) die leerkracht benadrukt heeft tijdens de les. Extra vragen zijn vragen gemaakt door leerlingen.
 
 De vragen kan je open doen voor het antwoord door er op te klikken.
+
+**Theorie examen zijn open vragen, geen meerkeuze.**
 ## Te kunnen examen vragen
 <details>
   <summary markdown="span">Waarvoor staat de CIA triad?</summary>
@@ -35,9 +37,22 @@ De vragen kan je open doen voor het antwoord door er op te klikken.
   Update: verandert de applicatie wel. Breekt vaak dependenties. Niet veilig te automatiseren
 </details>
 
+- [Geef het volledige OSI-model](/en/Information_Security/OSI-model)
+
+<details>
+  <summary markdown="span">Wat is TTL en waarom is het nodig?</summary>
+  Time To Live. Het is nodig omdat anders sommige packets kunnen blijven rond gaan op het <a href="https://en.wikipedia.org/wiki/Network_topology">web.</a>
+</details>
+<details>
+  <summary markdown="span">Geef de 3 IP classes</summary>
+  A,B,C ...
+  verder uit te leggen...
+</details>
+
+
 ## Vragen zonder antwoord
 - Framework V1.1 NIST document: verlijking met andere frameworks in appendix A (framework core).
-- Je bent in staat om met NIST vragen op te lossen.
+- Je bent in staat om met NIST vragen op te lossen. Risico analyse.
 - pagina van Enisa met wat vragen.
 
 ## Extra vragen
@@ -94,7 +109,7 @@ ziet een hele kamer maar met vervormingen
 ![port_mini-vga.png](/ports/port_mini-vga.png)
 ![port_db25_serial_com_port.png](/ports/port_db25_serial_com_port.png)
 <details>
-  <summary markdown="span">Geef de poorten en of ze gevaarlijk zijn.</summary>
+  <summary markdown="span">Geef de poorten en of ze gevaarlijk zijn of niet.</summary>
   Centronics parallel 36 pin, ja.<br>
   mini-vga, nee.<br>
   db-25 serial com port, ja.<br>
