@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T16:32:19.742Z
+date: 2021-01-22T17:22:57.736Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -856,6 +856,107 @@ Nadat het OS is opgestart moeten stappen worden ondernomen om niet\-geauthentise
 * Grey hat \[werkt vanuit overtuiging, overschrijdt wettelijke grenzen]
 * Red hat \[valt black hats aan]
 * Scriptkiddies \[werkt met bestaand material en scripts, geen kennis van zaken]
+
+## Hoofdstuk 10
+Overzicht + examenvragen
+
+## Hoofdstuk 11
+* IP: Intellectual Property
+
+## Hoofdstuk 12
+### Netwerken
+Twee  basistypes van netwerken
+1.	LAN (Local Area Network)
+	Voor geografisch kleine gebieden (een huis, gebouw, ...)
+2.	WAN (Wide Area Network)
+	Voor geografisch grote gebieden
+	
+Andere types van netwerken
+* CAN (campus/corporate area network)
+	LANs die met elkaar verbonden zijn op campussen
+* MAN (Metropolitan Network)
+	Zit tussen LAN en WAN
+* WLAN (Wireless Local Area Network)
+	draadloos
+* SAN (Storage Area Network)
+	Voor dataopslag
+### OSI-model
+Open systems interconnection
+* To standardize communications (data handling) between network components
+![OSI-model.png](^/osi-model.png =512x)
+^http://electricala2z.com/wp-content/uploads/2017/10/osi-model.gif^
+
+Lagen
+* Laag 1: Fysieke laag
+	* Transmissie media (elektrische of lichtsignalen)
+	* Activatie van de media
+	* Communicatiepoorten
+* Laag 2: Data link
+* Frames voor datapakketten aanmaken en verzenden tussen communicatiepunten
+* Error detection en correctie
+* Media access protocols
+* Bestaat uit twee sublagen
+	* LLC (Logic Link Control) sublaag is de overgang met de OS (drivers)
+		* Communicatie tussen software en fysieke hardware
+		* Hier kan niet veel worden verandert en wordt bepaald door OS
+	* MAC (media access control) sublaag gaat over de software op fysieke controller (netwerk kaart)
+		* Is verantwoordelijk voor het encapsulerenvan de data die afkomstig is van de bovenliggende lagen
+		* Deze zal encapsulation doen (toevoegen van de Ethernet header met onder andere de MAC adressen) en de\-encapsulation (verwijderen van de Ethernet header). Wanneer een frame wordt verstuurd over een router zal deze router de het destination ip adres bekijken, in de routing table (waarin routes door het netwerk staan vermeld aan de hand van ip adressen) kijken naar welk ip adres dit moet worden doorgestuurd, in de arp table kijken welk mac adres hierbijhoort, en het nieuwe destination mac adres toevoegen aan het packet
+		* Verschillende toestellen op hetzelfde netwerk identificeren met een MAC adres: 48 bits, 12 hexadecimale getallen
+* Laag 3: Netwerk
+	* Routing van datapakketten over netwerknodes, netwerksegmenten en media.
+	* **Multiplexing (muxing)**: samenvoegen analoge of digitale signalen tot 1 enkel signal
+	* **Demultiplexing (demux)**: scheiden van 1 signal in meerdere signalen
+	* Samenstellen van berichten
+	* Connecties opzetten en verbreken
+* Laag 4: Transport
+	* End\-to\-end data flow met foutcorrectie en recovery
+* Laag 5: Session
+	* Sessions beheren tussen applicaties
+	* Starten en stoppen van datatransfers
+	* Data flow tussen applicaties
+	* Security
+	* Authenticatie en tunneling protocols (**SSH**: secure shell, **IPsec**: Internet Protocol security, **PPTP**: point-to-point tunneling protocol, ...)
+* Laag 6: Presentataion
+	*	Hoe ziet de data er bij ontvangst uit?
+		*	Encryptie
+		*	Datacompressie
+*	Laag 7: Aplication
+	*	Data voor de eindapplicaties behandelen
+	*	Browser, e\-mail (gebruikersnaam en wachtwoord)
+*	Laag 1-3: Media layers
+*	Laag 4-7: Host layers
+
+Data transmissie pakketten
+* Encapsulatie: header toegevoegd in elke laag
+	![osi-building-transmission-packets.png](/osi-building-transmission-packets.png)
+	^Cybersecurity Essentials, ISBN 978-1-11936239-5 pagina 278^
+	
+OSI layer security
+* Zit doorheen elke laag verweven
+
+| OSI LAYER | Network Security Model | Explout Type  | Security Focus |
+| :-- | :-- | :-- | :-- |
+| 1) Physical Layer | 7) Physical Level | Physical Tampering/Break-in | Physical Security |
+| 2) Data Link Layer | 6) VLAN Level | Network Scanning Local/Internal | Access Security |
+| 3) Network Layer | 5) ACL Level | Network Scanning Complete/Internal | Domain Security |
+| 4) Transport Layer | 4) Software Level | Software Specific Exploits | Port Security |
+| 5) Session Layer | 3) User Level | Social Engineering - Users | Authentication/Encryption  |
+| 6) Presentation Layer | 2) Administrative Level | Social Engineering - Administrators | Authentication
+| 7) Application Layer | 1) IT Department Level | Social Engineering - IT Staff | ID/Authentication   |
+* **Three\-layered rings of security**
+	* Bestaat op twee toestellen: zender en ontvanger
+		* Het medium verbind de hun outer perimeters (kabel, luchtgolven, ...)
+	1. Outer perimeter
+		* Laag 1 (fysieke laag)
+		* Beveiligen van datakabels en netwerkapparatuur
+	2. Inner perimeter
+		* Laag 2 (data link)
+		* Data kan hier aanvaard worden, geweigerd of doorgestuurdop basis van de identiteit
+	3. Interior perimeter
+		* Laag 3-7
+		* Bijvoorbeeld: laag 4 met het blokkeren van poorten
+			laag 7 is de meest aangevallen laag (zie later)
   
 <style type="text/css">
  	/* Indent Formatting */
