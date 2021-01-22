@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T21:21:20.810Z
+date: 2021-01-22T21:43:21.718Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -960,6 +960,16 @@ OSI layer security
 		* Laag 3-7
 		* Bijvoorbeeld: laag 4 met het blokkeren van poorten
 			laag 7 is de meest aangevallen laag (zie later)
+      
+```mermaid
+graph TD
+    A[Start] --> C[Do markdown];
+    C --> B{Had enough of markdown?};
+    B -- Yes --> D[Cry];
+    D --> C;
+    B -- No --> E[Great];
+    E --> C;
+```
   
 <style type="text/css">
  	/* Indent Formatting */
