@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T15:35:24.142Z
+date: 2021-01-22T16:32:19.742Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -729,6 +729,133 @@ Nadat het OS is opgestart moeten stappen worden ondernomen om niet\-geauthentise
 	* Transport\-level
 		* USB\-sticks met encryptie
 		* Certificaten (https)
+    
+## Hoofdstuk 9
+### Stappenplan tegen netwerkbedreigingen
+1. Gebruik een beveiligde netwerkverbinding
+	* Routers zorgen voor de beste eerste beerscherminglaag
+		* Standaard admin\-gebruikersnaam en wachtwoord wijzigen
+		* Standaard SSID wijzigen
+		* Configureer het hoogst mogelijke encryptieniveau
+		* MAC\-adresfilter (bv. 00:A0:C9:14:C8:29)
+2. Pas een geconfigureerde **firewall** toe
+	* **Controleert de data flow tussen computer en network**
+	* Software of hardware (zie later)
+	* Standaard staan alle poorten meestal open!
+3. Run één anti\-malware\-programma
+	* Meerdere antimalwareprogramma’s kunnen elkaar tegenwerken
+	* Kan als suite of als aparte producten (antivirus, antispyware, firewall, ...)
+4. Verwijder onnodige software van de computer
+	* Mogelijke slapende exploits
+	* Weet je wat de software doet?
+5. Stop alle onnodige services op de computer
+	* Weet je wat de service doet? Hoort die bij een bepaald programma?
+	* Service altijd natrekken, kan een OS\-service zijn
+6. Schakel onnodige OS\-functionaliteiten (bv. webserver) uit
+	* Bv. Autorun (DVD of USB met virus)
+7. Beveilig de webbrowser
+	* (Cross\-site) scripting
+	* Onveilig browsen
+	* Plug\-ins
+	* Security levels
+	* Proxies
+	* Cookies
+		* Sessions cookies: verdwijnen als de browser wordt gesloten
+		* Persistent cookies: blijven tot de vervaldatum is bereikt
+8. Voer updates en patches steeds uit
+	* Dicht beveiligingslekken zo snel mogelijk
+	* Op alle software op het toestel
+9. Gebruik sterke wachtwoorden
+	* Drie verschillende soorten logons
+		1. Lokaal niveau (machine zelf)
+		2. Netwerkniveau (LAN/internet)
+		3. Specifieke software (boekhouding)
+
+
+### Lokale bescherming
+5 veel gebruikte tools
+1. Lokale firewell
+	* Software, bedoeld voor individuele computers met dial\-up, LAN of andere rechtstreekse internetverbindingen
+	* Beheert het inkomend en uitgaand dataverkee
+	* Bewaken poorten en services
+		* 0 tot 1023: specifieke services
+		* 1024 tot 49151: geregistreerde poorten
+		* 49152 tot 65535: dynamisch en tussen computersoftware onderling
+	* Well known ports and services
+		| Service | Well-known Port Number |
+		| :-- | :-- |
+		| FTP | 20, 21 |
+		| Telnet | 23 |
+		| SMTP Mail | 25 |
+		| HTTP (www) | 80 |
+		| POP3 (mail) | 110 |
+		| News | 144 |
+		| HTTPS | 443 |
+		| PPTP | 1723 |
+		| IRC | 6667 |
+		
+		* News: oude service van het verleden
+		* IRC: Internet Relay Chat
+		* POP: Post Office Protocol
+
+2. Inbraakdetectie
+	* IDS (Intrusion Detection Systems)
+		Monitor system, logs key eventsand policy violations, alert reports
+		* Network-based (NIDS)
+			Niet verder besproken
+		* Host-based (HIDS)
+			Gebruikt twee strategieën
+			1. Signature analysis (patterns)
+				Kijkt voor verdacht patronen uit een lijst met verdachte patronen
+			2.  Anomaly analysis
+				Statistische analye van verkeer van data
+				* Profile\-based (rules)
+					Zoekt naar ongewone patronen. Leert zelf wat "normal" is
+				* Threshold\-based (level)
+					Als een bepaald event meerdere keren voorkomt
+		* IPS (Intrusion Prevention Systems)
+			* Prevent the succeeding of intrusions
+			* Ook wem IDPS genoemd
+				Intrusion Detection and Prevention System
+	3. Browser beveiligingsopties
+	4. Antivirus/anti\-malware
+		* Grayware: niet gewenst, maar moet niet kwaadaardig zijn
+		* Malicious software: kwaadaardig
+				Virussen (dupliceren vanzelf met hostprogrammaen verspreiden zichzelf
+			* Wormen (geen hostprogramma nodig, zoekt een exploit in het network en besmet alle computers, zodat er een hoge payload is op het network)
+			* Trojaans paard (lijkt een betrouwbaar programma te zijn, verspreid zichzelf niet)
+			* Rootkits (administrative controle van het toestel verwerven, werken op rootniveau, nestelen zich bijvoorbeeld voor de bootloader)
+			* Ransomware (encryptie van data met vraag om losgeld)
+			* Spyware (probeert gevoeligedata ongezien te stelen)
+			* Adware (toont ongevraagd gerichte reclame in de brower of andere applicaties) 
+			* Logic bombs (delete data, zoals een trojaans paard met betrouwbare software, activeert zichzelf op een logisch moment, na x dagen, na het gebruik van xkeer van het programma, malicious code zit in heel veel lijnen gewone code vervat)
+			* Zombies (voor DDOS-aanval –distributed denial of service)
+			* Botnets (vele zombies samen voor bijvoorbeeld spam uit te sturen
+		* Antimalware
+			* Antivirus (signatures en ongewoon gedrag
+			* Antispyware (twee soorten: één die opspoort en verwijdert, één die installatie tegenhoudt)
+	5. Software updates en patches
+		* Service pack
+			* Grote hoeveelheid aan updates verpakt in één
+			* Altijd eerst een back\-up nemen vooraleer service pack te installeren (zou onstabiel kunnen zijn)
+		* Patch
+			* Kan ook als reactie op een virus zijn
+		* Updates
+			* Bevordert beveiliging, betrouwbaarheid of de voorkeur van een hacker/cracker voor een bepaald besturingssysteem
+	
+### Exploits
+* Weaknesses in software
+* Conflict bij het maken van software
+	* Zo eenvoudig mogelijk in gebruik zijn voor eindgebruikers
+	* Bullet proof, zodat er niets mee kan foutlopen
+* Buffer overflow \-\> kan systeem laten crashen \-\> Denial of Service (DoS)
+
+### Soorten hackers/crackers
+* White hat \[ethisch hacker met contract]
+* Black hat \[cracker of criminal hacker]
+* Grey hat \[werkt vanuit overtuiging, overschrijdt wettelijke grenzen]
+* Red hat \[valt black hats aan]
+* Scriptkiddies \[werkt met bestaand material en scripts, geen kennis van zaken]
   
 <style type="text/css">
  	/* Indent Formatting */
