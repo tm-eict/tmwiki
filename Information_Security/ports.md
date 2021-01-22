@@ -2,13 +2,18 @@
 title: Ports
 description: 
 published: true
-date: 2021-01-22T15:33:05.268Z
+date: 2021-01-22T15:35:35.662Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
 ---
 
 # Ports
+## Te kennen
+- Alle poorten hun figuren samen met naam (op deze pagina/slides).
+- Of ze gevaarlijk zijn of niet.
+- USB versies en namen moet je kennen **(snelheden zijn niet te kennen).**
+
 ## Dangers?
 You can find this information at p131-134.
 ### USB ports and devices
