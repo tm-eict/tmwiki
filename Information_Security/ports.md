@@ -2,7 +2,7 @@
 title: Ports
 description: 
 published: true
-date: 2021-01-22T15:09:34.337Z
+date: 2021-01-22T15:15:37.631Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -33,9 +33,6 @@ Serial COM ports, Small Compuiter System Interface (SCSI) and LPT parallel print
 |![port_ps2.png](/ports/port_ps2.png =100x)| PS/2 | Nee. Enkel input via interupts|
 |![port_de9f.png](/ports/port_de9f.png =100x)| DE-9F | Ja. Ze kunnen two-way communication voeren met system internal devices. 9 staat voor aantal pins.|
 |![port_db25_serial_com_port.png](/ports/port_db25_serial_com_port.png =100x) | DB-25 Serial/COM port | Ja. Ze kunnen two-way communication voeren met system internal devices. 25 Staat voor aantal pins|
-### page 2
-|Port picture|name|dangers|
-|--|--|--|
 |![port_de9rs232.png](/ports/port_de9rs232.png)|DE-9 Serial RS232|Ja. Ze kunnen two-way communication voeren met system internal devices. 9 staat vr pins.|
 |![port_esata.png](/ports/port_esata.png)|e-SATA|Ja. Ze hebben access tot de bussen van de diskdrives in een systeem.|
 |![port_centronics_parallel_36_pin.png](/ports/port_centronics_parallel_36_pin.png)|Centronics Parallel 36 pin|(niet zeker) Ja. Ze kunnen two-way communication voeren met system internal devices.|
@@ -46,9 +43,6 @@ Serial COM ports, Small Compuiter System Interface (SCSI) and LPT parallel print
 |![port_stereoheadphoneslineinmic.png](/ports/port_stereoheadphoneslineinmic.png)|Stereo/headphones<br>Line in<br>Mic|Nee.|
 |![port_digitalaudiorca.png](/ports/port_digitalaudiorca.png)|Digital Audio RCA plug style|Nee.|
 |![port_aaui.png](/ports/port_aaui.png)|AAUI|(niet zeker) Deel van FriendlyNet en gefaald. Zelfde risco als rj-45.|
-### page 3
-|Port picture|name|dangers|
-|--|--|--|
 |![port_compositeaudiovideo.png](/ports/port_compositeaudiovideo.png)|Composite Audio/Video|Nee.|
 |![port_svideo.png](/ports/port_svideo.png)|S-Video|Nee.|
 |![port_componentvideo.png](/ports/port_componentvideo.png)|Component Video<br>Tip: RGB of RBG in dit geval|Nee.|
