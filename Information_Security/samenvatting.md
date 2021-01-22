@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T09:53:14.953Z
+date: 2021-01-22T10:25:49.559Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -165,6 +165,73 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 	* **Locked\-Condition Monitoring**: Locked monitoring is a feature that allows the security supervisor to confirm that a door is locked. In addition to monitoring the locked status of a door or gate, the condition\-monitoring system can also provide details as to how long and during what time periods the door or gate has remained locked
 	* **Unlocked\-Condition Monitoring**: The condition\-monitoring system can record and signal each time a specific gate or door is unlocked (granting access) and what type of access was granted. Unlocked monitoring can also identify who was granted access.
 	* **Time\-of\-Day Settings**: Most automated access\-control systems base decisions about valid or invalid entry requests, also called transactions, on preconfigured time\-of\-day settings. This is normal because any entry request that does not fit the predefined time profile or time schedule of an identified user is subject to suspicion.
+  
+  
+## Hoofdstuk 3
+* PIR: Passive InfraRed
+* Some systems are based on coaxial cable for component connectivity, while others are IP-based and rely on wireless Wi-Fi communications or traditional network cabling.
+* CCD Camera (Charged Coupled Device) (dit is een alternatief van CMOS, maar wel heel oud)
+	* Hoge resolutie
+	* Weinig licht nodig
+	* Weinig temperatuurafhankelijk
+	* Hoge betrouwbaarheid
+* IP camera (Internet Protocol)
+	* Kan overal beken worden (internet
+	* PoE (Power over Ethernet)
+	* Notifcaties
+	* Cloud back-up
+	* Geen bijkomende hardware nodig (DVR)
+	* Kan met een NVR verbonden worden (Network Video Recorder)
+* Analoge camera
+	* Resolutie is lager
+	* Beter in lagere lichtsomstandigheden (lux rating)
+	* Beste prestatie met coax-cable
+	* Geen PoE
+	* Kan op een lange afstand geplaatst worden van de videorecorder (tot 1.5 kilometer)
+	* Geen encryptie, geen VPN, geen datacompressie
+* Analoge en digitale camera's (CCTV)
+	* **CCTV**: Closed Circuit TV
+	* Uses a DVR (Digital Video Recorder)
+	* Beeldscherm nodig om video te kunnen bekijken
+* Belangrijkste specificaties voor camera
+	* Lichtgevoeligheid
+		* lux waarde
+			* Hoe lager, hoe beter: De camera kan projecten zine in het donker
+		* Resolutie
+			* Analoog: aantal horizontale lijnen
+			* digitaal aantal pixels
+* Lenzen
+	* Hoe groter de lens (en dus ook de brandpunt afstand), hoe smaller het beeld maar ook hoe minder detail
+	* Soorten
+		* **Varifocale** lens: zoom mogelijk, maar herfocussen elke keer
+		* **Vaste focale** lens: één vast focuspunt
+		* **Breedbeeld** lens: breeder beeld
+		* **Tele- of zoom**lens: zoom met een automatische focus
+		* **Fisheye** lens: ziet een hele kamer maar met vervormingen
+		* **Pinhole** lens: verborgen opnames
+* Zwart-wit vs kleur
+	* Zelfde kwaliteit
+	* Kleur: meer beschrijvend (kleur auto, kledij, ...) 
+	* IR-verlichting
+		* Weinig licht: infrarood LED-verlichting
+			* Niet zichtbaar voor mensen (beter verborgenheid van de camera's)
+* Toepassingen camera's
+	* Binnen/buiten (weerstandbestendig of niet)
+	* Dag/Nacht
+	* Vast/pan/tilt
+	* Bewegingsdetectie
+	* Sequencing (wisselen tussen camer's)/multiplexing (alle camera's gelijktijdig)
+	* Time lapse
+	* ...
+* Video recorders
+	* Tegenwoordig digitaal (DVR ipv VCR)
+	* Hoge hoeveelheid aan opslagruimte nodig
+		* Internal storage (HDD in een videorecorder)
+		* Peripheral storage (extern met HDD via USB to DVR)
+			= DAS (Direct-Attached Storage)
+	* Network storage (NAS en SAN)
+		* NAS: Network Attached Storage
+		* SAN: Storage Area Network
   
 <style type="text/css">
  	/* Indent Formatting */
