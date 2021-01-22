@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T15:23:15.858Z
+date: 2021-01-22T15:35:24.142Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -388,11 +388,12 @@ Local host Security in the real world
 	* Indien rechtsreeks op mobo, uit teschakelen in CMOS setup
 	* **Hot-swapping**: toevoegen of verwijderen wanner het systeem actief is
 	* IDE (Integrated Drive Electronics) (Nu PATA genoemd = Parallel Advanced Technology Attachment); zorgt voor transport van data tussen ROM en RAM; tegenwoordig wordt SATA gebruikt (Serial ATA)
-	* ![usb-ports-1](/usb-ports-1.png)
+  
+	* ![ports_usb-collection-1.png](/ports/ports_usb-collection-1.png)
 		^http://www.beginnerslessenpc.nl/USB%20Kabels%20Verschillen.htm^
-	* ![usb-ports-2](/usb-ports-2.png)
+	* ![ports_usb-collection-2.png](/ports/ports_usb-collection-2.png)
 		^https://www.cablestogo.com/learning/connector-guides/usb^
-	* ![usb-ports-3](/usb-ports-3.png)
+	* ![ports_usb-speed](/ports/ports_usb-speed.png)
 		^https://www.synopsys.com/designware-ip/technical-bulletin/protocol-layer-changes.html^
 	* Type A vooral gebruikt waar de kabel permanent bevestigd is (muis, toetsenbord, ...)
 	* Type B vooral gebruikt waar de kabel verwijderbaar is (printer, arduino, ...)
