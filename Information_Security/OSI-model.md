@@ -2,9 +2,9 @@
 title: OSI-model
 description: 
 published: true
-date: 2021-01-21T15:40:49.499Z
-tags: network
-editor: markdown
+date: 2021-01-21T15:40:52.023Z
+tags: 
+editor: undefined
 dateCreated: 2021-01-21T15:09:52.659Z
 ---
 

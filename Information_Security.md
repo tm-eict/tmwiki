@@ -2,9 +2,9 @@
 title: Information Security
 description: 
 published: true
-date: 2021-01-22T13:47:49.694Z
-tags: info-sec
-editor: markdown
+date: 2021-01-22T13:47:52.243Z
+tags: 
+editor: undefined
 dateCreated: 2021-01-20T21:15:25.761Z
 ---
 

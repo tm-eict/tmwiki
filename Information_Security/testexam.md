@@ -2,9 +2,9 @@
 title: Voorbeeld examen
 description: 
 published: true
-date: 2021-01-21T18:40:01.955Z
+date: 2021-01-21T18:40:04.463Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2021-01-21T16:23:45.370Z
 ---
 
