@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T13:47:00.232Z
+date: 2021-01-22T15:23:15.858Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -433,6 +433,301 @@ Local host Security in the real world
 		![eSATA](/esata.png)
 		^https://en.wikipedia.org/wiki/ESATAp#/media/File:Esatap\_port.JPG^
 * POST: Power On Self Test
+
+## Hoofdstuk 8
+### Inner perimeter
+*	Operating system
+*	Application programs
+
+### Operating systems
+* Intermediate software tussen de hardware en de applicaties
+* Taken:
+	* Resource managment (Ram, disk, printer, ...)
+	* Multi-user access
+	* Programme-uitvoer
+	* Geheugenbeheer
+	* Disk management
+	* File Management System (FMS)
+
+### Disk Operating System (DOS)
+Een collectie van programma's die gebruikt worden om algemene operaties van een computer te contoleren  vanuit een schijf-gebaseerd systeem, oftwel een besturingsysteem voor apparaten met schijfstations
+* Voorbeelden: Microsoft Windows, Apple MAC OS X, GNU/Linux
+* Bestaat uit 4 secties
+	1. **Boot files** nemen controle van het systeem over na BIOS/UEFI (laden kernel-bestanden)
+	2. **Kernel files** zorgen voor de cummunicatie met de CPU
+	3. **File fnagment files** zetten data in RAM-geheugen, waar de CPU de data en instructies kan ophalen
+	4. **Utility files** waarmee de gebruiker de resources kan beheren, het systeem kan troubleshouten en configureren
+
+### Soorten operating systems
+* Standalone OS (Windows, OS X, Android, ...)
+* Client OS (in een netwerkomgeving; maken gebruik van ee nmaster computer = server)
+	* Thick clients
+		* Hebben zelf wel veel power en zouden lokaal kunnen werken
+		* Maken gebruik van enkele services op de server
+		* Heeft lokaal geheugen
+	* Thin clients
+		* Volledig functionele PC maar zonder geheugen voor opslag (HDD)
+		* Alle data en software wordt op de server bewaard e, uitgevoerd
+	* Terminal clients
+		* Gewone terminals, heel dom, weinig geheugen, ...
+		* Hebben zelf geen OS
+* Server OS
+	* Server OS is basis  om network te beveiligen (H14)
+* NOS (Network Operating System)
+	* Voor de communicatie en data-uitwisseling tussen verschillend DOSen (Disk Operating Systems)
+	* Windows ServerOS, Linux server distributions, Unix
+	* Combinatie van disk management voor verschillend toestellen
+
+### Operating system attacks
+Kan op twee manieren:
+1. Kernel manipuleren
+2. File management system aanvallen
+
+* Kernel manipuleren
+	* Door geheugen manipulatie
+		* Waarde van een variable aanpassen
+		* Return adres van een functie aanpassen
+		* Pointer naar uitvoerbaare code wijzigen
+		* Malicious code toevoegen aan het geheugen
+	*  NX bit (No eXecution) of eXecute Disable (XD)
+		*  Storage-only memory (voor specifieke instructieblokken) om het geheugen te beschermen waar geen data geplaatst kan worden
+		* Instructies kunnen daar neit bewaard worden
+		* Bescherming tegen buffer overflow attack waar code wordt geïnjecteerd
+	* DEP mode (Data Execution Prevention)
+		* Elke applicatie krijgt een geïsoleerd stukje geheugen dat als virtueel geheugen gezien kan worden
+		* Enkel de applicatie zelf kan in de virtueel afgeschermde zone werken
+
+### File system security
+* Uitermate belangrijk
+	* Beschadiging leidt tot denial of access
+	* Data stelen als iemand toegang heeft tot het file system
+
+Hoe kunnen we het file system en bestanden beschermen 
+* ACL (Acces Control List)
+	* Gebruikers hebben wel of geen toegang tot data (lezen, schijven, wijzigen, verwijderen, uitvoern)
+	* Bij een OS: ACL beschermt objecten zoals TCP/UDP en I/O (user kan dan een process zijn
+	* Unix en Linux: Mandatory Access Control (MAC)
+		* Gebuiker administrator policy als bron
+		* Werkt met access rights
+	* Windows: Role\-Based Access Control (RBAC)
+		* Gebruikt rollen van gebruikers als bron
+		* Dit wordt vaak gebruikt in grote bedrijven
+		* Werkt met permissies
+	* Werkt enkel op het bijpassende OS
+		Door bijvoorbeeld Kali Linux te gebruiken kan je in deze lijst kijken \-\> encryptie van lijst nodig
+	* POSIX
+		* Portable operating system interface
+		* Standard voor Linux\-achtige systemen om ACL te delen
+	* Encryptie
+		* Meeste OS hebben een vorm van encryptie in hun file management system(bijvoorbeeld BitLocker)
+		* Kan worden gedaan bij opslag van data of bij vervoeren van data
+			* NIST:
+				* PR.DS\-1: Data at rest
+				* PR.DS\-2: Data in transit
+		* Kan op verschillende niveaus worden toegepast
+			* Toestel
+			* Disk/partitie/volumne
+			* Mappenstructuur
+			* Bestand
+
+### Files System Attacks
+* Race condition attacks:
+	* Tussen twee events voert een hacker malicious code in.
+
+	Bv. Wanneer een besturingssysteem een tijdelijk bestand aanmaakt, checkt het OS eerst of de te gebruiken bestandsnaam al bestaat, daarna maakt die het bestand effectief aan (twee events). Hacker voert in tussentijd malicious code in met de gecheckte filename. Dat bestand kan adminrechten hebben.
+* Alternative data streams (bestanden verbergen)
+	* ADS of alternative data streams op NTFS
+	* Voor het verbergen van rootkits
+	* Bestaat voor support met HFS (Hierarchical File System van Mac) dat bestanden wel eens forked (opsplitst) in meerdere bestanden
+	* Wordt ook toegepast op bestaande OS\-bestanden, waarin malicious code geplaatst wordt
+	* Enkel opspoorbaar met gewijzigde timestamp
+* Directory traversals
+	* Backtracking, directory climbing attacks, canonicalization attacks
+	* Slecht geschreven software of slecht beveilige (web)servers
+		* Toegang verwerven tot een map met geen beperking, daarna opklimmen in de structuur
+
+### Verschillen tussen OS'en
+* Microsoft Windows
+	* GUI\-gebaseerd
+	* Werkt met x86 32\-bit en x86 64\-bit, ARM processors
+	* Heeft ondersteuning voor NX\-bit en XD\-bit
+	* Basic file system formats
+		* FAT/FAT16/FAT32
+			* File Allocation Table
+			* Nog vaak gevonden op USB\-sticks, SD\-kaarten, ...
+		* NTFS
+			* New Technology File System
+			* Standaard voor Windows
+			* Heeft ACLs en EFS toegevoegd (encrypting file system)
+		* ISO 9660 (CDFS)
+			* Compact Disk File System
+			* Voor op cd’s
+		* UDF
+			* Universal Disk Format
+			* Opvolger van CDFS
+			* Vooral gebruikt op DVD’s
+	* Encryptie
+		* Bestanden en mappen door EFS
+		* Volledige schijf door BitLocker
+	* Firewall maakt gebruik van packet filtering
+* UNIX
+	* Veel variaties
+		* BSD (Berkeley Software Distribution)
+	* Verschillende distributies maken gebruik van verschillendefile system formats
+		* UFS
+			* UNIX File System
+			* Origineel file system
+			* Boomstructuur
+		* NFS
+			* Network File System
+			* Beestanden benaderen over het netwerk
+	* Encryptie
+		* Vroeger cypt
+			* Makkelijk te kraken nu
+		* DES: Data Encryption Standard
+		* PGP: Pretty Good Privacy
+		* PEFS: Private Encrypted File System
+			Voor bestanden
+		* GELI en GDBE
+			voor schijven
+	* Heeft ook firewalls
+* Linux OS Distributions
+	* Open-Source
+	* Veel verschillende distributies
+	* NX-bit ondersteuning op sommige systemen
+	* File system types
+		* Ext/ext2/ext3/ext4
+			* **Ext**ended File System
+			* meest gebruikt file system voor Linux
+			* Ext2/3 ook veel op SD kaarten en andere flash schijven
+		* ReiserFS
+			* Alle veranderingen worden bijgehouden in een log bestand (journal)
+			* Heeft permissies en ACLs, maar geen encryptie
+		* Encryptie
+			* Via pakket: eCryptfs
+		* Ingebouwde firewall: Netfilter
+			* Maakt ook gebruik van packet filtering
+			* Maar ook filtering voor Network Address Translation (NAT) en Port Address Translation (PAT)
+* Apple OS
+	* Werkt met x86 32\-bit, x86 64\-bit  en ARM processors
+	* NX-bit ondersteuning
+	* Ondersteuning voor ISO9660, FAT, NFS, UFS en UDF
+	* Ondersteunt FMS standaard
+		* HSF/HSF+: Hierarchical File System (+)
+			Gemaakt door Apple
+		* SMBFS/CIF: Server Message Block File System of ook bekend als Common Internet File System
+			Voor gebruik van gemeenschappelijke toegang tot bestanden
+	* Encryptie
+		FileVault voor encryptie van schijven
+* iOS
+	* Veel kenmerken van macOSmaar kan die applicaties niet draaien (mogelijk outdated)
+	* RISC (Reduced Instruction Set Computing)
+	* ARM (Acorn RISC Machines)
+		* Gebruikt veel minder energie en produceert veel minder warmte dan x86 CISC (Complex Instruction Set Computing)
+	* Encryptie
+		Toestel gebaseerde encryptie
+* Android OS
+	* Gebaseerd om Linux OS kernel
+	* Open Source
+	* ARM
+		* Onderseunt XN (is een page instruction)
+		* Speciale versies die op x86 draaien
+			* Ondersteuning voor XD\-bit en NX\-bit
+		* Verschillende toestellen ondersteunen verschillende file systems
+		* Er zijn wel enkele gemeenschappelijke file systems voor flash die vaak worden gebruikt
+			* exFAT: extended File Allocation Table
+				Microsoft
+			* F2FS: Flash\-Friendly File System(version 2)
+				* Samsung
+				* Open-source
+			* JFFS2: Journal Flash File System (version 2)
+				Vervanging van YAFFS2 (Yet Another Flash File System)
+			* Ext2/Ext3/Ext4
+		* Vaak ook ondersteuning voor FAT
+		* Encryptie
+		 	Schijf encryptie van flash geheugen: dm\-crypt
+		
+### Operating System Security Choices
+* Microsoft Windows is het vaakste het doel van criminelen
+* **Grayware**: irritante ongewilde software
+
+### Security tools en OS
+Nadat het OS is opgestart moeten stappen worden ondernomen om niet\-geauthentiseerd toegang tegen te houden
+* Local login\-vereisten
+	* Gebruiker en groepsaccounts
+	* Wachtwoord policies
+		* Wachtwoorden
+			* Hoofdletters (A, B, C, D, ...)
+			* Kleine letters (a, b, c, d, ...)
+			* Getallen (0, 1, 2, 3, ...-
+			* Speciale tekens (?, !, &, |, ...)
+		* Wachtwoordentechnieken
+			* Lengte: hoe langer hoe beter
+			* Vervanging: jOrisg33ns
+			* Toevoeging: jorisgeens123 \<slecht wachtwoord\>
+			* Mnemonisch: UraGreet
+			* Afkorting: Ihobtf (I have only begun to fight –Natalia)
+			* Volle zin met vervanging: welk0m1nd3l3sv@nV@n6@@g
+		* Goede praktijken met wachtwoorden
+			* Gebruik een consistente naamconventie
+				Bv. Groentennamen met getallen en symbolenPrei38@w0rk!
+			* Bij eerste gebruik verplicht laten wijzigen
+			* Wachtwoorden niet opschrijven (awareness)
+			* Train gebruikers in het maken van sterke wachtwoorden (indien mogelijk 2-factor)
+			* Dwing een policy af
+	* Lockout policies
+		* Account lockout policies
+			* Maximal aantal pogingen
+			* Brute force attacks tegengaan
+		* Computer locking
+			* Na verloop van tijd automatisch
+* Bijkomende authenticatie
+	* Kaart of vingerscanner(Biometrische scanners)
+* Lokale administratie tools
+	* Event logging en audit
+		* Windows: security log file (event viewer)
+		* Windows: Administrative Tools > Local Security Policy
+		* Linux: System log
+	* Encryptie
+	* Monitoren van application software security
+* Remote access\-bescherming
+	* Firewall (H9)
+	* Browser beveiligingsopties
+* Bescherming tegen malicious software
+* Security updates en patches
+
+| Patch | Update |
+| :----- | :------ |
+| Richt zich alleen op security  vulnerabilities |  Update de applicatie verandert funtionaliteit en hoogt de versie op |
+| Verandert niet aan funtionaliteit of dependencies | Breekt vaak plugin/theme/extensie/dependencies |
+| Verandert de applicatie versie niet, compatibel met latere update | In de meeste gevallen niet veilig te automatiseren |
+| Velig te automatisren | |
+
+### Data encryptie
+* Symmetrische encryptie: zelfde sleutel voor encryptie en decryptie
+* Asymmetrische encryptie: twee verschillende sleutels
+	* Private key(decryption)en public key(encryption)
+	* Public key is afgeleide van private key
+	* PKE: Public Key Encryption
+* Encryptie kan plaatsvinden op verschillende niveaus
+	* File system\-level (file and folder)
+		* Windows: EFS (encrypting file system) langs Bestandsverkenner > Eigenschappen > Geavanceerd
+		* Gewapend tegen BIOS\-kaping!
+		* Folders hebben ook list folder content permissie
+	* Disk\-level
+		* Heel de schijf is encrypted
+			* Ook OS bestanden
+			* Kan via software of hardware
+			* Software
+				* Staat meestal al op OS
+			* hardware
+				* TPM (trusted platform module): chip with for instance encryption keys
+				* TPM chip is fixed on motherboard
+				* Cannot be transferred to another main board
+				* Controleert of er niks aan het OS is veranderd
+	* Transport\-level
+		* USB\-sticks met encryptie
+		* Certificaten (https)
   
 <style type="text/css">
  	/* Indent Formatting */
