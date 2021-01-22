@@ -2,7 +2,7 @@
 title: Information Security
 description: 
 published: true
-date: 2021-01-21T19:56:01.275Z
+date: 2021-01-22T09:54:56.589Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-20T21:15:25.761Z
@@ -18,6 +18,7 @@ remoet kontent
 [Ports](/en/Information_Security/ports)
 [OSI-Model](/en/Information_Security/OSI-model)
 
+[Samenvatting](/en/Information_Security/samenvatting)
 [Voorbeeld examen](/en/Information_Security/testexam)
 
 ## Samenvattingen en Documenten
