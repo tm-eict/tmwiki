@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: 
 published: true
-date: 2021-01-22T23:26:40.491Z
+date: 2021-01-22T23:27:11.483Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -34,7 +34,7 @@ Voor NIST en vele andere vragen is het vooral dat je uitleg en redenering goed i
 </details>
 <details>
   <summary markdown="span">Leg het pad dat je moet afleggen als je van USB naar de CPU wilt gaan.</summary>
-  Obscure vraag dat je leren op hft6-10 ppt slide 31.<br><br>
+  Obscure vraag dat je kan leren op hft6-10 ppt slide 31.<br><br>
   
   **antwoord:**
 
