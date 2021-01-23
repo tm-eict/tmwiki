@@ -145,9 +145,9 @@ ziet een hele kamer maar met vervormingen
   Zoals in de vorige vraag is wachtwoord in BIOS een vorm van hardening.
 </details>
 
-![port_centronics_parallel_36_pin.png](/ports/port_centronics_parallel_36_pin.png =200x)
-![port_mini-vga.png](/ports/port_mini-vga.png)
-![port_db25_serial_com_port.png](/ports/port_db25_serial_com_port.png)
+![port_centronics_parallel_36_pin.png](/information_security/assets/ports/port_centronics_parallel_36_pin.png =200x)
+![port_mini-vga.png](/information_security/assets/ports/port_mini-vga.png)
+![port_db25_serial_com_port.png](/information_security/assets/ports/port_db25_serial_com_port.png)
 <details>
   <summary markdown="span">Geef de poorten en of ze gevaarlijk zijn of niet.</summary>
   Centronics parallel 36 pin, ja.<br>
