@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-01-23T14:32:59.591Z
+date: 2021-01-23T17:19:24.258Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T21:12:05.187Z
@@ -10,8 +10,15 @@ dateCreated: 2021-01-20T21:12:05.187Z
 
 # Thomas More ICT Wiki
 
-Waar je zelf de spellingsfouten mag verbeteren!
+## Courses
+Je zelf de spellingsfouten mag verbeteren!
+Je mag ook latijd extra info toevoegen
+
+### Information-Security
 Momenteel doen we een test met [Information Security](/Information_Security)
+
+### C-Fundamentals
+[github](https://github.com/tm-eict/C-Fundamentals)
 
 ## Contributen
 
