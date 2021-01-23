@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: Vraagjes zodat je je kan voorbereiden op het examen. Hier staan te kunnen vragen benadrukt door de leerkracht en wat extra vragen die mogelijk gevraagd kunnen worden.
 published: true
-date: 2021-01-23T13:31:04.555Z
+date: 2021-01-23T13:37:20.856Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -53,8 +53,9 @@ Voor NIST en vele andere vragen is het vooral dat je uitleg en redenering goed i
 
 <details>
   <summary markdown="span">Verschil tussen patch en update?</summary>
-  Patch: kleine fixes. Vooral en vaak security. Verandert functionaliteit NIET. Oke om automatisch te laten gebuiren.<br>
-  Update: verandert de applicatie wel. Breekt vaak dependenties. Niet veilig te automatiseren
+  
+  - **Patch:** kleine fixes. Vooral en vaak security. Verandert functionaliteit NIET. Oke om automatisch te laten gebeuren.
+  - **Update:** verandert de applicatie wel. Breekt vaak dependenties. Niet veilig te automatiseren
 </details>
 
 - [Geef het volledige OSI-model](/en/Information_Security/OSI-model)
