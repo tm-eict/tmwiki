@@ -2,13 +2,12 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-23T12:08:48.078Z
+date: 2021-01-23T13:30:00.865Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
 ---
 
-# Samenvatting Info Sec
 Met dank aan Pieter van der Deen's [Samenvatting](https://tmwiki.be/information_security/samenvatting_info_sec_pieter_vanderdeen.pdf).
 
 ## CIA-driehoek
