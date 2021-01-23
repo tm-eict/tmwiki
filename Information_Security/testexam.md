@@ -2,13 +2,12 @@
 title: Voorbeeld examen
 description: Vraagjes zodat je je kan voorbereiden op het examen. Hier staan te kunnen vragen benadrukt door de leerkracht en wat extra vragen die mogelijk gevraagd kunnen worden..
 published: true
-date: 2021-01-23T13:23:45.581Z
+date: 2021-01-23T13:30:43.810Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
 ---
 
-# Voorbeeld examen
 Te kunnen examen vragen zijn vragen (/vragen over leerstof) die leerkracht benadrukt heeft tijdens de les. Extra vragen zijn vragen gemaakt door leerlingen.
 
 **Theorie examen zijn open vragen, geen meerkeuze.**
