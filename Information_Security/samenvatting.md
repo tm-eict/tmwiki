@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-23T17:16:12.007Z
+date: 2021-01-23T17:16:47.150Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -401,6 +401,7 @@ Belangrijke pagina/samenvating over poorten kan je hier vinden: [ports](/en/Info
 	* Type B vooral gebruikt waar de kabel verwijderbaar is (printer, arduino, ...)
 	* USB 3.0 vaak blauw
   Snelheden niet te kennen, **wel versie en snelheid naam**
+  
 | Version | Speed | Bits/sec | HD movie 25GB |
 | :----- | :----- | :----- | :----- |
 | USB 1.1 | Low speed (LS) <br> High speed (HS) | 1.5 Mbps <br> 12 Mbps | ~9.25 hours |
