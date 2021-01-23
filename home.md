@@ -2,7 +2,7 @@
 title: Home
 description: 
 published: true
-date: 2021-01-23T17:19:24.258Z
+date: 2021-01-23T17:19:35.333Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T21:12:05.187Z
@@ -12,7 +12,7 @@ dateCreated: 2021-01-20T21:12:05.187Z
 
 ## Courses
 Je zelf de spellingsfouten mag verbeteren!
-Je mag ook latijd extra info toevoegen
+Je mag ook altijd extra info toevoegen.
 
 ### Information-Security
 Momenteel doen we een test met [Information Security](/Information_Security)
