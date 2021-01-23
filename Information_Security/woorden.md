@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-23T16:07:26.558Z
+date: 2021-01-23T16:23:43.124Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -20,10 +20,10 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | CPTED | Crime Prevention Through Environmental Design | |
 | RFID | Radio-frequency identification | |
 | PII | Personal Identifiable Information | |
-| PIR | Passive inrared | |
+| PIR | Passive infrared | |
 | CCD camera | Charged Coupled Device | |
-| PoE | Power On Ethernet | |
-| lux | lux waarde voor hoeveelheid licht | |
+| PoE | Power over Ethernet | |
+| lux |- | lux waarde voor hoeveelheid licht |
 | DVR | Digital Video Recorder | |
 | VCR | videocassette recorder | |
 | NVR | Network Video Recorder | |
@@ -42,8 +42,8 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | CPU | Central Processing Unit | |
 | USB | Universal Serial Bus | |
 | PATA | Parallel AT Attachment | |
-| SATA | Serial ATA Attachment | |
-| eSATA | External SATA | |
+| SATA | Serial ATA | |
+| eSATA | external SATA | |
 | IDE | Integrated Drive Electronics | |
 | FMS | File Management System | |
 | NOS | Network Operating System | |
@@ -51,7 +51,7 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | DEP mode | Data Execution Prevention | |
 | ACL | Access Control List | |
 | MAC | Mandatory Access Control | |
-| RBAC | Role-Based Access Control|
+| RBAC | Role-Based Access Control | |
 | OS | Operating System | |
 | POSIX | Portable Operating System Interface | |
 | ADS |Alternative Date Streams | |
@@ -85,7 +85,7 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | NIDS | Network-based IDS | |
 | HIDS | Host-based IDS | |
 | IPS/IDPS | intrusion (Detection) and Prevention System | |
-| Grayware | | niet gewenst, maar moet niet kwaadaardig zijn |
+| Grayware |- | Niet gewenst, maar moet niet kwaadaardig zijn |
 | DoS | Denial Of Service | |
 | IP | Intellectual Property/Internet Protocol | |
 | LAN | Local Area Network | |
@@ -113,7 +113,7 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | LSO | Least significant bit | |
 | MSO | Most significant bit | |
 | CSMA/CD | carrier sense multiple-access with collision detection | |
-| KMO | | Algemeen gebruik-server |
+| KMO |- | Algemeen gebruik-server |
 | RAS | remote access system | |
 | FTP | File Transfer Protocol | |
 | brouter | bridged router | |
@@ -121,6 +121,6 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | SNMP | Simple Network Management Protocol | |
 | PnP | Plug and Play | |
 | IOS | Cisco Systems Internetwork Operating System | |
-| iOS | Apple's mobile OS | |
+| iOS |- | Apple's mobile OS |
 | DoS | Denial of Service | |
 | DDoS | Distributed DoS | |
