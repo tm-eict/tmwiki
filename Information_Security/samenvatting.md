@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-23T10:24:12.595Z
+date: 2021-01-23T12:08:48.078Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -970,17 +970,17 @@ OSI layer security
 	* Repeater stuurt info door vanuit elke node
 	* Geen collisions
 	* Risico: één node plat betekent netwerk plat\-\> meerdere redundante paden leggen
-	* Ster
-		* Communicatie langs een centrale component (switch)
-		* Geeft elke node een tijdsvenster om informatie mee te verzenden
-			* Indien het bericht te lang is voor het tijdsvenster, zal het in stukken worden opgedeeld
-	* Mesh
-		* Elke node heeft een rechtstreekse verbinding met elke andere node
-		* Telefonie, Bluetooth, LoRaWAN, ...
-	* Hybryde
-	* Logische topologie
-		* Niet elke getkeende topologie komt met de interne circuits overeen met de visuele topologie
-			* In een router zitten alle pooeren als een bustopologie (Wat?)
+* Ster
+	* Communicatie langs een centrale component (switch)
+	* Geeft elke node een tijdsvenster om informatie mee te verzenden
+		* Indien het bericht te lang is voor het tijdsvenster, zal het in stukken worden opgedeeld
+* Mesh
+	* Elke node heeft een rechtstreekse verbinding met elke andere node
+	* Telefonie, Bluetooth, LoRaWAN, ...
+* Hybride
+* Logische topologie
+	* Niet elke getkeende topologie komt met de interne circuits overeen met de visuele topologie
+		* In een router zitten alle poorten als een bustopologie (Wat?)
 	
 ### Labo
 Enkele protocollen
