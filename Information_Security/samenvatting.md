@@ -12,7 +12,7 @@ Met dank aan Pieter van der Deen's [Samenvatting](https://tmwiki.be/information_
 
 ## CIA-driehoek
 [comment]: <> (remove white background of img)
-![cia-triad](/cia-triad.png)
+![cia-triad](/information_security/assets/cia-triad.png)
 ^https://blog.jamestyson.co.uk/the-cia-and-dad-triads)^
 Deze driehoek is de basis voor information security en beveiligingsmaatregelen rond IT-gerelateerde zaken. Het doel is om de CIA te waarborgen. CIA staat voor:
 
@@ -107,7 +107,7 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 				* Waterlopen
 				* CPTED
 					* **C**rime **P**revention **T**hrough **E**nvironmental **D**esign
-          ![cpted-example.png](/cpted-example.png)
+          ![cpted-example.png](/information_security/assets/cpted-example.png)
 					^https://www.ifpo.org/news/power-cpted-glue-holds-security-programs-together-bill-nesbitt/#post/0^
 			* Territorial reinforceme
 				* Apparaten: access\-control, camera’s, intrustion\-detection, poorten, ...
@@ -391,11 +391,11 @@ Belangrijke pagina/samenvating over poorten kan je hier vinden: [ports](/en/Info
 	* **Hot-swapping**: toevoegen of verwijderen wanner het systeem actief is
 	* IDE (Integrated Drive Electronics) (Nu PATA genoemd = Parallel Advanced Technology Attachment); zorgt voor transport van data tussen ROM en RAM; tegenwoordig wordt SATA gebruikt (Serial ATA)
   
-	* ![ports_usb-collection-1.png](/ports/ports_usb-collection-1.png)
+	* ![ports_usb-collection-1.png](/information_security/assets/ports/ports_usb-collection-1.png)
 		^http://www.beginnerslessenpc.nl/USB%20Kabels%20Verschillen.htm^
-	* ![ports_usb-collection-2.png](/ports/ports_usb-collection-2.png)
+	* ![ports_usb-collection-2.png](/information_security/assets/ports/ports_usb-collection-2.png)
 		^https://www.cablestogo.com/learning/connector-guides/usb^
-	* ![ports_usb-speed](/ports/ports_usb-speed.png)
+	* ![ports_usb-speed](/information_security/assets/ports/ports_usb-speed.png)
 		^https://www.synopsys.com/designware-ip/technical-bulletin/protocol-layer-changes.html^
 	* Type A vooral gebruikt waar de kabel permanent bevestigd is (muis, toetsenbord, ...)
 	* Type B vooral gebruikt waar de kabel verwijderbaar is (printer, arduino, ...)
@@ -424,16 +424,16 @@ Belangrijke pagina/samenvating over poorten kan je hier vinden: [ports](/en/Info
 			| ThunderBolt | 2x 10 Gbit/s | 2x 1.250 MB/s |
 			| ThunderBolt 3 | 2x 20 Gbit/s | 2x 2500 MB/s |
       
-* ![all-ports](/all-ports.png)
+* ![all-ports](/information_security/assets/ports/all-ports.png)
 * DE-15 heb je in 2 rijen en 3 rijen
 * M = male; F = female
 * BNC connector
- 	![bnc-connector](/bnc-connector.png =250x)
+ 	![bnc-connector](/information_security/assets/ports/bnc-connector.png =250x)
   ^https://showmecables-static.scdn3.secure.raxcdn.com/media/catalog/product/cache/0aa466c0d56d23d446bcd4aa4538d2f7/3/0/301_2.jpg^
 * eSATA
 	* External SATA (Serial Advanced Technology Attachment) om aan de interne SATA-bus te koppelen
 	* Directe toegang to een bus (gevaarlijk)
-		![eSATA](/esata.png)
+		![eSATA](/information_security/assets/ports/esata.png)
 		^https://en.wikipedia.org/wiki/ESATAp#/media/File:Esatap\_port.JPG^
 * POST: Power On Self Test
 
@@ -884,7 +884,7 @@ Andere types van netwerken
 ### [OSI-model](/en/Information_Security/OSI-model)
 Open systems interconnection
 * To standardize communications (data handling) between network components
-![OSI-model.png](^/osi-model.png =512x)
+![OSI-model.png](^/information_security/assets/osi-model.png =512x)
 ^http://electricala2z.com/wp-content/uploads/2017/10/osi-model.gif^
 
 Lagen
@@ -930,7 +930,7 @@ Lagen
 
 Data transmissie pakketten
 * Encapsulatie: header toegevoegd in elke laag
-	![osi-building-transmission-packets.png](/osi-building-transmission-packets.png =500x)
+	![osi-building-transmission-packets.png](/information_security/assets/osi-building-transmission-packets.png =500x)
 	^Cybersecurity Essentials, ISBN 978-1-11936239-5 pagina 278^
 	
 OSI layer security
@@ -1045,14 +1045,14 @@ Enkele protocollen
 	* Package fragmentation en reassembly
 		* Twee header fields (IP header en TCP header)
 		* Data field
-		![net-basics.png](/net-basics.png)
+		![net-basics.png](/information_security/assets/net-basics.png)
 		^Cybersecurity Essentials, ISBN 978-1-11936239-5 pagina 300^
 	* Connecties opzetten (three\-way handshake)
 		1. SYN (Synchronize)
 		2. SYN (Synchronize) en ACK (Acknowledge)
 		3. ACK (Acknowledge)
 		4. Uitwisselen data (niet deel van de handshake)
-		![threeway-handshake.png](/threeway-handshake.png)
+		![threeway-handshake.png](/information_security/assets/threeway-handshake.png)
 		^Cybersecurity Essentials, ISBN 978-1-11936239-5 pagina 300^
 	* Kwetsbaarheden
 		* Attack of makeup of packets
@@ -1061,7 +1061,7 @@ Enkele protocollen
 					Manipuleren van source endestination IP in header
 				* SYN flood (denial of service) exploits three\-way handshake
 					Hacker stuurt vele SYN requests naar een server en spoofs IP\-adres of houdt ACK packet bij, waardoor er op de server allemaal connecties blijven openstaan en geheugen server volloopt
-					![syn-flood.png](/syn-flood.png)
+					![syn-flood.png](/information_security/assets/syn-flood.png)
 		^https://www.cloudflare.com/img/learning/ddos/syn-flood-ddos-attack/syn-flood-attack-ddos-attack-diagram-2.png^
 		
 *	**MAC** en TCP/IP
