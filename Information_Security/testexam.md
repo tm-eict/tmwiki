@@ -1,8 +1,8 @@
 ---
 title: Voorbeeld examen
-description: 
+description: Vraagjes zodat je je kan voorbereiden op het examen. Hier staan te kunnen vragen benadrukt door de leerkracht en wat extra vragen die mogelijk gevraagd kunnen worden..
 published: true
-date: 2021-01-23T13:20:28.612Z
+date: 2021-01-23T13:23:45.581Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -168,8 +168,7 @@ Resolutie:
 </details>
 <details>
   <summary markdown="span">Wat is IR op een IP camera en hoe werkt het?</summary>
-  InfraRood.
-  ...
+  InfraRood-verlichting laat toe op met weinig licht nog in het donker te kunnen kijken met je camera.
 </details>
 <details>
   <summary markdown="span">Wat is een fisheye lens?</summary>
