@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-23T16:11:52.264Z
+date: 2021-01-23T17:16:12.007Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -400,29 +400,31 @@ Belangrijke pagina/samenvating over poorten kan je hier vinden: [ports](/en/Info
 	* Type A vooral gebruikt waar de kabel permanent bevestigd is (muis, toetsenbord, ...)
 	* Type B vooral gebruikt waar de kabel verwijderbaar is (printer, arduino, ...)
 	* USB 3.0 vaak blauw
-	* | Version | Speed | Bits/sec | HD movie 25GB |
-		| :----- | :----- | :----- | :----- |
-		| USB 1.1 | Low speed (LS) <br> High speed (HS) | 1.5 Mbps <br> 12 Mbps | ~9.25 hours |
-		| USB 2.0 | High speed (HS) | 480 Mbps <br> 14 Mbps | ~14 mins |
-		| USB 3.0 | SuperSpeed (SS) | 5 Gbps | ~70 sec |
-		| USB 3.1 | SuperSpeedPlus (SSP) | 10 Gbps | ~35 sec |
+  Snelheden niet te kennen, **wel versie en snelheid naam**
+| Version | Speed | Bits/sec | HD movie 25GB |
+| :----- | :----- | :----- | :----- |
+| USB 1.1 | Low speed (LS) <br> High speed (HS) | 1.5 Mbps <br> 12 Mbps | ~9.25 hours |
+| USB 2.0 | High speed (HS) | 480 Mbps <br> 14 Mbps | ~14 mins |
+| USB 3.0 | SuperSpeed (SS) | 5 Gbps | ~70 sec |
+| USB 3.1 | SuperSpeedPlus (SSP) | 10 Gbps | ~35 sec |
     
-	* FireWire(FW) en ThunderBolt (TB)
-		* FW is de opvolger van SCSI
-		* TB is een vervanger voor oudere SCSO, SATA, FireWire, PCI-e(Weet niet zeker?)
-		* Bandbreedte van USB, firewire e, Thunderbolt
-			| Version | Bits/sec | Bytes/sec |
-			| :----- | :----- | :----- |
-			| USB 1.0 | 1.5 Mbit/s | 0.19 MB/s |
-			| USB 1.1 | 12 Mbit/s | 1.5 MB/s |
-			| USB 2.0 | 480 Mbit/s | 60 MB/s |
-			| USB 3.0 | 4.8 Gbit/s | 600 MB/s |
-			| USB 3.1 | 10 Gbit/s | 1.250 MB/s |
-			| FireWire 400 | 400 Mbit/s | 50 MB/s |
-			| FireWire 800 | 800 Mbit/s | 100 MB/s |
-			| FireWire 3200 | 3.2 Gbit/s | 400 MB/s |
-			| ThunderBolt | 2x 10 Gbit/s | 2x 1.250 MB/s |
-			| ThunderBolt 3 | 2x 20 Gbit/s | 2x 2500 MB/s |
+* FireWire(FW) en ThunderBolt (TB)
+	* FW is de opvolger van SCSI
+	* TB is een vervanger voor oudere SCSO, SATA, FireWire, PCI-e(Weet niet zeker?)
+	* Bandbreedte van USB, firewire e, Thunderbolt
+    
+| Version | Bits/sec | Bytes/sec |
+| :----- | :----- | :----- |
+| USB 1.0 | 1.5 Mbit/s | 0.19 MB/s |
+| USB 1.1 | 12 Mbit/s | 1.5 MB/s |
+| USB 2.0 | 480 Mbit/s | 60 MB/s |
+| USB 3.0 | 4.8 Gbit/s | 600 MB/s |
+| USB 3.1 | 10 Gbit/s | 1.250 MB/s |
+| FireWire 400 | 400 Mbit/s | 50 MB/s |
+| FireWire 800 | 800 Mbit/s | 100 MB/s |
+| FireWire 3200 | 3.2 Gbit/s | 400 MB/s |
+| ThunderBolt | 2x 10 Gbit/s | 2x 1.250 MB/s |
+| ThunderBolt 3 | 2x 20 Gbit/s | 2x 2500 MB/s |
       
 * ![all-ports](/information_security/assets/ports/all-ports.png)
 * DE-15 heb je in 2 rijen en 3 rijen
