@@ -2,14 +2,14 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-23T13:31:30.050Z
+date: 2021-01-23T13:34:00.148Z
 tags: ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
 ---
 
-## Te kennen
-- Alle poorten hun figuren samen met naam (op deze pagina/slides).
+## Te kunnen/kennen
+- Alle poorten (op deze pagina) kunnen herkennen en benoemen.
 - Of ze gevaarlijk zijn of niet. [^1]
 - USB versies en namen moet je kennen **(snelheden zijn niet te kennen).**
 
@@ -31,7 +31,7 @@ Serial COM ports, Small Compuiter System Interface (SCSI) and LPT parallel print
 ## Data ports
 Deze kunnen zeker een gevaar zijn. Ze kunnen data transporteren en sommige (eSATA, COM, SCSI, LPT) hebben connectie met interne systeem bussen.
 |Port picture|name|dangers|
-|--|--|--|
+|:--|:--|:--|
 |![port_firewire_4_pin_ilink.png](/ports/port_firewire_4_pin_ilink.png =100x)| Firewire 4 pin iLink | Ja. Vergelijkbaar met USB. Support input en output|
 |![port_firewire_800_3200.png](/ports/port_firewire_800_3200.png =100x)| Firewire 800/3200 1394b/c | Ja. Vergelijkbaar met USB. Support input en output|
 |![port_ethernet_8p8c_rj45.png](/ports/port_ethernet_8p8c_rj45.png =100x)| Ethernet 8P8C RJ-45 | Ja. I/O voor communicatie. Kan je verbinden met een netwerk.|
@@ -52,7 +52,7 @@ Deze kunnen zeker een gevaar zijn. Ze kunnen data transporteren en sommige (eSAT
 ## Other
 Is geen gevaarlijk (in principe [Rubber Ducky](https://www.plurilock.com/answers/rubber-ducky-attack-what-does-rubber-ducky-attack-mean/) achtige aanvallen wel mogelijk).
 |Port picture|name|extra|
-|--|--|--|
+|:--|:--|:--|
 |![port_ps2.png](/ports/port_ps2.png =100x)| PS/2 | Nee. Enkel input via interupts|
 |![port_atkeyboard.png](/ports/port_atkeyboard.png)|AT Keyboard|Nee.|
 |![port_da-15-macvideo.png](/ports/port_da-15-macvideo.png)|Mac Video/Midi/gameport/AUI<br>DA-15| ??? Heeft input, later geintrigreerd met soundcards. https://en.wikipedia.org/wiki/Game_port|
@@ -60,7 +60,7 @@ Is geen gevaarlijk (in principe [Rubber Ducky](https://www.plurilock.com/answers
 ## Video/Audio
 Deze hebben over het algemeen geen gevaar. *Tenzij je afkijken meetelt*.
 |Port picture|name|dangers|
-|--|--|--|
+|:--|:--|:--|
 |![port_optical_audio.png](/ports/port_optical_audio.png =100x)| Optical Audio "TosLink" | Neen. Vooral enkel voor audio.|
 |![port_surround_sound.png](/ports/port_surround_sound.png)|Surround sound|Nee.|
 |![port_stereoheadphoneslineinmic.png](/ports/port_stereoheadphoneslineinmic.png)|Stereo/headphones<br>Line in<br>Mic|Nee.|
@@ -84,7 +84,7 @@ Deze hebben over het algemeen geen gevaar. *Tenzij je afkijken meetelt*.
 ## USB
 Altijd gevaarlijk aangezien ze klein en makkelijk transporteerbaar zijn voor malicious intent.
 |USB picture|name|
-|--|--|
+|:--|:--|
 |![port_usb-a.png](/ports/port_usb-a.png)|USB A-Type|
 |![port_usb-b.png](/ports/port_usb-b.png)|USB B-Type|
 |![port_usb-c.png](/ports/port_usb-c.png)![port_usb-c2.png](/ports/port_usb-c2.png =100x)|USB Type-C|
