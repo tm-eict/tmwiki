@@ -2,41 +2,41 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-23T12:08:48.078Z
+date: 2021-01-23T17:19:33.195Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
 ---
 
-# Samenvatting Info Sec
+<a name="TOP"></a>
 Met dank aan Pieter van der Deen's [Samenvatting](https://tmwiki.be/information_security/samenvatting_info_sec_pieter_vanderdeen.pdf).
 
-## CIA-driehoek
+## CIA-driehoek<a name="CIA"></a>
 [comment]: <> (remove white background of img)
-![cia-triad](/cia-triad.png)
-^https://blog.jamestyson.co.uk/the-cia-and-dad-triads)^
+![cia-triad](/information_security/assets/cia-triad.png)
+^https://blog.jamestyson.co.uk/the-cia-and-dad-triads^
 Deze driehoek is de basis voor information security en beveiligingsmaatregelen rond IT-gerelateerde zaken. Het doel is om de CIA te waarborgen. CIA staat voor:
 
 1. **Availability**: De gegevens zijn beschikbaar voor iedereen die daar recht op heeftwanneer het nodig is.
-	1. **RAID**: Redundant Array of Independent Disks (inexpensive)
-	2. Netwerk, authenticatie, dedundante hardware, back-up, ...
+	* **RAID**: Redundant Array of Independent Disks (inexpensive)
+	* Netwerk, authenticatie, dedundante hardware, back-up, ...
 2. **Integrity**: De gegevens zijn correct en volledig (betrouwbaarheid).
-
 3. **Confidentiality** De gegevens zijn vertrouwelijk en enkel de nodige gegevens mogen opgezocht worden door personen die hiertoe bevoegd zijn of recht hebben op deze gegevens.
-	1. Mitaire classificatie
+	* Mitaire classificatie
 		1. **Topsecret**: de gebruiker heeft een need to know (heel groot  gevaar voor de nationale veiligheid
 		2. **Secret**: data met beperkte toegang (ernstig gevaar)
 		3. **Confidential**: eigendomsdocumenten (ernstig gevaar)
 		4. **Sensitive But Unclassified** (SBU): intern gebruik (FOUO)
 		5. **Unclassified**: brengt geen schade toe
-	2. Commerciële indeling
+	* Commerciële indeling
 		1. **Confidential** (bedrijven)/private (individu): heel erg gevoelig (grote impact)
 		2. **Sensitive**: intern gebruik (kleine impact)
 		3. **Public**: publiek toegankelijk (geen impact)
-	3. Technologie
+	* Technologie
 		1. **Encryptie**
+   
+(P: Note: Volgorde is eigenlijk AIC, te onthouden met CIA)<br>
 
-(P: Note: Volgorde is eigenlijk AIC, te onthouden met CIA) <br>
 Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 
 * Een agent controleert het vervallen van de groene verzekeringskaart van een chauffeur na een aanrijding.
@@ -57,7 +57,7 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 
 ### Nist
 * **N**ational **I**nstitute of **S**tandards and **T**echnology
-* Dit is een Amerikaans framework dat richtlijnen geeft over hoe organisaties cyber security kunnen implementeren
+	Dit is een Amerikaans framework dat richtlijnen geeft over hoe organisaties cyber security kunnen implementeren
 * Bestaat uit 5 funties
 	1. Identify (ID)
 	2. Protect (PR)
@@ -66,10 +66,10 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 	5. Recover (RC)
 * Voorbeeld: NIST ID.AM\-1 
   | Framework |  Functie    |  Categeorie | Subcategorie |
-  | -------------: | :----------: | :-----------: | :----------- |
+  | --: | :---: | :---: | :-- |
   | Nist | ID | AM | 1 |
   
-## Hoofdstuk 2
+## Hoofdstuk 2<a name="H2"></a>
 * Waarom beveiliging van fysieke infrastructuur nodig?
 	* Zonder fysieke beveiliging is er geen beveiliging
  * Physical Security: a system of **inclusion** and **exclusion** for assets
@@ -89,10 +89,9 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 	2. **Territorial Reinforcement**: Territorial reinforcement employs structures, systems, and devices to prevent unauthorized entry and create a clear difference between what is public and private.
 * Drie basisregels _infrastructuur_
 
-	[comment]: <> (Make inner link)
-	1. **Access\-control and monitoring** systems (H2)
-	2. **Video surveillance** systems (H3)
-	3. **Intrusion-detection** and reporting systems (H4)
+	1. **Access\-control and monitoring** systems [(H2)](#H2)
+	2. **Video surveillance** systems [(H3)](#H3)
+	3. **Intrusion-detection** and reporting systems [(H4)](#H4)
 * **Tailgating** : An unauthorized person slips past the locking door closely behind someone who is authorized to pass through it.
 * Access-control
 	* Om fysieke toegang te vermijden (schade, vernietiging, diefstal, ...)
@@ -108,7 +107,7 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 				* Waterlopen
 				* CPTED
 					* **C**rime **P**revention **T**hrough **E**nvironmental **D**esign
-          ![cpted-example.png](/cpted-example.png)
+          ![cpted-example.png](/information_security/assets/cpted-example.png)
 					^https://www.ifpo.org/news/power-cpted-glue-holds-security-programs-together-bill-nesbitt/#post/0^
 			* Territorial reinforceme
 				* Apparaten: access\-control, camera’s, intrustion\-detection, poorten, ...
@@ -169,7 +168,7 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 	* **Time\-of\-Day Settings**: Most automated access\-control systems base decisions about valid or invalid entry requests, also called transactions, on preconfigured time\-of\-day settings. This is normal because any entry request that does not fit the predefined time profile or time schedule of an identified user is subject to suspicion.
   
   
-## Hoofdstuk 3
+## Hoofdstuk 3<a name="H3"></a>
 * PIR: Passive InfraRed
 * Some systems are based on coaxial cable for component connectivity, while others are IP-based and rely on wireless Wi-Fi communications or traditional network cabling.
 * CCD Camera (Charged Coupled Device) (dit is een alternatief van CMOS, maar wel heel oud)
@@ -235,7 +234,7 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 		* NAS: Network Attached Storage
 		* SAN: Storage Area Network
     
-## Hoofdstuk 4
+## Hoofdstuk 4<a name="H4"></a>
 * **Intrusion-detection**
 	* Bestaat uit die zones
 		* Perimeter
@@ -281,7 +280,7 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 					* Audible annunciators (Alarm)
 					* Remote messaging
           
-## Hoofdstuk 5
+## Hoofdstuk 5<a name="H5"></a>
 * Meerdere factoren spelen een rol bij authenticatie
 	* **Kennis/Knowledge**: wat de persoon weet
 	* **Bezit/Possesion**: wat de persoon heeft
@@ -290,7 +289,7 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 * Bij two-factor authenticatie gebruik je een combinatie van twee van deze vormen
 * Een open en gesloten conditie is niet hetzelfde als een vergrendeld en ongegrendeld conditie
 
-## Hoofdstuk 6
+## Hoofdstuk 6<a name="H6"></a>
 Local host Security in the real world
 
 * Gaat over toestellen die data kunnen verzamelen: local host
@@ -322,7 +321,7 @@ Local host Security in the real world
 		* Backup
 		* Redundant hardware.
     
-## Hoofdstuk 7
+## Hoofdstuk 7<a name="H7"></a>
 * De drie zones van beveiliging
 	1. **Outer** perimter: behuizing en hardware (H7)
 	2. **Inner** perimter: operating system + programma's (H8)
@@ -392,53 +391,56 @@ Belangrijke pagina/samenvating over poorten kan je hier vinden: [ports](/en/Info
 	* **Hot-swapping**: toevoegen of verwijderen wanner het systeem actief is
 	* IDE (Integrated Drive Electronics) (Nu PATA genoemd = Parallel Advanced Technology Attachment); zorgt voor transport van data tussen ROM en RAM; tegenwoordig wordt SATA gebruikt (Serial ATA)
   
-	* ![ports_usb-collection-1.png](/ports/ports_usb-collection-1.png)
+	* ![ports_usb-collection-1.png](/information_security/assets/ports/ports_usb-collection-1.png)
 		^http://www.beginnerslessenpc.nl/USB%20Kabels%20Verschillen.htm^
-	* ![ports_usb-collection-2.png](/ports/ports_usb-collection-2.png)
+	* ![ports_usb-collection-2.png](/information_security/assets/ports/ports_usb-collection-2.png)
 		^https://www.cablestogo.com/learning/connector-guides/usb^
-	* ![ports_usb-speed](/ports/ports_usb-speed.png)
+	* ![ports_usb-speed](/information_security/assets/ports/ports_usb-speed.png)
 		^https://www.synopsys.com/designware-ip/technical-bulletin/protocol-layer-changes.html^
 	* Type A vooral gebruikt waar de kabel permanent bevestigd is (muis, toetsenbord, ...)
 	* Type B vooral gebruikt waar de kabel verwijderbaar is (printer, arduino, ...)
 	* USB 3.0 vaak blauw
-	* | Version | Speed | Bits/sec | HD movie 25GB |
-		| :----- | :----- | :----- | :----- |
-		| USB 1.1 | Low speed (LS) <br> High speed (HS) | 1.5 Mbps <br> 12 Mbps | ~9.25 hours |
-		| USB 2.0 | High speed (HS) | 480 Mbps <br> 14 Mbps | ~14 mins |
-		| USB 3.0 | SuperSpeed (SS) | 5 Gbps | ~70 sec |
-		| USB 3.1 | SuperSpeedPlus (SSP) | 10 Gbps | ~35 sec |
+  Snelheden niet te kennen, **wel versie en snelheid naam**
+  
+| Version | Speed | Bits/sec | HD movie 25GB |
+| :----- | :----- | :----- | :----- |
+| USB 1.1 | Low speed (LS) <br> High speed (HS) | 1.5 Mbps <br> 12 Mbps | ~9.25 hours |
+| USB 2.0 | High speed (HS) | 480 Mbps <br> 14 Mbps | ~14 mins |
+| USB 3.0 | SuperSpeed (SS) | 5 Gbps | ~70 sec |
+| USB 3.1 | SuperSpeedPlus (SSP) | 10 Gbps | ~35 sec |
     
-	* FireWire(FW) en ThunderBolt (TB)
-		* FW is de opvolger van SCSI
-		* TB is een vervanger voor oudere SCSO, SATA, FireWire, PCI-e(Weet niet zeker?)
-		* Bandbreedte van USB, firewire e, Thunderbolt
-			| Version | Bits/sec | Bytes/sec |
-			| :----- | :----- | :----- |
-			| USB 1.0 | 1.5 Mbit/s | 0.19 MB/s |
-			| USB 1.1 | 12 Mbit/s | 1.5 MB/s |
-			| USB 2.0 | 480 Mbit/s | 60 MB/s |
-			| USB 3.0 | 4.8 Gbit/s | 600 MB/s |
-			| USB 3.1 | 10 Gbit/s | 1.250 MB/s |
-			| FireWire 400 | 400 Mbit/s | 50 MB/s |
-			| FireWire 800 | 800 Mbit/s | 100 MB/s |
-			| FireWire 3200 | 3.2 Gbit/s | 400 MB/s |
-			| ThunderBolt | 2x 10 Gbit/s | 2x 1.250 MB/s |
-			| ThunderBolt 3 | 2x 20 Gbit/s | 2x 2500 MB/s |
+* FireWire(FW) en ThunderBolt (TB)
+	* FW is de opvolger van SCSI
+	* TB is een vervanger voor oudere SCSO, SATA, FireWire, PCI-e(Weet niet zeker?)
+	* Bandbreedte van USB, firewire e, Thunderbolt
+    
+| Version | Bits/sec | Bytes/sec |
+| :----- | :----- | :----- |
+| USB 1.0 | 1.5 Mbit/s | 0.19 MB/s |
+| USB 1.1 | 12 Mbit/s | 1.5 MB/s |
+| USB 2.0 | 480 Mbit/s | 60 MB/s |
+| USB 3.0 | 4.8 Gbit/s | 600 MB/s |
+| USB 3.1 | 10 Gbit/s | 1.250 MB/s |
+| FireWire 400 | 400 Mbit/s | 50 MB/s |
+| FireWire 800 | 800 Mbit/s | 100 MB/s |
+| FireWire 3200 | 3.2 Gbit/s | 400 MB/s |
+| ThunderBolt | 2x 10 Gbit/s | 2x 1.250 MB/s |
+| ThunderBolt 3 | 2x 20 Gbit/s | 2x 2500 MB/s |
       
-* ![all-ports](/all-ports.png)
+* ![all-ports](/information_security/assets/ports/all-ports.png)
 * DE-15 heb je in 2 rijen en 3 rijen
 * M = male; F = female
 * BNC connector
- 	![bnc-connector](/bnc-connector.png =250x)
+ 	![bnc-connector](/information_security/assets/ports/bnc-connector.png =250x)
   ^https://showmecables-static.scdn3.secure.raxcdn.com/media/catalog/product/cache/0aa466c0d56d23d446bcd4aa4538d2f7/3/0/301_2.jpg^
 * eSATA
 	* External SATA (Serial Advanced Technology Attachment) om aan de interne SATA-bus te koppelen
 	* Directe toegang to een bus (gevaarlijk)
-		![eSATA](/esata.png)
+		![eSATA](/information_security/assets/ports/esata.png)
 		^https://en.wikipedia.org/wiki/ESATAp#/media/File:Esatap\_port.JPG^
 * POST: Power On Self Test
 
-## Hoofdstuk 8
+## Hoofdstuk 8<a name="H8"></a>
 ### Inner perimeter
 *	Operating system
 *	Application programs
@@ -733,7 +735,7 @@ Nadat het OS is opgestart moeten stappen worden ondernomen om niet\-geauthentise
 		* USB\-sticks met encryptie
 		* Certificaten (https)
     
-## Hoofdstuk 9
+## Hoofdstuk 9<a name="H9"></a>
 ### Stappenplan tegen netwerkbedreigingen
 1. Gebruik een beveiligde netwerkverbinding
 	* Routers zorgen voor de beste eerste beerscherminglaag
@@ -784,21 +786,22 @@ Nadat het OS is opgestart moeten stappen worden ondernomen om niet\-geauthentise
 		* 0 tot 1023: specifieke services
 		* 1024 tot 49151: geregistreerde poorten
 		* 49152 tot 65535: dynamisch en tussen computersoftware onderling
-	* Well known ports and services
-		| Service | Well-known Port Number |
-		| :-- | :-- |
-		| FTP | 20, 21 |
-		| Telnet | 23 |
-		| SMTP Mail | 25 |
-		| HTTP (www) | 80 |
-		| POP3 (mail) | 110 |
-		| News | 144 |
-		| HTTPS | 443 |
-		| PPTP | 1723 |
-		| IRC | 6667 |
-		* News: oude service van het verleden
+  * News: oude service van het verleden
 		* IRC: Internet Relay Chat
 		* POP: Post Office Protocol
+	* Well known ports and services
+
+| Service | Well-known Port Number |
+| :-- | :-- |
+| FTP | 20, 21 |
+| Telnet | 23 |
+| SMTP Mail | 25 |
+| HTTP (www) | 80 |
+| POP3 (mail) | 110 |
+| News | 144 |
+| HTTPS | 443 |
+| PPTP | 1723 |
+| IRC | 6667 |
 
 2. Inbraakdetectie
 	* IDS (Intrusion Detection Systems)
@@ -819,31 +822,31 @@ Nadat het OS is opgestart moeten stappen worden ondernomen om niet\-geauthentise
 			* Prevent the succeeding of intrusions
 			* Ook wem IDPS genoemd
 				Intrusion Detection and Prevention System
-	3. Browser beveiligingsopties
-	4. Antivirus/anti\-malware
-		* Grayware: niet gewenst, maar moet niet kwaadaardig zijn
-		* Malicious software: kwaadaardig
-				Virussen (dupliceren vanzelf met hostprogrammaen verspreiden zichzelf
-			* Wormen (geen hostprogramma nodig, zoekt een exploit in het network en besmet alle computers, zodat er een hoge payload is op het network)
-			* Trojaans paard (lijkt een betrouwbaar programma te zijn, verspreid zichzelf niet)
-			* Rootkits (administrative controle van het toestel verwerven, werken op rootniveau, nestelen zich bijvoorbeeld voor de bootloader)
-			* Ransomware (encryptie van data met vraag om losgeld)
-			* Spyware (probeert gevoeligedata ongezien te stelen)
-			* Adware (toont ongevraagd gerichte reclame in de brower of andere applicaties) 
-			* Logic bombs (delete data, zoals een trojaans paard met betrouwbare software, activeert zichzelf op een logisch moment, na x dagen, na het gebruik van xkeer van het programma, malicious code zit in heel veel lijnen gewone code vervat)
-			* Zombies (voor DDOS-aanval –distributed denial of service)
-			* Botnets (vele zombies samen voor bijvoorbeeld spam uit te sturen
-		* Antimalware
-			* Antivirus (signatures en ongewoon gedrag
-			* Antispyware (twee soorten: één die opspoort en verwijdert, één die installatie tegenhoudt)
-	5. Software updates en patches
-		* Service pack
-			* Grote hoeveelheid aan updates verpakt in één
-			* Altijd eerst een back\-up nemen vooraleer service pack te installeren (zou onstabiel kunnen zijn)
-		* Patch
-			* Kan ook als reactie op een virus zijn
-		* Updates
-			* Bevordert beveiliging, betrouwbaarheid of de voorkeur van een hacker/cracker voor een bepaald besturingssysteem
+3. Browser beveiligingsopties
+4. Antivirus/anti\-malware
+	* Grayware: niet gewenst, maar moet niet kwaadaardig zijn
+	* Malicious software: kwaadaardig
+		Virussen (dupliceren vanzelf met hostprogrammaen verspreiden zichzelf
+		* Wormen (geen hostprogramma nodig, zoekt een exploit in het network en besmet alle computers, zodat er een hoge payload is op het network)
+		* Trojaans paard (lijkt een betrouwbaar programma te zijn, verspreid zichzelf niet)
+		* Rootkits (administrative controle van het toestel verwerven, werken op rootniveau, nestelen zich bijvoorbeeld voor de bootloader)
+		* Ransomware (encryptie van data met vraag om losgeld)
+		* Spyware (probeert gevoeligedata ongezien te stelen)
+		* Adware (toont ongevraagd gerichte reclame in de brower of andere applicaties) 
+		* Logic bombs (delete data, zoals een trojaans paard met betrouwbare software, activeert zichzelf op een logisch moment, na x dagen, na het gebruik van xkeer van het programma, malicious code zit in heel veel lijnen gewone code vervat)
+		* Zombies (voor DDOS-aanval –distributed denial of service)
+		* Botnets (vele zombies samen voor bijvoorbeeld spam uit te sturen
+	* Antimalware
+		* Antivirus (signatures en ongewoon gedrag
+		* Antispyware (twee soorten: één die opspoort en verwijdert, één die installatie tegenhoudt)
+5. Software updates en patches
+	* Service pack
+		* Grote hoeveelheid aan updates verpakt in één
+		* Altijd eerst een back\-up nemen vooraleer service pack te installeren (zou onstabiel kunnen zijn)
+	* Patch
+		* Kan ook als reactie op een virus zijn
+	* Updates
+		* Bevordert beveiliging, betrouwbaarheid of de voorkeur van een hacker/cracker voor een bepaald besturingssysteem
 	
 ### Exploits
 * Weaknesses in software
@@ -859,18 +862,18 @@ Nadat het OS is opgestart moeten stappen worden ondernomen om niet\-geauthentise
 * Red hat \[valt black hats aan]
 * Scriptkiddies \[werkt met bestaand material en scripts, geen kennis van zaken]
 
-## Hoofdstuk 10
+## Hoofdstuk 10<a name="H10"></a>
 Overzicht + examenvragen
 
-## Hoofdstuk 11
+## Hoofdstuk 11<a name="H11"></a>
 * IP: Intellectual Property
 
-## Hoofdstuk 12
+## Hoofdstuk 12<a name="H12"></a>
 ### Netwerken
 Twee  basistypes van netwerken
-1.	LAN (Local Area Network)
+1. LAN (Local Area Network)
 	Voor geografisch kleine gebieden (een huis, gebouw, ...)
-2.	WAN (Wide Area Network)
+2. WAN (Wide Area Network)
 	Voor geografisch grote gebieden
 	
 Andere types van netwerken
@@ -885,7 +888,7 @@ Andere types van netwerken
 ### [OSI-model](/en/Information_Security/OSI-model)
 Open systems interconnection
 * To standardize communications (data handling) between network components
-![OSI-model.png](^/osi-model.png =512x)
+![OSI-model.gif](/information_security/assets/osi-model.gif =512x)
 ^http://electricala2z.com/wp-content/uploads/2017/10/osi-model.gif^
 
 Lagen
@@ -931,13 +934,13 @@ Lagen
 
 Data transmissie pakketten
 * Encapsulatie: header toegevoegd in elke laag
-	![osi-building-transmission-packets.png](/osi-building-transmission-packets.png =500x)
+	![osi-building-transmission-packets.png](/information_security/assets/osi-building-transmission-packets.png =500x)
 	^Cybersecurity Essentials, ISBN 978-1-11936239-5 pagina 278^
 	
 OSI layer security
 * Zit doorheen elke laag verweven
 
-| OSI LAYER | Network Security Model | Explout Type  | Security Focus |
+| OSI LAYER | Network Security Model | Exploit Type  | Security Focus |
 | :-- | :-- | :-- | :-- |
 | 1) Physical Layer | 7) Physical Level | Physical Tampering/Break-in | Physical Security |
 | 2) Data Link Layer | 6) VLAN Level | Network Scanning Local/Internal | Access Security |
@@ -946,6 +949,7 @@ OSI layer security
 | 5) Session Layer | 3) User Level | Social Engineering - Users | Authentication/Encryption  |
 | 6) Presentation Layer | 2) Administrative Level | Social Engineering - Administrators | Authentication
 | 7) Application Layer | 1) IT Department Level | Social Engineering - IT Staff | ID/Authentication   |
+
 * **Three\-layered rings of security**
 	* Bestaat op twee toestellen: zender en ontvanger
 		* Het medium verbind de hun outer perimeters (kabel, luchtgolven, ...)
@@ -1001,7 +1005,7 @@ Enkele protocollen
 			* Transport mode: only IP payload is encapsulated
 			* Tunnel mode: the entire IP packet is encapsulated
 
-## Hoofdstuk 13
+## Hoofdstuk 13<a name="H13"></a>
 ### Netwerkprotocol
 *	Een netwerkprotocol = een reeks aan regels voor communicatie tussen netwerkcomponenten
 	*	Om met elkaar te communiceren, moeten ze hetzelfde protocol gebruiken
@@ -1046,14 +1050,14 @@ Enkele protocollen
 	* Package fragmentation en reassembly
 		* Twee header fields (IP header en TCP header)
 		* Data field
-		![net-basics.png](/net-basics.png)
+		![net-basics.png](/information_security/assets/net-basics.png)
 		^Cybersecurity Essentials, ISBN 978-1-11936239-5 pagina 300^
 	* Connecties opzetten (three\-way handshake)
 		1. SYN (Synchronize)
 		2. SYN (Synchronize) en ACK (Acknowledge)
 		3. ACK (Acknowledge)
 		4. Uitwisselen data (niet deel van de handshake)
-		![threeway-handshake.png](/threeway-handshake.png)
+		![threeway-handshake.png](/information_security/assets/threeway-handshake.png)
 		^Cybersecurity Essentials, ISBN 978-1-11936239-5 pagina 300^
 	* Kwetsbaarheden
 		* Attack of makeup of packets
@@ -1062,7 +1066,7 @@ Enkele protocollen
 					Manipuleren van source endestination IP in header
 				* SYN flood (denial of service) exploits three\-way handshake
 					Hacker stuurt vele SYN requests naar een server en spoofs IP\-adres of houdt ACK packet bij, waardoor er op de server allemaal connecties blijven openstaan en geheugen server volloopt
-					![syn-flood.png](/syn-flood.png)
+					![syn-flood.png](/information_security/assets/syn-flood.png)
 		^https://www.cloudflare.com/img/learning/ddos/syn-flood-ddos-attack/syn-flood-attack-ddos-attack-diagram-2.png^
 		
 *	**MAC** en TCP/IP
@@ -1107,12 +1111,12 @@ Enkele protocollen
 				* In browser tussen vierkante haken
 					* http://\[2001:0db8:85a3:0000:0000:8a2e:0370:7334\]
 				* Aaneenliggende nullen weglaten met '::'
-	*	
-	| RFC1918 name | IP address range | Number of addresses | Largest CIDR block (subnet mask) | Host ID size | Mask bits | Classfull description |
-	| :-- | :-- | :-- | :-- | :-- | :-- | :-- |
-	| 24-bit block | 10.0.0.0 - 10.255.255.255 | 16 777 216 | 10.0.0.0/8 (255.0.0.0) | 24 bits | 8 bits | single class A network |
-	| 20-bit block | 172.16.0.0 - 172.31.255.255 | 1 048 576 | 172.16.0.0/12 (255.240.0.0) | 20 bits | 12 bits | 16 contiguous class B networks |
-	| 16-bit block | 192.168.0.0 - 192.168.255.255 | 65 536 | 192.168.0.0/16 (255.255.0.0) | 16 bits | 16 bits | 256 contiguous class C Networks |
+
+| RFC1918 name | IP address range | Number of addresses | Largest CIDR block (subnet mask) | Host ID size | Mask bits | Classfull description |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| 24-bit block | 10.0.0.0 - 10.255.255.255 | 16 777 216 | 10.0.0.0/8 (255.0.0.0) | 24 bits | 8 bits | single class A network |
+| 20-bit block | 172.16.0.0 - 172.31.255.255 | 1 048 576 | 172.16.0.0/12 (255.240.0.0) | 20 bits | 12 bits | 16 contiguous class B networks |
+| 16-bit block | 192.168.0.0 - 192.168.255.255 | 65 536 | 192.168.0.0/16 (255.255.0.0) | 16 bits | 16 bits | 256 contiguous class C Networks |
 				
 * **Ethernet**
 	* Familie van standaards die oplegt hoe de signalen moeten worden verstuurd
@@ -1122,7 +1126,7 @@ Enkele protocollen
 			* Node luistert eerst of de LAN in gebruik is
 			* Bij gelijktijdig zenden door twee nodes, wachten elk willekeurige tijd met opnieuw zenden
       
-## Hoofdstuk 14
+## Hoofdstuk 14<a name="H14"></a>
 ### Understanding network servers
 * Server = computersysteem dat services levert aan clients
 	* Server op uitschuifbare rails
@@ -1156,7 +1160,7 @@ Enkele protocollen
 		* Subnetting / meerdere routers
 		* Auditing
 
-## Hoofdstuk 15
+## Hoofdstuk 15<a name="H15"></a>
 ### Network connectivity devices
 Switch
 *	Verbindt apparaten binnen een LAN
@@ -1312,7 +1316,7 @@ Het framework bestaat uit drie delen
 	* Verschil tussen current profile en target profile bepalen. Vervolgens plan opstellen om deze verschillen op te lossen.
 7. Implement Action Plan.
 
-## Examen 
+## Examen<a name="Examen"></a>
 * Open vragen
 * Voor examen hoofdstuk ~~1 – 25~~ 1 t.e.m. 15
 * Je krijg NIST op het examen: geeft 2 categorieën en subcategorieën + leg uit
@@ -1328,9 +1332,10 @@ Het framework bestaat uit drie delen
 * Geef twee voorbeelden van besturingssystemen op routers
 	* Cisco IOS
 	* Andere Unix systemen
-* **H5, H10 en H17 zeker nakijken: samenvattingen\+ examenvragen**
+  
+* **[H5](#H5), [H10[(H10) en [H17](H17) zeker nakijken: samenvattingen\+ [testexam](/en/Information_Security/testexam)**
 
-## Opdracht
+## Opdracht<a name="Opdracht"></a>
 Kernel attack slide 59
 * Kernel praat met CPU
 * Instructie die naar CPU gaan wijzige
@@ -1347,5 +1352,7 @@ In document
 *	4 titels (slide 59)
 *	Gewoon copy\-paste van internet + bronvermelding 
 
-## Einde
-Met dank aan Pieter van der Deen's [Samenvatting](https://tmwiki.be/information_security/samenvatting_info_sec_pieter_vanderdeen.pdf).
+## Einde<a name="Einde"></a>
+Alle afkortingen kan je [hier](/en/Information_Security/woorden) vinden met hun uitleg.
+
+Met dank aan Pieter van der Deen's [Samenvatting](https://tmwiki.be/information_securitysamenvatting_info_sec_pieter_vanderdeen.pdf).

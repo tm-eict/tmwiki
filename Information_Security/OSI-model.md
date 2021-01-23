@@ -2,13 +2,12 @@
 title: OSI-model
 description: 
 published: true
-date: 2021-01-23T12:00:14.886Z
+date: 2021-01-23T15:20:34.120Z
 tags: network
 editor: markdown
 dateCreated: 2021-01-21T15:09:52.659Z
 ---
 
-# OSI-model
 [Open Systems Interconnection-model](https://en.wikipedia.org/wiki/OSI-model) 
 ![Different layers in OSI-model](http://electricala2z.com/wp-content/uploads/2017/10/osi-model.gif =512x)
 
@@ -16,11 +15,11 @@ Extra explanation in [book](https://drive.google.com/file/d/1f_TkF0QISOQmXScrwBy
 
 ## Data transmissie pakketten
 * Encapsulatie: header toegevoegd in elke laag
-	![osi-building-transmission-packets.png](/osi-building-transmission-packets.png =500x)
+	![osi-building-transmission-packets.png](/information_security/assets/osi-building-transmission-packets.png =500x)
 	Foto data encapsulatie[^1]
 
 Beveiliging is doorheen elke laag verweven:
-| OSI LAYER | Network Security Model | Explout Type  | Security Focus |
+| OSI LAYER | Network Security Model | Exploit Type  | Security Focus |
 | :-- | :-- | :-- | :-- |
 | 1) Physical Layer | 7) Physical Level | Physical Tampering/Break-in | Physical Security |
 | 2) Data Link Layer | 6) VLAN Level | Network Scanning Local/Internal | Access Security |

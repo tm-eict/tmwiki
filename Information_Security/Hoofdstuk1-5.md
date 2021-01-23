@@ -97,7 +97,7 @@ dateCreated: 2021-01-21T17:13:23.163Z
             - rijksregisternummer, label, geldigheidsperiode, plaat van uitgave, familienaam en voornamen, nationaliteit, geslacht, geboortedatum, geboorteplek, foto
             - op chip: adres, idnetificatiecertificaat (eID kaartlezer), handtekeningcertificaat (digital signing)
   
-  ![epassport.png](/epassport.png =384x)
+  ![epassport.png](/information_security/assets/epassport.png =384x)
 
   - Logische perimeter = grenzen tussen netwerken, local hosts...
 - CPTED

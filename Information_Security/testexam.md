@@ -1,24 +1,27 @@
 ---
 title: Voorbeeld examen
-description: 
+description: Vraagjes zodat je je kan voorbereiden op het examen. Hier staan te kunnen vragen benadrukt door de leerkracht en wat extra vragen die mogelijk gevraagd kunnen worden.
 published: true
-date: 2021-01-23T13:18:40.866Z
+date: 2021-01-23T16:14:03.599Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
 ---
 
-# Voorbeeld examen
 Te kunnen examen vragen zijn vragen (/vragen over leerstof) die leerkracht benadrukt heeft tijdens de les. Extra vragen zijn vragen gemaakt door leerlingen.
 
 **Theorie examen zijn open vragen, geen meerkeuze.**
 Je moet alles kennen t.e.m. hoofdstuk 15.
-[samenvatting_info_sec_pieter_vanderdeen.pdf](/information_security/samenvatting_info_sec_pieter_vanderdeen.pdf)
+[samenvatting](/en/Information_Security/samenvatting) en het orgineel [samenvatting_info_sec_pieter_vanderdeen.pdf](/information_security/samenvatting_info_sec_pieter_vanderdeen.pdf).
 
 **De vragen kan je open doen voor het antwoord door er op te klikken.**
 
 Voor NIST en vele andere vragen is het vooral dat je uitleg en redenering goed is. Soms is dat zelfs belangrijker dan het antwoord zelf, dus voluit en doordacht opschrijven!
 ## Te kunnen examen vragen
+<details>
+  <summary markdown="span">Klik op mij!</summary>
+  Zo krijg je het antwoord :)
+</details>
 <details>
   <summary markdown="span">Waarvoor staat de CIA triad?</summary>
   Confidentiality<br>
@@ -50,8 +53,9 @@ Voor NIST en vele andere vragen is het vooral dat je uitleg en redenering goed i
 
 <details>
   <summary markdown="span">Verschil tussen patch en update?</summary>
-  Patch: kleine fixes. Vooral en vaak security. Verandert functionaliteit NIET. Oke om automatisch te laten gebuiren.<br>
-  Update: verandert de applicatie wel. Breekt vaak dependenties. Niet veilig te automatiseren
+  
+  - **Patch:** kleine fixes. Vooral en vaak security. Verandert functionaliteit NIET. Oke om automatisch te laten gebeuren.
+  - **Update:** verandert de applicatie wel. Breekt vaak dependenties. Niet veilig te automatiseren
 </details>
 
 - [Geef het volledige OSI-model](/en/Information_Security/OSI-model)
@@ -149,6 +153,7 @@ Total Mac Addresses for this criterion: 2
 	- Je krijg NIST op het examen: geeft 2 categorieën en subcategorieën + leg uit. **Hierbij krijg je Appendix C van NIST uit het boek!**
 - Pagina van Enisa (Framework Europa) met wat vragen.
 - Je kan [poorten](/en/Information_Security/ports) herkennen, benoemen, het gebruik uitleggen (I/O, audio etc) en risico's herkennen
+- Je kunt alle [afkortingen en begrippen](/en/Information_Security/woorden) toelichten.
 
 ## Extra vragen
 <details>
@@ -163,8 +168,7 @@ Resolutie:
 </details>
 <details>
   <summary markdown="span">Wat is IR op een IP camera en hoe werkt het?</summary>
-  InfraRood.
-  ...
+  InfraRood-verlichting laat toe op met weinig licht nog in het donker te kunnen kijken met je camera.
 </details>
 <details>
   <summary markdown="span">Wat is een fisheye lens?</summary>
@@ -205,9 +209,9 @@ ziet een hele kamer maar met vervormingen
   Zoals in de vorige vraag is wachtwoord in BIOS een vorm van hardening.
 </details>
 
-![port_centronics_parallel_36_pin.png](/ports/port_centronics_parallel_36_pin.png =200x)
-![port_mini-vga.png](/ports/port_mini-vga.png)
-![port_db25_serial_com_port.png](/ports/port_db25_serial_com_port.png)
+![port_centronics_parallel_36_pin.png](/information_security/assets/ports/port_centronics_parallel_36_pin.png =200x)
+![port_mini-vga.png](/information_security/assets/ports/port_mini-vga.png)
+![port_db25_serial_com_port.png](/information_security/assets/ports/port_db25_serial_com_port.png)
 <details>
   <summary markdown="span">Geef de poorten en of ze gevaarlijk zijn of niet.</summary>
   Centronics parallel 36 pin, ja.<br>
@@ -260,10 +264,3 @@ ziet een hele kamer maar met vervormingen
   <summary markdown="span">Leg uit wat een grey hat hacker doet.</summary>
 	Werkt vanuit overtuiging (kan dus ethisch zijn), overschrijdt wettelijke grenzen.
 </details>
-
-## Afkortingetjes
-
-|Afkorting|Voluit|
-|:--|:--|
-|POSIX|Portable Operating System Interface|
-
