@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-23T17:16:47.150Z
+date: 2021-01-23T17:19:33.195Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -786,21 +786,22 @@ Nadat het OS is opgestart moeten stappen worden ondernomen om niet\-geauthentise
 		* 0 tot 1023: specifieke services
 		* 1024 tot 49151: geregistreerde poorten
 		* 49152 tot 65535: dynamisch en tussen computersoftware onderling
-	* Well known ports and services
-		| Service | Well-known Port Number |
-		| :-- | :-- |
-		| FTP | 20, 21 |
-		| Telnet | 23 |
-		| SMTP Mail | 25 |
-		| HTTP (www) | 80 |
-		| POP3 (mail) | 110 |
-		| News | 144 |
-		| HTTPS | 443 |
-		| PPTP | 1723 |
-		| IRC | 6667 |
-		* News: oude service van het verleden
+  * News: oude service van het verleden
 		* IRC: Internet Relay Chat
 		* POP: Post Office Protocol
+	* Well known ports and services
+
+| Service | Well-known Port Number |
+| :-- | :-- |
+| FTP | 20, 21 |
+| Telnet | 23 |
+| SMTP Mail | 25 |
+| HTTP (www) | 80 |
+| POP3 (mail) | 110 |
+| News | 144 |
+| HTTPS | 443 |
+| PPTP | 1723 |
+| IRC | 6667 |
 
 2. Inbraakdetectie
 	* IDS (Intrusion Detection Systems)
@@ -948,6 +949,7 @@ OSI layer security
 | 5) Session Layer | 3) User Level | Social Engineering - Users | Authentication/Encryption  |
 | 6) Presentation Layer | 2) Administrative Level | Social Engineering - Administrators | Authentication
 | 7) Application Layer | 1) IT Department Level | Social Engineering - IT Staff | ID/Authentication   |
+
 * **Three\-layered rings of security**
 	* Bestaat op twee toestellen: zender en ontvanger
 		* Het medium verbind de hun outer perimeters (kabel, luchtgolven, ...)
@@ -1109,12 +1111,12 @@ Enkele protocollen
 				* In browser tussen vierkante haken
 					* http://\[2001:0db8:85a3:0000:0000:8a2e:0370:7334\]
 				* Aaneenliggende nullen weglaten met '::'
-	*	
-	| RFC1918 name | IP address range | Number of addresses | Largest CIDR block (subnet mask) | Host ID size | Mask bits | Classfull description |
-	| :-- | :-- | :-- | :-- | :-- | :-- | :-- |
-	| 24-bit block | 10.0.0.0 - 10.255.255.255 | 16 777 216 | 10.0.0.0/8 (255.0.0.0) | 24 bits | 8 bits | single class A network |
-	| 20-bit block | 172.16.0.0 - 172.31.255.255 | 1 048 576 | 172.16.0.0/12 (255.240.0.0) | 20 bits | 12 bits | 16 contiguous class B networks |
-	| 16-bit block | 192.168.0.0 - 192.168.255.255 | 65 536 | 192.168.0.0/16 (255.255.0.0) | 16 bits | 16 bits | 256 contiguous class C Networks |
+
+| RFC1918 name | IP address range | Number of addresses | Largest CIDR block (subnet mask) | Host ID size | Mask bits | Classfull description |
+| :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+| 24-bit block | 10.0.0.0 - 10.255.255.255 | 16 777 216 | 10.0.0.0/8 (255.0.0.0) | 24 bits | 8 bits | single class A network |
+| 20-bit block | 172.16.0.0 - 172.31.255.255 | 1 048 576 | 172.16.0.0/12 (255.240.0.0) | 20 bits | 12 bits | 16 contiguous class B networks |
+| 16-bit block | 192.168.0.0 - 192.168.255.255 | 65 536 | 192.168.0.0/16 (255.255.0.0) | 16 bits | 16 bits | 256 contiguous class C Networks |
 				
 * **Ethernet**
 	* Familie van standaards die oplegt hoe de signalen moeten worden verstuurd
