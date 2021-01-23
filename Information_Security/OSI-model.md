@@ -2,7 +2,7 @@
 title: OSI-model
 description: 
 published: true
-date: 2021-01-23T13:29:39.552Z
+date: 2021-01-23T15:20:34.120Z
 tags: network
 editor: markdown
 dateCreated: 2021-01-21T15:09:52.659Z
@@ -19,7 +19,7 @@ Extra explanation in [book](https://drive.google.com/file/d/1f_TkF0QISOQmXScrwBy
 	Foto data encapsulatie[^1]
 
 Beveiliging is doorheen elke laag verweven:
-| OSI LAYER | Network Security Model | Explout Type  | Security Focus |
+| OSI LAYER | Network Security Model | Exploit Type  | Security Focus |
 | :-- | :-- | :-- | :-- |
 | 1) Physical Layer | 7) Physical Level | Physical Tampering/Break-in | Physical Security |
 | 2) Data Link Layer | 6) VLAN Level | Network Scanning Local/Internal | Access Security |
