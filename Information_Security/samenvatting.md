@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-23T13:30:00.865Z
+date: 2021-01-23T14:40:04.188Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -884,7 +884,7 @@ Andere types van netwerken
 ### [OSI-model](/en/Information_Security/OSI-model)
 Open systems interconnection
 * To standardize communications (data handling) between network components
-![OSI-model.png](^/information_security/assets/osi-model.png =512x)
+![OSI-model.gif](/information_security/assets/osi-model.gif =512x)
 ^http://electricala2z.com/wp-content/uploads/2017/10/osi-model.gif^
 
 Lagen
