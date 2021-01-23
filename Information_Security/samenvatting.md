@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-23T09:43:12.012Z
+date: 2021-01-23T10:05:36.236Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -1122,6 +1122,144 @@ Enkele protocollen
 		* **CSMA/CD** (Carrier Sense Multiple\-Access with Collision Detection) protocol
 			* Node luistert eerst of de LAN in gebruik is
 			* Bij gelijktijdig zenden door twee nodes, wachten elk willekeurige tijd met opnieuw zenden
+      
+## Hoofdstuk 14
+### Understanding network servers
+* Server = computersysteem dat services levert aan clients
+	* Server op uitschuifbare rails
+		* In een rack
+		* In een kast
+	* Soorten
+		* Algemeen gebruik\-server (KMO)
+		* Applianceserver (met gerichte hard\-en software)
+		* Toepassingssoftwareserver (interactie met databases)
+		* Mail server
+		* Firewall server (internet gateway)
+		* Proxy server (caching)
+		* Webserver (website)
+		* Database server (databases)
+		* Terminal server (mainframes)
+			A terminal server enables organizations to connect devices with a serial port to a local area network
+		* Gateway server (to other types of networks)
+		* DNS server (converteren naar ip\-adres)
+		* Router server (shared resources van alle routers binnen het netwerk)
+		* Bridge server (computergroepen verbinden)
+		* FTP (file transfer protocol)
+		* NAS (network attached storage)
+		* SAN (storage area network)
+		* RAS (remote access system: dial in op het LAN)
+		* Print server (lokaal en remote)
+		* DHCP (dynamic host configuration protocol)
+	* Beveiliging
+		* Shared resources beperken in rechte
+		* Firewall om servers te beschermen
+		* Account gegevens (password) hashen (versleutelen)
+		* Subnetting / meerdere routers
+		* Auditing
+
+## Hoofdstuk 15
+### Network connectivity devices
+Switch
+*	Verbindt apparaten binnen een LAN
+*	Opvolger van hub 
+	*	Hub stuurt alle gegevens naar iedereen door (broadcast)
+	*	Hub verdeelt maximale bandbreedte over alle aangesloten nodes
+*	Switch verdeelt de datapakketjes gericht tussen zender en ontvanger (peer to peer)
+*	Soorten
+	*	Verschillende soorten, verschil in routering
+	*	Layer 2 (data link) = basisswitch
+		*	MAC\-adressen als routering
+		*	Data packet = frame
+	* Layer 3 (network) = brouter (bridged router)
+		* IP\-adressen als routering
+		* Gebruikt hetzelfde protocol als een router
+	* Layer 4 (transport) = router
+		* Kan NAT (network address translation) toepassen om data te routeren
+			\= omzetten van private ip\-adressen naar gateway\-ip\-adres en omgekeerd
+	* Layer 7 (application)
+		* Kan http\-protocol toepassen om data te routeren
+			* Kijken naar URL, cookies, SSL session om pakketten sneller te routeren
+	* VLAN
+		* Virtual local area network
+		* Beperkt de zichtbaarheid van delen van een netwerk
+		* Communicatie langsheen geselecteerde poortenoTypes
+			* Unmanaged
+				* Out\-of\-the\-box: plug and play (PnP)
+				* Geen setup nodig
+			* Managed
+				* Kan geconfigureerd worden voor een specifiek netwerk
+				* Langs CLI (command line interface) of web based (SNMP\= Simple Network ManagementProtocol)
+			* PoE
+
+Router
+*	Verbindt twee netwerken (bv. LAN met provider)
+*	Routering met IP\-adressen
+*	OS op routers
+	*	Cisco System’s Internetwork Operating System (IOS)
+		*	Andere Linux/Unix gebaseerde OS
+	*	Soorten (bekabeld en draadloos)
+		*	Edge
+			*	Communiceert tussentwee netwerken (ISP en LAN)(internet dus)
+			*	Staat op de rand (edge) van het netwerk)
+		*	Core
+			*	Communiceert binnenin een netwerk (op de backbone) voor high\-performance
+			*	Verkeer tussen edge routers regelen
+		*	Virtual
+			*	Software routers
+			*	Voordeel: makkelijk schaalbaar
+
+Gateway
+* Toesteldat twee netwerken verbindt, die elk een ander protocol gebruikt
+	* Hardware\-en softwareprotocollen
+
+Bridge
+* Verbindt meerdere netwerksegmenten
+* Broadcasts gaan naar alle poorten(blijven dus niet in netwerksegment)
+* Voorloper van de switch
+
+Kwetsbaarheden
+* Fysiek beschermd (bv. server room, afgesloten kasten, ...)
+* Uitschakelen van niet\-gebruikte services en programma’s
+* MAC\-adressen filteren
+* Configuratie van het toestel
+
+Aanvallen
+* Unauthorized access
+* Packet sniffing
+* ARP spoofing attacks
+	* Vals ARP request sturen zodat IP naar fout MAC adres verwijst
+* MAC flooding
+	* MAC address table vullen op switch zodater geen nieuwe MAC adressen bijkunnen opswitch en alle berichten moet gaan broadcasten naar alle poorten
+* Router flooding
+	* Router overbelasten
+* Denial of Service (DoS)
+	* Een systeem overbelasten waardoor het niet meer goed kan functioneren
+	* DDoS (Distributed DoS)
+		* DoS met meerdere remote systemen tegelijk
+* Session replay
+	* Aanvaller bewaart een aantal IP pakketten, wijzigt deze en stuur ze dan weer uit om toegang te krijgen of andere ongewenste gevolgen
+* Rerouting attack
+	* Aanvallen die toegang heeft tot routingtables en zeaanpast
+* Masquerade attack
+	* Manipuleren van IP pakketten om vals IP adres te maken (valse identiteit) en daarmee toegang te krijgen tot het netwerk
+
+Netwerkdefensie
+* Data rate limiting
+* Delayed binding
+* Bogus IP address filtering
+* Access control list
+* Deep packet inspection
+	* Zoeken naar signalen van virussen, spam of andere bedreigingenen zal bepalen op het pakket moet worden doorgestuurd of niet. Soms kan het zijn dat een verdacht pakket naar een speciale locatie wordt verzonden voor verder onderzoek.
+* Packet filtering
+	* Pakketten filteren op basis van hun source/destination adressen, poorten of protocols
+
+Network hardening
+*	Monitoring
+*	Security policy
+*	Alle netwerkapparaten up\-to\-date
+*	Servers in het juiste netwerksegment, subnet of beveiligingszone (bv. achter een extra router)
+*	ACL’s
+*	Rollen nakijken
       
       
       
