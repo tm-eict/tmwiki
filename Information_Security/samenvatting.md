@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-22T21:43:21.718Z
+date: 2021-01-23T08:46:15.260Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -960,6 +960,47 @@ OSI layer security
 		* Laag 3-7
 		* Bijvoorbeeld: laag 4 met het blokkeren van poorten
 			laag 7 is de meest aangevallen laag (zie later)
+      
+### Netwerktopologieën (laag 1)
+* Bus
+	* Met centrale communicatielijn (ethernet) ofwel bus
+	* **Nodes** of stations met uniek adres
+	* Iedere node kan informatie op de bus zetten en juiste informatie eraf halen
+* Ring
+	* Communicatielijn is geslotenin een cirkel
+	* Repeater stuurt info door vanuit elke node
+	* Geen collisions
+	* Risico: één node plat betekent netwerk plat\-\> meerdere redundante paden leggen
+	* Ster
+		* Communicatie langs een centrale component (switch)
+		* Geeft elke node een tijdsvenster om informatie mee te verzenden
+			* Indien het bericht te lang is voor het tijdsvenster, zal het in stukken worden opgedeeld
+	* Mesh
+		* Elke node heeft een rechtstreekse verbinding met elke andere node
+		* Telefonie, Bluetooth, LoRaWAN, ...
+	* Hybryde
+	* Logische topologie
+		* Niet elke getkeende topologie komt met de interne circuits overeen met de visuele topologie
+			* In een router zitten alle pooeren als een bustopologie (Wat?)
+	
+### Labo
+Enkele protocollen
+* Authentication Headers (AH)
+	* Data integriteit
+	* Origin authentication
+	* Beschermt tegen replay attacks
+		* Een opgenomen bericht wordt opnieuw verzonden om toegang te kunnen krijgen
+	* Gebruikt ESP (Encapsulating Security Payloads)
+* Security Associations (SAs)
+	* Key exchange
+	* Authentication
+* Internet Key Exchange (IKE)
+	* Wordt gebruikt om een beveiligde verbinding op te zetten met IPsec
+		* IPsec werkt in laag 3
+		* Verschilt van SSL omdat SSL op de browser werkt (laag 4/6/7)
+		* Twee modes
+			* Transport mode: only IP payload is encapsulated
+			* Tunnel mode: the entire IP packet is encapsulated
       
 ```mermaid
 graph TD
