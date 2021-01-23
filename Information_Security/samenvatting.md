@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-23T08:46:15.260Z
+date: 2021-01-23T09:30:57.601Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -285,7 +285,7 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 * Meerdere factoren spelen een rol bij authenticatie
 	* **Kennis/Knowledge**: wat de persoon weet
 	* **Bezit/Possesion**: wat de persoon heeft
-	* **Erfelijkheid/nheritance**: wat de persoon is
+	* **Erfelijkheid/Inheritance**: wat de persoon is
 	* **Locatie/Location**: waar de persoon is
 * Bij two-factor authenticatie gebruik je een combinatie van twee van deze vormen
 * Een open en gesloten conditie is niet hetzelfde als een vergrendeld en ongegrendeld conditie
