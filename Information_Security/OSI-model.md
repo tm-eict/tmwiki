@@ -2,7 +2,7 @@
 title: OSI-model
 description: 
 published: true
-date: 2021-01-23T11:57:20.497Z
+date: 2021-01-23T12:00:14.886Z
 tags: network
 editor: markdown
 dateCreated: 2021-01-21T15:09:52.659Z
@@ -47,11 +47,11 @@ Example:
 
 ## Layer 5: Session layer
 This layer is responsible for establishing and terminating connections between devices.
-Sessions beheren tussen applicaties
-Starten en stoppen van datatransfers
-Data flow tussen applicaties
-Security
-Authenticatie en tunneling protocols zoals SSH, IPsec, Point-to-point tunneling
+- Sessions beheren tussen applicaties
+- Starten en stoppen van datatransfers
+- Data flow tussen applicaties
+- Security
+- Authenticatie en tunneling protocols zoals SSH, IPsec, Point-to-point tunneling
 
 Example:
 - Are you connecting to the correct address?
