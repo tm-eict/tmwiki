@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: 
 published: true
-date: 2021-01-22T23:33:06.214Z
+date: 2021-01-23T13:18:40.866Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -11,9 +11,12 @@ dateCreated: 2021-01-21T16:23:45.370Z
 # Voorbeeld examen
 Te kunnen examen vragen zijn vragen (/vragen over leerstof) die leerkracht benadrukt heeft tijdens de les. Extra vragen zijn vragen gemaakt door leerlingen.
 
-De vragen kan je open doen voor het antwoord door er op te klikken.
-
 **Theorie examen zijn open vragen, geen meerkeuze.**
+Je moet alles kennen t.e.m. hoofdstuk 15.
+[samenvatting_info_sec_pieter_vanderdeen.pdf](/information_security/samenvatting_info_sec_pieter_vanderdeen.pdf)
+
+**De vragen kan je open doen voor het antwoord door er op te klikken.**
+
 Voor NIST en vele andere vragen is het vooral dat je uitleg en redenering goed is. Soms is dat zelfs belangrijker dan het antwoord zelf, dus voluit en doordacht opschrijven!
 ## Te kunnen examen vragen
 <details>
@@ -59,6 +62,14 @@ Voor NIST en vele andere vragen is het vooral dat je uitleg en redenering goed i
 </details>
 
 <details>
+  <summary markdown="span">Wat is en doet een firewall?</summary>
+  Een firewall bekijkt inkomend (en uitgaand) verkeer van data en beslist aan de hand van regels om deze door te laten of niet.
+Deze regels kunnen poorten, protocols, IP's etc zijn.
+  
+  Je hebt hardware en software firewalls.
+</details>
+
+<details>
   <summary markdown="span">Geef de 3 IP classes</summary>
   Je moet de nummers niet vanbuiten kennen (zoveel hosts etc). Subnetting is voor OS-fundamentals.
   
@@ -66,6 +77,15 @@ Voor NIST en vele andere vragen is het vooral dat je uitleg en redenering goed i
   Class B: Medium netwerken
   Class C: Privé netwerken
   
+</details>
+
+<details>
+  <summary markdown="span">Geef wat voorbeeldtjes voor wat er in een IP en TCP header kan zitten.</summary>
+
+  - IP: **TTL, Soource/Dest address, welk protocol, versie,** options, padding, checksum ...
+  - TCP: **Source/Dest port, ACKnowledgement number, sequence number**, checksum, urgent pointer ...
+  
+  Slide 59 hfst11-17
 </details>
 
 <details>
@@ -85,10 +105,50 @@ Voor NIST en vele andere vragen is het vooral dat je uitleg en redenering goed i
   -	laag 7 is de meest aangevallen laag (zie later)
 </details>
 
+<details>
+  <summary markdown="span">Wat is een MAC address table?</summary>
+Dit is een tabel dat door switches wordt gebruikt om te weten welke richting ze verkeer/data moeten opsturen.
+  
+  Voorbeeld van MAC address table (niet te kennen):
+  ```
+2960-1#show mac address-table
+          Mac Address Table
+-------------------------------------------
+Vlan    Mac Address       Type        Ports
+----    -----------       --------    -----
+   1    00ld.70ab.5d60    DYNAMIC     Fa0/2
+   1    00le.f724.al60    DYNAMIC     Fa0/3
+Total Mac Addresses for this criterion: 2
+  ```
+  [Bron: MAC Address Tables](https://www.pearsonitcertification.com/articles/article.aspx?p=2339639&seqNum=3)
+  
+</details>
+
+<details>
+  <summary markdown="span">Geef 2 verschillende switches.</summary>
+
+  - Unmanaged
+  	- PnP, geen setup
+  - Managed
+  	- Configuratie voor specifieke netwerken
+  	- CLI of Web based (SNMP)
+  
+  - PoE
+</details>
+
+<details>
+  <summary markdown="span">Wat is Cisco IOS?</summary>
+
+  Een operating system voor routers (er zijn nog andere UNIX OS's voor routers).
+  Cisco Systems Internetwork Operating System. (Check afkortingen)
+</details>
+
 ## Vragen zonder antwoord
 - Framework V1.1 NIST document: verlijking met andere frameworks in appendix A (framework core).
 - Je bent in staat om met NIST vragen op te lossen. Risico analyse.
-- pagina van Enisa met wat vragen.
+	- Je krijg NIST op het examen: geeft 2 categorieën en subcategorieën + leg uit. **Hierbij krijg je Appendix C van NIST uit het boek!**
+- Pagina van Enisa (Framework Europa) met wat vragen.
+- Je kan [poorten](/en/Information_Security/ports) herkennen, benoemen, het gebruik uitleggen (I/O, audio etc) en risico's herkennen
 
 ## Extra vragen
 <details>
