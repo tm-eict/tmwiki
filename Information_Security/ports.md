@@ -2,7 +2,7 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-23T14:14:38.916Z
+date: 2021-01-23T15:13:08.987Z
 tags: ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -95,8 +95,16 @@ Altijd gevaarlijk aangezien ze klein en makkelijk transporteerbaar zijn voor mal
 |![port_usb3.0-a.png](/information_security/assets/ports/port_usb3.0-a.png)![port_usb3.0-a2.png](/information_security/assets/ports/port_usb3.0-a2.png =100x)|USB 3.0 A-Type|
 |![port_usb3.0-b.png](/information_security/assets/ports/port_usb3.0-b.png)![port_usb3.0-b2.png](/information_security/assets/ports/port_usb3.0-b2.png =100x)|USB 3.0 B-Type|
 |![port_usb3.0-micro-b.png](/information_security/assets/ports/port_usb3.0-micro-b.png)|USB 3.0 Micro B|
+
 Versies en snelheidsnamen te kennen. **Snelheden** zelf **niet**.
+| Version | Speed | ~~Bits/sec~~ | ~~HD movie 25GB~~ |
+| :-- | :-- | :-- | :-- |
+| USB 1.1 | Low speed (LS) <br> High speed (HS) | ~~1.5 Mbps <br> 12 Mbps~~ | ~~\~9.25 hours~~ |
+| USB 2.0 | High speed (HS) | ~~480 Mbps <br> 14 Mbps~~ | ~~\~14 mins~~ |
+| USB 3.0 | SuperSpeed (SS) | ~~5 Gbps~~ | ~~\~70 sec~~ |
+| USB 3.1 | SuperSpeedPlus (SSP) | ~~10 Gbps~~ | ~~\~35 sec~~ |
 ![port_usbversions.png](/information_security/assets/ports/port_usbversions.png)
+
 
 [^1]: Veel poorten zijn oud en niet meer in gebruik. Soms zelfs maar 1 keer gebruikt. Het is dus moeilijk om voor alle poorten te weten of ze gevaarlijk zijn. Joris Geens heeft nog geen antwoord gegeven op de vragen hierover.
 Mocht je zelf weten of ze gevaarlijk zijn mag je het toevoegen.
