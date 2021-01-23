@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-23T09:30:57.601Z
+date: 2021-01-23T09:43:12.012Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -1001,6 +1001,129 @@ Enkele protocollen
 		* Twee modes
 			* Transport mode: only IP payload is encapsulated
 			* Tunnel mode: the entire IP packet is encapsulated
+
+### Hoofdstuk 13
+#### Netwerkprotocol
+*	Een netwerkprotocol = een reeks aan regels voor communicatie tussen netwerkcomponenten
+	*	Om met elkaar te communiceren, moeten ze hetzelfde protocol gebruiken
+	*	OSI model
+		*	Lagen 1 –2 (fysiek en data link: bekabelde, draadloze en optische netwerken)
+			*	Verschillende protocollenvoor verschillende media
+		*	Lagen 3 –4 (network en transport: routing schema’s, e\-mail, webapplicaties en beveiligde verbinding)
+*	**Ethernet**
+	*	Netwerkprotocol (IEEE 802.3) (Institute of Electrical and Electronic Engineers
+		*	Laag 1 (fysiek) en laag 2 (data link)
+		*	<> draadloos!
+		*	CAT5\-kabel:    100 Mbit/s (0,1 Gbit/s)
+			CAT5e\-kabel: 1000 Mbit/s (1 Gbit/s)
+			CAT6\-kabel: 10000 Mbit/s (10 Gbit/s)
+	* Verschillende protocollen voor verschillende media (draadloos, draad, ...)
+* NIC (Network Interface Card)
+	* Hardware\-kant van het netwerkverhaal
+	* Insteekkaart die data omzet in elektrisch signaal (modulatie)
+* MAC-adres (Media Access Control\-adres)
+	* Ook physical address genoemd
+	* 48\-bit met zes paar hex (IPv4)
+	* 64\-bit met acht paarhex (IPv6, Firewire, ZigBee, ...)
+	* Ingebakken in de NIC (the burned in address in chip, flash, ...)
+	* Uniek identificatienummer (zou moeten zijn)
+	* Oorspronkelijk Ethernet, nu ook WiFi, Bluetooth, ...
+	* Voorbeeld:
+		* MM:MM:MM:SS:SS:SS
+		* 24 bits links = manufacturer (uitgereikt door IEEE)
+			* 00:13:10, 00:25:9C en 68:7F:74 voor Cisco LinkSys
+		* 24 bits rechts = specific device
+			* 00:1D:7E:53:2B:09
+	* **Spoofing**
+		* Wijzig je MAC\-adres vanuit het OS
+		* Om je eigen router op de werking ervan te controleren zit het wijzigenvan het MAC in bijvoorbeeld Windows in
+* TCP/IP
+	* Transmission Control Protocol/Internet Protocol
+	* Suite met protocolsoGeadopteerd in de IT\-wereld door integratie in OS’en
+	* Toepasbaar op diverse technologieën (Ethernet, Token Ring, ...)
+	* Routable over diverse soorten netwerken (Windows, Apple, Linux, ...)
+	* Ontwikkeld door Amerikaanse overheid (geen proprietary)
+	* TCP = laag 4 (transport), IP = laag 3 (network)
+	* Package fragmentation en reassembly
+		* Twee header fields (IP header en TCP header)
+		* Data field
+		![net-basics.png](/net-basics.png)
+		^Cybersecurity Essentials, ISBN 978-1-11936239-5 pagina 300^
+	* Connecties opzetten (three\-way handshake)
+		1. SYN (Synchronize)
+		2. SYN (Synchronize) en ACK (Acknowledge)
+		3. ACK (Acknowledge)
+		4. Uitwisselen data (niet deel van de handshake)
+		![threeway-handshake.png](/threeway-handshake.png)
+		^Cybersecurity Essentials, ISBN 978-1-11936239-5 pagina 300^
+	* Kwetsbaarheden
+		* Attack of makeup of packets
+			* Header manipulation
+				* IP spoofing
+					Manipuleren van source endestination IP in header
+				* SYN flood (denial of service) exploits three\-way handshake
+					Hacker stuurt vele SYN requests naar een server en spoofs IP\-adres of houdt ACK packet bij, waardoor er op de server allemaal connecties blijven openstaan en geheugen server volloopt
+					![syn-flood.png](/syn-flood.png)
+		^https://www.cloudflare.com/img/learning/ddos/syn-flood-ddos-attack/syn-flood-attack-ddos-attack-diagram-2.png^
+		
+*	**MAC** en TCP/IP
+	*	MAC = laag 2, TCP/IP = laag 3
+	*	**DHCP** (dynamic host configuration protocol)past **ARP** (Address Resolution Protocol) toe om een MAC\-adres aan een IP\-adres te koppelen
+*	**IP\-adressen
+	*	IPv4\-adressen**
+		*	32\-bits (232\= 4.294.967.296 adressen)
+		*	**Dotted decimal notation**
+			*	XXX.YYY.ZZZ.AAA (vier 8\-bits velden of octetten)
+		*	Voorbeeld:
+			* 10000111.10001011.01001001.0011011 
+				komt overeen met 135.139.073.054
+				MSO LSO(Most en Least Significant Octet)
+			* IPv4 classes
+				* Class A: laatste drie octetten duiden host aan
+					* Range van 001.x.x.x tot 126.x.x.x (hele grote netwerken)
+					* 17 miljoen nodes (hosts) in elk van de 126 netwerken
+				* Class B: laatste twee octetten duiden host aan
+					* Range van 128.x.x.x tot 191.254.0.0 (medium netwerken)
+					* 65.534 nodes (hosts) in elk van de 16 384 netwerken
+				* Class C: laatste octet duidt de host aan
+					* Range: van 192.x.x.x tot 223.254.254.0
+					* 254 nodes (hosts) in elk van de 2 miljoen netwerken
+				* **Subnetting**
+					* Beperk het aantal bruikbare IP\-adressen voor hosts
+						* Subnet mask verbergt of masks
+							* 255.255.255.0 laat 10.0.1.1, 10.0.1.100, 10.0.1.255 toe, niet 10.0.2.5
+							* Voordelen
+								* Netwerkafscheiden
+								* Efficiënt gebruik van IP\-adressen
+								* Eén IP\-adres over meerdere fysieke locaties verdelen
+			* **IPv6\-adressen**
+				* 128\-bits (2128 of 3,4 x 1038adressen)
+				* 16 octetten (32 hexadecimale getallen)
+					* 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+				* Niet alle IPv6 kan je omzetten naar IPv4!
+					* Er zijn meer IPv6 adressen dan IPv4
+				* Bestaat uit twee delen
+					1. Host = interface identifier
+					2. Netwerk = network address (bepaald door ~~subnet mask~~ prefix)
+				* In browser tussen vierkante haken
+					* http://\[2001:0db8:85a3:0000:0000:8a2e:0370:7334\]
+				* Aaneenliggende nullen weglaten met '::'
+	*	
+	| RFC1918 name | IP address range | Number of addresses | Largest CIDR block (subnet mask) | Host ID size | Mask bits | Classfull description |
+	| :-- | :-- | :-- | :-- | :-- | :-- | :-- |
+	| 24-bit block | 10.0.0.0 - 10.255.255.255 | 16 777 216 | 10.0.0.0/8 (255.0.0.0) | 24 bits | 8 bits | single class A network |
+	| 20-bit block | 172.16.0.0 - 172.31.255.255 | 1 048 576 | 172.16.0.0/12 (255.240.0.0) | 20 bits | 12 bits | 16 contiguous class B networks |
+	| 16-bit block | 192.168.0.0 - 192.168.255.255 | 65 536 | 192.168.0.0/16 (255.255.0.0) | 16 bits | 16 bits | 256 contiguous class C Networks |
+				
+* **Ethernet**
+	* Familie van standaards die oplegt hoe de signalen moeten worden verstuurd
+	* Half\-duplex: data kan in twee richtingen maar niet gelijktijdig
+	* Hoe weten of datalijn in gebruik is?
+		* **CSMA/CD** (Carrier Sense Multiple\-Access with Collision Detection) protocol
+			* Node luistert eerst of de LAN in gebruik is
+			* Bij gelijktijdig zenden door twee nodes, wachten elk willekeurige tijd met opnieuw zenden
+      
+      
       
 ```mermaid
 graph TD
