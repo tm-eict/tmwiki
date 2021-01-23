@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: 
 published: true
-date: 2021-01-23T13:18:40.866Z
+date: 2021-01-23T13:20:28.612Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -19,6 +19,10 @@ Je moet alles kennen t.e.m. hoofdstuk 15.
 
 Voor NIST en vele andere vragen is het vooral dat je uitleg en redenering goed is. Soms is dat zelfs belangrijker dan het antwoord zelf, dus voluit en doordacht opschrijven!
 ## Te kunnen examen vragen
+<details>
+  <summary markdown="span">Klik op mij!</summary>
+  Zo krijg je het antwoord :)
+</details>
 <details>
   <summary markdown="span">Waarvoor staat de CIA triad?</summary>
   Confidentiality<br>
@@ -149,6 +153,7 @@ Total Mac Addresses for this criterion: 2
 	- Je krijg NIST op het examen: geeft 2 categorieën en subcategorieën + leg uit. **Hierbij krijg je Appendix C van NIST uit het boek!**
 - Pagina van Enisa (Framework Europa) met wat vragen.
 - Je kan [poorten](/en/Information_Security/ports) herkennen, benoemen, het gebruik uitleggen (I/O, audio etc) en risico's herkennen
+- Je kunt alle [afkortingen en begrippen](/en/Information_Security/woorden) toelichten.
 
 ## Extra vragen
 <details>
@@ -260,10 +265,3 @@ ziet een hele kamer maar met vervormingen
   <summary markdown="span">Leg uit wat een grey hat hacker doet.</summary>
 	Werkt vanuit overtuiging (kan dus ethisch zijn), overschrijdt wettelijke grenzen.
 </details>
-
-## Afkortingetjes
-
-|Afkorting|Voluit|
-|:--|:--|
-|POSIX|Portable Operating System Interface|
-
