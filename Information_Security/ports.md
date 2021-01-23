@@ -2,11 +2,14 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-23T15:22:30.010Z
+date: 2021-01-23T20:50:58.812Z
 tags: ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
 ---
+
+> Joris heeft nog niet geantwoord op de mail met vragen. Er zijn mogelijk fouten over de gevaren met poorten.
+{.is-warning}
 
 ## Te kunnen/kennen
 - Alle poorten (op deze pagina) kunnen herkennen en benoemen.
