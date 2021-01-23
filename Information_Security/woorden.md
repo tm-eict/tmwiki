@@ -2,21 +2,21 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-23T11:46:43.984Z
+date: 2021-01-23T12:03:54.636Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
 ---
 
 | Begrippen | Voluit | Betekenis |
-| -- | -- | -- |
+|:-- |:-- |:-- |
 | NIST | National Institute of Standards and Technology| |
 | RAID | Redundant Array of Independent Disks (inexpensive) | |
 | CIA traid | Confidentiality, Integrity, Availability | |
-| tailgating | | Iemand dat door de deur glipt na iemand er door is gegaan |
-| ingress | | Right to enter |
-| egress | | Right to leave |
-| regress | | Right to reenter |
+| tailgating |- | Iemand dat door de deur glipt na iemand er door is gegaan |
+| ingress |- | Right to enter |
+| egress |- | Right to leave |
+| regress |- | Right to reenter |
 | CPTED | Crime Prevention Through Environmental Design | |
 | RFID | Radio-frequency identification | |
 | PII | Personal Identifiable Information | |
@@ -35,9 +35,9 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | BIOS | Basic Input/Output System | |
 | UEFI | Unified Extensible Firmware Interface | |
 | CMOS |complementary metal-oxide-semiconductor | |
-| Hardening | | Een systeem beveiligen |
+| Hardening |- | Een systeem beveiligen |
 | IC | Integrated circuit | |
-| Chipset | | |
+| Chipset |- | |
 | PCIe | Peripheral Component Interconnect Express | |
 | CPU | Central Processing Unit | |
 | USB | Universal Serial Bus | |
@@ -85,7 +85,7 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | NIDS | Network-based IDS | |
 | HIDS | Host-based IDS | |
 | IPS/IDPS | intrusion (Detection) and Prevention System | |
-| Grayware | | Bloatware?|
+| Grayware |- | Bloatware?|
 | DoS | Denial Of Service | |
 | IP | Intellectual Property/Internet Protocol | |
 | LAN | Local Area Network | |
@@ -105,7 +105,7 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | NIC | network interface card | |
 | IP | Internet Protocol | |
 | TCP | Transmission Control Protoco | |
-| Spoofing | |
+| Spoofing |- ||
 | SYN | Synchronise | |
 | ACK | Acknowledge | |
 | DHCP | dynamic host configuration protocol | |
