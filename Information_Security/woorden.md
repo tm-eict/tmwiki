@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-23T11:20:08.993Z
+date: 2021-01-23T11:25:18.502Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -90,7 +90,7 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | CAN         |                                                           |
 | MAN         |                                                           |
 | WLAN        |                                                           |
-| OSI         |                                                           |
+| OSI         | [Open Systems Interconnection-model](/en/Information_Security/OSI-model)|
 | LLC         | Logic Link  Control                                       |
 | VLANN       |                                                           |
 | LoRaWAN     |                                                           |
