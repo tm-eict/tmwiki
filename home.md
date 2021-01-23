@@ -1,8 +1,8 @@
 ---
 title: Home
-description: 
+description: Waar je zelf de spellingsfouten mag verbeteren!
 published: true
-date: 2021-01-23T17:19:35.333Z
+date: 2021-01-23T17:50:24.557Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T21:12:05.187Z
@@ -10,24 +10,29 @@ dateCreated: 2021-01-20T21:12:05.187Z
 
 # Thomas More ICT Wiki
 
-## Courses
-Je zelf de spellingsfouten mag verbeteren!
-Je mag ook altijd extra info toevoegen.
+## [Information Security](/Information_Security)
+Momenteel doen we een test met Information Security.
+Probeer maar uit om dingen toe te voegen en te verbeteren!
 
-### Information-Security
-Momenteel doen we een test met [Information Security](/Information_Security)
-
-### C-Fundamentals
-[github](https://github.com/tm-eict/C-Fundamentals)
+## C-Fundamentals
+Alle oplossingen van oefeningen (en voorbeeld labo examen) kan je vinden op [github](https://github.com/tm-eict/C-Fundamentals).
 
 ## Contributen
 
-In order to be able to edit/create pages and comment you have to be signed in.
-You can sign in by clicking the profile top right using your Discord account.
-Place assets in /course/assets/
+Meeste pagina's zijn in [Markdown](https://docs.requarks.io/en/editors/markdown) gemaakt. Onderaan de editor is er een cheatsheet voor hoe dit werkt.
+Om pagina's aan te passen en toe te voegen moet je ingelogd zijn, zeker doen!
 
-## Shared Code Exercises
-Courses like C have code which is unsuitable to host on this wiki. For this reason a GitHub organization has been created to host the code. [Thomas More EICT GitHub](https://github.com/tm-eict). Feel free to open a pull requests! If you need direct write access to these repositories send me a message on Discord Xunafay#0001.
+Figuren en bestanden in `/[course]/assets/` plaatsen zodat iedereen ze makkelijk terug vindt.
+
+## Github
+Back-ups van pagina's en assets worden op Github gehouden.
+Ook vakken zoals C worden op Github geplaats omdat het logischer is dan code op een wiki te plaatsen.
+
+Daarom is er een Github organisatie gemaakt voor
+[Thomas More EICT GitHub](https://github.com/tm-eict).
+Feel free to open a pull requests!
+
+If you need direct write access to these repositories send a message to  Xunafay#0001 **(Discord)**.
 
 ## Settings
 You can change your username and theme at https://tmwiki.be/p/profile
