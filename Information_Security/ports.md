@@ -2,7 +2,7 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-23T13:34:00.148Z
+date: 2021-01-23T14:14:38.916Z
 tags: ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -84,9 +84,7 @@ Deze hebben over het algemeen geen gevaar. *Tenzij je afkijken meetelt*.
 ## USB
 Altijd gevaarlijk aangezien ze klein en makkelijk transporteerbaar zijn voor malicious intent.
 |USB picture|name|
-<<<<<<< HEAD
 |:--|:--|
->>>>>>> 1ef9a677ddce78d0ffff3f90f54bf8507e5784d0
 |![port_usb-a.png](/information_security/assets/ports/port_usb-a.png)|USB A-Type|
 |![port_usb-b.png](/information_security/assets/ports/port_usb-b.png)|USB B-Type|
 |![port_usb-c.png](/information_security/assets/ports/port_usb-c.png)![port_usb-c2.png](/information_security/assets/ports/port_usb-c2.png =100x)|USB Type-C|
