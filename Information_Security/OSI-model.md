@@ -15,7 +15,7 @@ Extra explanation in [book](https://drive.google.com/file/d/1f_TkF0QISOQmXScrwBy
 
 ## Data transmissie pakketten
 * Encapsulatie: header toegevoegd in elke laag
-	![osi-building-transmission-packets.png](/osi-building-transmission-packets.png =500x)
+	![osi-building-transmission-packets.png](/information_security/assets/osi-building-transmission-packets.png =500x)
 	Foto data encapsulatie[^1]
 
 Beveiliging is doorheen elke laag verweven:

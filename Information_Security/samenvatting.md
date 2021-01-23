@@ -930,7 +930,7 @@ Lagen
 
 Data transmissie pakketten
 * Encapsulatie: header toegevoegd in elke laag
-	![osi-building-transmission-packets.png](/osi-building-transmission-packets.png =500x)
+	![osi-building-transmission-packets.png](/information_security/assets/osi-building-transmission-packets.png =500x)
 	^Cybersecurity Essentials, ISBN 978-1-11936239-5 pagina 278^
 	
 OSI layer security
