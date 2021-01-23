@@ -2,117 +2,125 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-23T11:25:18.502Z
+date: 2021-01-23T11:46:43.984Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
 ---
 
-| Begrippen   | Betekenis/voluit                                          |
-|-------------|-----------------------------------------------------------|
-| NIST        |                                                           |
-| RAID        | Redundant Array of Independent Disks (inexpensive)        |
-| CIA traid   | Confidentiality, Integrity, Availability                  |
-| tailgating  | Iemand dat door de deur glipt na iemand er door is gegaan |
-| ingress     | Right to enter                                            |
-| egress      | Right to leave                                            |
-| regress     | Right to reenter                                          |
-| CPTED       | Crime Prevention Through Environmental Design             |
-| RFID        |                                                           |
-| PII         | Personal Identifiable Information                         |
-| PIR         |                                                           |
-| CCD camera  |                                                           |
-| PoE         | Power On Ethernet                                         |
-| lux         | lux waarde voor hoeveelheid licht                         |
-| DVR VCR NVR |                                                           |
-| VPN         | Virtual Private  Network                                  |
-| DAS         |                                                           |
-| NAS         |                                                           |
-| SAN         |                                                           |
-| CSO         |                                                           |
-| BIOD        |                                                           |
-| UEFI        | Unified Extensible Firmware Interface                     |
-| CMOS        |                                                           |
-| Hardening   | Een systeem beveiligen                                    |
-| IC          | Integrated circuit                                        |
-| Chipset     |                                                           |
-| PCIe        |                                                           |
-| CPU         | Central Processing Unit                                   |
-| USB         | Universal Serial Bus                                      |
-| PATA        | Parallel AT Attachment                                    |
-| SATA        | Serial ATA Attachment                                     |
-| eSATA       | External SATA                                             |
-| IDE         | Integrated Drive Electronics                              |
-| FMS         |                                                           |
-| NOS         |                                                           |
-| NX/XD bit   | No-Execute/Execute-Disable bit                            |
-| DEP mode    |                                                           |
-| ACL         | Access Control List                                       |
-| MAC         | Mandatory Access Control                                  |
-| RBAC        |                                                           |
-| OS          | Operating System                                          |
-| POSIX       | Portable Operating System Interface                       |
-| ADS         |                                                           |
-| FAT         |                                                           |
-| NTFS        |                                                           |
-| CD          |                                                           |
-| CDFS        |                                                           |
-| DVD         |                                                           |
-| UDF         |                                                           |
-| EFS         |                                                           |
-| BSD         |                                                           |
-| UFS         |                                                           |
-| NFS         |                                                           |
-| NAT         |                                                           |
-| PATA        |                                                           |
-| HSF         |                                                           |
-| SMBFS       |                                                           |
-| CIFS        |                                                           |
-| RISC        |                                                           |
-| CISC        |                                                           |
-| exFAT       |                                                           |
-| F2FS        |                                                           |
-| TPM         |                                                           |
-| HTTPS       |                                                           |
-| SSID        |                                                           |
-| MAC         | media access contro                                       |
-| IRC         |                                                           |
-| POP         |                                                           |
-| NIDS        |                                                           |
-| HIDS        |                                                           |
-| IDS         |                                                           |
-| IPS/IDPS    | intrusion (Detection) and Prevention System               |
-| Grayware    |                                                           |
-| DoS         | Denial Of Service                                         |
-| IP          | Intellectual Property/Internet Protocol                   |
-| WAN         |                                                           |
-| LAN         |                                                           |
-| CAN         |                                                           |
-| MAN         |                                                           |
-| WLAN        |                                                           |
-| OSI         | [Open Systems Interconnection-model](/en/Information_Security/OSI-model)|
-| LLC         | Logic Link  Control                                       |
-| VLANN       |                                                           |
-| LoRaWAN     |                                                           |
-| AH          |                                                           |
-| Sas         |                                                           |
-| ESP IIKE    |                                                           |
-| SSL         |                                                           |
-| NIC         |                                                           |
-| Spoofing    |                                                           |
-| TCP         |                                                           |
-| SYN         | Synchronise                                               |
-| ACK         | Acknowledge                                               |
-| DHCP        |                                                           |
-| ARP         |                                                           |
-| MSO/LSO     |                                                           |
-| CSMA/CD     |                                                           |
-| KMO         |                                                           |
-| RAS         |                                                           |
-| FTP         | File Transfer Protocol                                    |
-| brouter     |                                                           |
-| CLI         | Command Line Interface                                    |
-| SNMP        |                                                           |
-| PnP         | Plug and Play                                             |
-| IOS vs iOS  |                                                           |
-| DDoS        | Distributed Denial Of Service                             |
+| Begrippen | Voluit | Betekenis |
+| -- | -- | -- |
+| NIST | National Institute of Standards and Technology| |
+| RAID | Redundant Array of Independent Disks (inexpensive) | |
+| CIA traid | Confidentiality, Integrity, Availability | |
+| tailgating | | Iemand dat door de deur glipt na iemand er door is gegaan |
+| ingress | | Right to enter |
+| egress | | Right to leave |
+| regress | | Right to reenter |
+| CPTED | Crime Prevention Through Environmental Design | |
+| RFID | Radio-frequency identification | |
+| PII | Personal Identifiable Information | |
+| PIR | Passive inrared | |
+| CCD camera | Charged Coupled Device | |
+| PoE | Power On Ethernet | |
+| lux | lux waarde voor hoeveelheid licht | |
+| DVR | Digital Video Recorder | |
+| VCR | videocassette recorder | |
+| NVR | Network Video Recorder | |
+| VPN | Virtual Private Network | |
+| DAS |Direct-attached storage | |
+| NAS | Network attached storage | |
+| SAN | Storage area network | |
+| CSO | Chief Security Officer | |
+| BIOS | Basic Input/Output System | |
+| UEFI | Unified Extensible Firmware Interface | |
+| CMOS |complementary metal-oxide-semiconductor | |
+| Hardening | | Een systeem beveiligen |
+| IC | Integrated circuit | |
+| Chipset | | |
+| PCIe | Peripheral Component Interconnect Express | |
+| CPU | Central Processing Unit | |
+| USB | Universal Serial Bus | |
+| PATA | Parallel AT Attachment | |
+| SATA | Serial ATA Attachment | |
+| eSATA | External SATA | |
+| IDE | Integrated Drive Electronics | |
+| FMS | File Management System | |
+| NOS | Network Operating System | |
+| NX/XD bit | No-Execute/Execute-Disable bit | |
+| DEP mode | Data Execution Prevention | |
+| ACL | Access Control List | |
+| MAC | Mandatory Access Control | |
+| RBAC | Role-Based Access Control|
+| OS | Operating System | |
+| POSIX | Portable Operating System Interface | |
+| ADS |Alternative Date Streams | |
+| FAT | File Allocation Table | |
+| exFAT | extended File Allocation Table | |
+| F2FS | Flash-Friendly File System(version 2) | |
+| NTFS | New Technology File System | |
+| CD | Compact Disk | |
+| CDFS | Compact Disk File System | |
+| DVD | Digital Versatile Disc | |
+| UDF | Universal Disk Format | |
+| EFS | encrypting file system | |
+| BSD | Berkeley Software Distribution | |
+| UFS | Unix File System | |
+| NFS | Network File System | |
+| NAT | network address translation | |
+| PAT | port address translation | |
+| HSF | Hierarchical File System | |
+| SMBFS | Server Message Block File System | |
+| CIFS | Common Internet File System | |
+| RISC | Reduced Instruction Set Computing | |
+| CISC | Complex Instruction Set Computing | |
+| ARM | Advanced RISC Machine | |
+| TPM | trusted platform module | |
+| HTTPS | Hypertext Transfer Protocol Secure | |
+| SSID | Service set ID | |
+| MAC | media access contro | |
+| IRC | Internet Relay Chat | |
+| POP | Post Office Protocol | |
+| IDS | intrusion detection systems | |
+| NIDS | Network-based IDS | |
+| HIDS | Host-based IDS | |
+| IPS/IDPS | intrusion (Detection) and Prevention System | |
+| Grayware | | Bloatware?|
+| DoS | Denial Of Service | |
+| IP | Intellectual Property/Internet Protocol | |
+| LAN | Local Area Network | |
+| WAN | widearea network | |
+| CAN | campus/corporate area network | |
+| MAN | imetropolitan network | |
+| WLAN | wireless local area network | |
+| VLAN | Virtual local area network | |
+| LoRaWAN | Long Range WAN | |
+| OSI | Open systems interconnection | [Open Systems Interconnection-model](/en/Information\_Security/OSI-model) |
+| LLC | Logic Link Control | |
+| AH | Authentication Headers | |
+| SAs | Security Associations | |
+| ESP | Encapsulating Security Payloads | |
+| IKE | Internet Key Exchange | |
+| SSL | Secure Sockets Layer | |
+| NIC | network interface card | |
+| IP | Internet Protocol | |
+| TCP | Transmission Control Protoco | |
+| Spoofing | |
+| SYN | Synchronise | |
+| ACK | Acknowledge | |
+| DHCP | dynamic host configuration protocol | |
+| ARP | Address Resolution Protocol | |
+| LSO | Least significant bit | |
+| MSO | Most significant bit | |
+| CSMA/CD | carrier sense multiple-access with collision detection | |
+| KMO | | Algemeen gebruik-server |
+| RAS | remote access system | |
+| FTP | File Transfer Protocol | |
+| brouter | bridged router | |
+| CLI | Command Line Interface | |
+| SNMP | Simple Network Management Protocol | |
+| PnP | Plug and Play | |
+| IOS | Cisco Systems Internetwork Operating System | |
+| iOS | Apple's mobile OS | |
+| DoS | Denial of Service | |
+| DDoS | Distributed DoS | |
