@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-23T12:03:54.636Z
+date: 2021-01-23T16:07:26.558Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -85,7 +85,7 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | NIDS | Network-based IDS | |
 | HIDS | Host-based IDS | |
 | IPS/IDPS | intrusion (Detection) and Prevention System | |
-| Grayware |- | Bloatware?|
+| Grayware | | niet gewenst, maar moet niet kwaadaardig zijn |
 | DoS | Denial Of Service | |
 | IP | Intellectual Property/Internet Protocol | |
 | LAN | Local Area Network | |
