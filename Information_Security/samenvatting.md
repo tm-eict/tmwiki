@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-23T10:05:36.236Z
+date: 2021-01-23T10:24:12.595Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -796,7 +796,6 @@ Nadat het OS is opgestart moeten stappen worden ondernomen om niet\-geauthentise
 		| HTTPS | 443 |
 		| PPTP | 1723 |
 		| IRC | 6667 |
-		
 		* News: oude service van het verleden
 		* IRC: Internet Relay Chat
 		* POP: Post Office Protocol
@@ -1002,8 +1001,8 @@ Enkele protocollen
 			* Transport mode: only IP payload is encapsulated
 			* Tunnel mode: the entire IP packet is encapsulated
 
-### Hoofdstuk 13
-#### Netwerkprotocol
+## Hoofdstuk 13
+### Netwerkprotocol
 *	Een netwerkprotocol = een reeks aan regels voor communicatie tussen netwerkcomponenten
 	*	Om met elkaar te communiceren, moeten ze hetzelfde protocol gebruiken
 	*	OSI model
@@ -1261,28 +1260,92 @@ Network hardening
 *	ACL’s
 *	Rollen nakijken
       
-      
-      
-```mermaid
-graph TD
-    A[Start] --> C[Do markdown];
-    C --> B{Had enough of markdown?};
-    B -- Yes --> D[Cry];
-    D --> C;
-    B -- No --> E[Great];
-    E --> C;
-```
-  
-<style type="text/css">
- 	/* Indent Formatting */
-  /* Format: 1-a-i-A-1-I */
-   ol { list-style-type: decimal;}
-   ol ol {list-style-type: lower-alpha;}
-   ol ol ol { list-style-type: lower-roman;}
-   ol ol ol ol { list-style-type: upper-alpha;}
-   ol ol ol ol ol { list-style-type: decimal;}
-   ol ol ol ol ol ol { list-style-type: upper-roman;}
-   /* https://www.w3schools.com/cssref/pr_list-style-type.asp */
-   /* https://stackoverflow.com/questions/11445453/css-set-li-indent */
-   /* https://stackoverflow.com/questions/13366820/how-do-you-make-lettered-lists-using-markdown */
-</style>
+## NIST cybersecurity framework
+> National Instituteof Standards and Technology (NIST)
+### The framework
+Het framework bestaat uit drie delen
+1. the Framework Core
+	* A set of cybersecurity activities and references that are common across critical infrastructure sectors and are organized around particular outcomes. The Framework Core comprises four types of elements: 
+		* Functions
+			* Identify
+				Develop an organizational understanding to manage cybersecurity risk to systems, people, assets, data, and capabilities.
+			* Protect
+				Develop and implement appropriate safeguards to ensure delivery of critical services.
+			* Detect
+				Develop and implement appropriate activities to identify the occurrence of a cybersecurity event.
+			* Respond
+				Develop and implement appropriate activities to take action regarding a detected cybersecurity incident.
+			* Recover
+				Develop and implement appropriate activities to maintain plans for resilience and to restore any capabilities or services that were impaired due to a cybersecurity incident.
+		* Categories
+		* Subcategories
+		* Informative References.
+2. The Framework Implementation Tiers
+	* A lens through which to view the characteristics of an organization’s approach to risk—how an organization views cybersecurity risk and the processes in place to manage that risk.
+	* Geeft aan in welke mate een organisatie het framework gebruikten reageert op dreigingen(wachten tot er iets gebeurt, actief zoeken, ...)
+	* Hoe hoger de tier, hoe beter
+		* Tiers:
+			* Tier 1: Partial
+				Enkel iets doen als er een cybersecurity event plaatsvindt
+			* Tier 2: Risk Informed
+				Risicomanagement is toegelaten, maar is geen policy in de organisatie. Men is bewust dat er iets kan gebeuren, maar zal geen voorzorgmaatregelen nemen in heel de organisatie.
+			* Tier 3: Repeatable
+				Policy voor risicomanagement. Er worden regelmatig controles en updates gedaan.Iedereen in de organisatie is zich bewust van de risico’s en weet welke rol die speel hierin.
+			* Tier 4: Adaptive
+				Organisatie is continu bezig om beveilig te verbeteren. Er is een door iedereen gekende aanpak over hoe je met cybersecurity events moet omgaan.
+3. The Framework Profiles
+	* A representation of the outcomes that a particular system or organization has selected from the Framework Categories and Subcategories.
+	* Geeft aan in welke mate de huidige implementatie overeenkomt met de gewenste implementatie van het framework core (categorieën en subcategorieën).
+		* Current profile
+		* Target profile
+
+### Stappenplan
+1. Prioritize and Scope.
+	* Doelen vastleggen
+2. Orient
+	* Bekijken wat de opties zijn, oriënteren
+3. Create a Current Profile.
+4. Conduct a Risk Assessment.
+	* Wat is de kans dat een cybersecurity event plaatsvindt?En wat is de impact?
+5. Create a Target Profile.
+6. Determine, Analyze, and Prioritize Gaps
+	* Verschil tussen current profile en target profile bepalen. Vervolgens plan opstellen om deze verschillen op te lossen.
+7. Implement Action Plan.
+
+## Examen 
+* Open vragen
+* Voor examen hoofdstuk ~~1 – 25~~ 1 t.e.m. 15
+* Je krijg NIST op het examen: geeft 2 categorieën en subcategorieën + leg uit
+	* Zijn screenshots van het boek
+* Risk assesment (met NIST)
+* Poorten kunnen herkennen, naam, waarvoor het wordt gebruikt, input or output, ...
+* Wat is een firewall en wat doet het?
+* Alle namen van de 7 lagen van het OSI model kennen + kunnen uitleggen
+* Three-layered rings of security zeker kennen
+* IP en TCP header -> enkele voorbeelden kunnen geven van wat er in zit
+* Verschillende types van switches kennen
+* Mac address table
+* Geef twee voorbeelden van besturingssystemen op routers
+	* Cisco IOS
+	* Andere Unix systemen
+* **H5, H10 en H17 zeker nakijken: samenvattingen\+ examenvragen**
+
+## Opdracht
+Kernel attack slide 59
+* Kernel praat met CPU
+* Instructie die naar CPU gaan wijzige
+
+4 kernel attacks in linux
+* Welke commando’s
+* Hoe kan je dan doen?
+* Hoe kan je code in geheugen zetten zodat kernel die gaat gebruiken?
+* ...
+
+In document
+*	Naam
+*	Groep
+*	4 titels (slide 59)
+*	Gewoon copy\-paste van internet + bronvermelding 
+
+## Einde
+Met dank aan Pieter van der Deen's [Samenvatting](https://tmwiki.be/information_security/samenvatting_info_sec_pieter_vanderdeen.pdf).
