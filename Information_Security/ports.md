@@ -2,7 +2,7 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-23T15:13:08.987Z
+date: 2021-01-23T15:22:30.010Z
 tags: ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -27,6 +27,12 @@ External SATA (Serial AT Attachment) are ports connected to the system's interna
 
 ### Legacy ports
 Serial COM ports, Small Compuiter System Interface (SCSI) and LPT parallel printer ports pose a security risk since they are all capable of handling two-way communications with the system's internal devices
+
+## Tips
+Tips om deze onnozele hoeveelheid van random oude poorten te leren:
+- Poorten zoals DE-9F, DB-25 Serial/COM port, DE-9 Serial RS232 ... hebben de hoeveelheid pins in naam staan.
+- Analoge connecties zijn vooral rond zoals audio, coax, component video/audio etc
+- Poorten die input EN output vertonen de grootste mogelijkheid voor een risico.
 
 ## Data ports
 Deze kunnen zeker een gevaar zijn. Ze kunnen data transporteren en sommige (eSATA, COM, SCSI, LPT) hebben connectie met interne systeem bussen.
