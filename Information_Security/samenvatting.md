@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-23T14:40:04.188Z
+date: 2021-01-23T15:20:24.120Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -936,7 +936,7 @@ Data transmissie pakketten
 OSI layer security
 * Zit doorheen elke laag verweven
 
-| OSI LAYER | Network Security Model | Explout Type  | Security Focus |
+| OSI LAYER | Network Security Model | Exploit Type  | Security Focus |
 | :-- | :-- | :-- | :-- |
 | 1) Physical Layer | 7) Physical Level | Physical Tampering/Break-in | Physical Security |
 | 2) Data Link Layer | 6) VLAN Level | Network Scanning Local/Internal | Access Security |
