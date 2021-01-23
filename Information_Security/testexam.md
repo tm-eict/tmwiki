@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: Vraagjes zodat je je kan voorbereiden op het examen. Hier staan te kunnen vragen benadrukt door de leerkracht en wat extra vragen die mogelijk gevraagd kunnen worden.
 published: true
-date: 2021-01-23T13:37:20.856Z
+date: 2021-01-23T16:14:03.599Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -12,7 +12,7 @@ Te kunnen examen vragen zijn vragen (/vragen over leerstof) die leerkracht benad
 
 **Theorie examen zijn open vragen, geen meerkeuze.**
 Je moet alles kennen t.e.m. hoofdstuk 15.
-[samenvatting_info_sec_pieter_vanderdeen.pdf](/information_security/samenvatting_info_sec_pieter_vanderdeen.pdf)
+[samenvatting](/en/Information_Security/samenvatting) en het orgineel [samenvatting_info_sec_pieter_vanderdeen.pdf](/information_security/samenvatting_info_sec_pieter_vanderdeen.pdf).
 
 **De vragen kan je open doen voor het antwoord door er op te klikken.**
 
