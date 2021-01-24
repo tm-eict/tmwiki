@@ -2,13 +2,13 @@
 title: Home
 description: Waar je zelf de spellingsfouten mag verbeteren!
 published: true
-date: 2021-01-24T14:00:31.255Z
+date: 2021-01-24T14:00:56.719Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T21:12:05.187Z
 ---
 
-![tmwiki_v1_noback.png](/tmwiki_v1_noback.png){.align-abstopleft}
+![tmwiki_v1_noback.png](/tmwiki_v1_noback.png){.align-left}
 
 # Thomas More ICT Wiki
 
