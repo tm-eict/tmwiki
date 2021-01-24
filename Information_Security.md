@@ -2,11 +2,13 @@
 title: Information Security
 description: 
 published: true
-date: 2021-01-23T16:00:51.012Z
+date: 2021-01-24T14:05:10.370Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-20T21:15:25.761Z
 ---
+
+[![tmwiki_v1_noback.png](/tmwiki_v1_noback.png){.align-abstopright}](https://tmwiki.be/en/home)
 
 [ECTS Fiche](http://onderwijsaanbodmechelenantwerpen.thomasmore.be/2020/syllabi/n/YT0868N.htm#activetab=doelstellingen_idp126192)
 
