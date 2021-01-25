@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: Vraagjes zodat je je kan voorbereiden op het examen. Hier staan te kunnen vragen benadrukt door de leerkracht en wat extra vragen die mogelijk gevraagd kunnen worden.
 published: true
-date: 2021-01-25T16:27:45.046Z
+date: 2021-01-25T16:30:07.143Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -272,7 +272,7 @@ ziet een hele kamer maar met vervormingen
 </details>
 
 <details>
-  <summary markdown="span">Leg uit wat een grey hat hacker doet. [Vorig jaar op examen geweest (samen met andere hackers)‼️]</summary>
+  <summary markdown="span">Leg uit wat een grey hat hacker doet. [‼️Vorig jaar op examen geweest (samen met andere hackers)‼️]</summary>
 	Werkt vanuit overtuiging (kan dus ethisch zijn), overschrijdt wettelijke grenzen.
   
   [Soorten hackers/crackers](/en/Information_Security/samenvatting#soorten-hackerscrackers)
