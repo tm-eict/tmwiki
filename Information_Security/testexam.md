@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: Vraagjes zodat je je kan voorbereiden op het examen. Hier staan te kunnen vragen benadrukt door de leerkracht en wat extra vragen die mogelijk gevraagd kunnen worden.
 published: true
-date: 2021-01-23T16:14:03.599Z
+date: 2021-01-25T15:53:02.747Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -23,7 +23,7 @@ Voor NIST en vele andere vragen is het vooral dat je uitleg en redenering goed i
   Zo krijg je het antwoord :)
 </details>
 <details>
-  <summary markdown="span">Waarvoor staat de CIA triad?</summary>
+  <summary markdown="span">Waarvoor staat de CIA triad? [Vorig jaar op examen geweest!]</summary>
   Confidentiality<br>
   Integrity<br>
   Availability<br>
@@ -226,7 +226,7 @@ ziet een hele kamer maar met vervormingen
 </details>
 
 <details>
-  <summary markdown="span">Wat is encryptie?</summary>
+  <summary markdown="span">Wat is encryptie? [Vorig jaar op examen geweest!]</summary>
   Het coderen/versleutelen van data (op basis van een algoritme).<br>
   Je hebt dus een code/sleutel nodig om de data te kunnen lezen/decrypten/decoderen.<br><br>
   Meeste OS's hebben een vorm van encryptie in hun FS.
@@ -244,7 +244,7 @@ ziet een hele kamer maar met vervormingen
 </details>
 
 <details>
-  <summary markdown="span">Geef 5 soorten malware (behalve die de vraag eronder bevatten).</summary>
+  <summary markdown="span">Geef 5 soorten malware (behalve die de vraag eronder bevatten). [Vorig jaar op examen geweest!]</summary>
 	Worms, (Trojan Horse), rootkits, (ransomware), spyware, adware, (logic bombs), zombies, botnets ...
 </details>
 
@@ -261,6 +261,6 @@ ziet een hele kamer maar met vervormingen
 </details>
 
 <details>
-  <summary markdown="span">Leg uit wat een grey hat hacker doet.</summary>
+  <summary markdown="span">Leg uit wat een grey hat hacker doet. [Vorig jaar op examen geweest (samen met andere hackers)!]</summary>
 	Werkt vanuit overtuiging (kan dus ethisch zijn), overschrijdt wettelijke grenzen.
 </details>
