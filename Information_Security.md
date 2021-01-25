@@ -2,7 +2,7 @@
 title: Information Security
 description: 
 published: true
-date: 2021-01-24T14:05:10.370Z
+date: 2021-01-25T17:06:11.903Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-20T21:15:25.761Z
@@ -16,13 +16,15 @@ remoet kontent
 
 ## Index
 
-[Hoofdstuk1-5](/en/Information_Security/Hoofdstuk1-5)
-[Ports](/en/Information_Security/ports)
-[OSI-Model](/en/Information_Security/OSI-model)
+- [Begrippen en afkortingen *Een volledige lijst van te kennen begrippen en afkortingen*](/en/Information_Security/woorden)
+- [Poorten *Fysieke poorten*](/en/Information_Security/ports)
+- [OSI-Model *Open Systems Interconnection model*](/en/Information_Security/OSI-model)
+{.links-list}
+---
 
-[woorden en afkortingen](/en/Information_Security/woorden)
-[Samenvatting](/en/Information_Security/samenvatting)
-[Voorbeeld examen](/en/Information_Security/testexam)
+- [Samenvatting *Volledige samenvatting van Pieter*](/en/Information_Security/samenvatting)
+- [Voorbeeld examen *Voorbeeld vragen met antwoorden en lijst van te kennen onderdelen*](/en/Information_Security/testexam)
+{.links-list}
 
 ## Boek
 https://drive.google.com/file/d/1f_TkF0QISOQmXScrwByJxn9QEfhPXULH/view
@@ -35,3 +37,4 @@ https://drive.google.com/file/d/1f_TkF0QISOQmXScrwByJxn9QEfhPXULH/view
 [examenvragen.docx](/information_security/2019_2020/examenvragen.docx)
 [test_12_december.docx](/information_security/2019_2020/test_12_december.docx)
 [JOY information_security_fundamentals_alles.docx](/information_security/2019_2020/information_security_fundamentals_alles.docx)
+[Hoofdstuk1-5 van Dries](/en/Information_Security/Hoofdstuk1-5)
