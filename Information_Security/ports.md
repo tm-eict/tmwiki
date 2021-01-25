@@ -2,7 +2,7 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-23T20:50:58.812Z
+date: 2021-01-25T15:59:53.271Z
 tags: ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -113,6 +113,20 @@ Versies en snelheidsnamen te kennen. **Snelheden** zelf **niet**.
 | USB 3.0 | SuperSpeed (SS) | ~~5 Gbps~~ | ~~\~70 sec~~ |
 | USB 3.1 | SuperSpeedPlus (SSP) | ~~10 Gbps~~ | ~~\~35 sec~~ |
 ![port_usbversions.png](/information_security/assets/ports/port_usbversions.png)
+
+## Network ports
+Dit zijn vaak voorkomende netwerk poorten:
+| Service | Well-known Port Number |
+| :-- | :-- |
+| FTP | 20, 21 |
+| Telnet | 23 |
+| SMTP Mail | 25 |
+| HTTP (www) | 80 |
+| POP3 (mail) | 110 |
+| News | 144 |
+| HTTPS | 443 |
+| PPTP | 1723 |
+| IRC | 6667 |
 
 
 [^1]: Veel poorten zijn oud en niet meer in gebruik. Soms zelfs maar 1 keer gebruikt. Het is dus moeilijk om voor alle poorten te weten of ze gevaarlijk zijn. Joris Geens heeft nog geen antwoord gegeven op de vragen hierover.
