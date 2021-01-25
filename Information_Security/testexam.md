@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: Vraagjes zodat je je kan voorbereiden op het examen. Hier staan te kunnen vragen benadrukt door de leerkracht en wat extra vragen die mogelijk gevraagd kunnen worden.
 published: true
-date: 2021-01-25T15:53:02.747Z
+date: 2021-01-25T15:57:03.322Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -154,6 +154,7 @@ Total Mac Addresses for this criterion: 2
 - Pagina van Enisa (Framework Europa) met wat vragen.
 - Je kan [poorten](/en/Information_Security/ports) herkennen, benoemen, het gebruik uitleggen (I/O, audio etc) en risico's herkennen
 - Je kunt alle [afkortingen en begrippen](/en/Information_Security/woorden) toelichten.
+- Je kunt bij een verhaal een passende soort hacker plaatsen [Vorig jaar op examen geweest!]
 
 ## Extra vragen
 <details>
