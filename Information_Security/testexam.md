@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: Vraagjes zodat je je kan voorbereiden op het examen. Hier staan te kunnen vragen benadrukt door de leerkracht en wat extra vragen die mogelijk gevraagd kunnen worden.
 published: true
-date: 2021-01-25T16:03:44.414Z
+date: 2021-01-25T16:27:45.046Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -15,15 +15,21 @@ Je moet alles kennen t.e.m. hoofdstuk 15.
 [samenvatting](/en/Information_Security/samenvatting) en het orgineel [samenvatting_info_sec_pieter_vanderdeen.pdf](/information_security/samenvatting_info_sec_pieter_vanderdeen.pdf).
 
 **De vragen kan je open doen voor het antwoord door er op te klikken.**
-
-Voor NIST en vele andere vragen is het vooral dat je uitleg en redenering goed is. Soms is dat zelfs belangrijker dan het antwoord zelf, dus voluit en doordacht opschrijven!
-## Te kunnen examen vragen
 <details>
-  <summary markdown="span">Klik op mij!</summary>
+  <summary markdown="span"> Klik op mij!</summary>
   Zo krijg je het antwoord :)
 </details>
+
+> ‼️Vorig jaar op examen geweest‼️
+
+Wanneer dit naast de vraag staat werd het vorig jaar gevraagd.
+
+Voor NIST en vele andere vragen is het vooral dat je uitleg en redenering goed is. Soms is dat zelfs belangrijker dan het antwoord zelf, dus voluit en doordacht opschrijven!
+
+## Te kunnen examen vragen
+
 <details>
-  <summary markdown="span">Waarvoor staat de CIA triad? [Vorig jaar op examen geweest!]</summary>
+  <summary markdown="span">Waarvoor staat de CIA triad? ‼️Vorig jaar op examen geweest‼️</summary>
   Confidentiality<br>
   Integrity<br>
   Availability<br>
@@ -153,8 +159,11 @@ Total Mac Addresses for this criterion: 2
 	- Je krijg NIST op het examen: geeft 2 categorieën en subcategorieën + leg uit. **Hierbij krijg je Appendix C van NIST uit het boek!**
 - Pagina van Enisa (Framework Europa) met wat vragen.
 - Je kan [poorten](/en/Information_Security/ports) herkennen, benoemen, het gebruik uitleggen (I/O, audio etc) en risico's herkennen
+> 	Vorig jaar moesten poorten niet gekend zijn, Joris heeft tegen ons duidelijk gezegd van wel. Andere jaren hadden de poorten ook niet gezien tijdens de les.
+{.is-info}
+
 - Je kunt alle [afkortingen en begrippen](/en/Information_Security/woorden) toelichten.
-- Je kunt bij een verhaal een passende [soort hacker](Information_Security/samenvatting#soorten-hackerscrackers) plaatsen [Vorig jaar op examen geweest!]
+- Je kunt bij een verhaal een passende [soort hacker/cracker](/en/Information_Security/samenvatting#soorten-hackerscrackers) plaatsen. ‼️Vorig jaar op examen geweest‼️
 
 ## Extra vragen
 <details>
@@ -170,6 +179,7 @@ Resolutie:
 <details>
   <summary markdown="span">Wat is IR op een IP camera en hoe werkt het?</summary>
   InfraRood-verlichting laat toe op met weinig licht nog in het donker te kunnen kijken met je camera.
+	Warmte straalt IR uit. Camera's met IR leds kunnen dit nog verbeteren voor een scherper beeld.
 </details>
 <details>
   <summary markdown="span">Wat is een fisheye lens?</summary>
@@ -227,7 +237,7 @@ ziet een hele kamer maar met vervormingen
 </details>
 
 <details>
-  <summary markdown="span">Wat is encryptie? [Vorig jaar op examen geweest!]</summary>
+  <summary markdown="span">Wat is encryptie? ‼️Vorig jaar op examen geweest‼️</summary>
   Het coderen/versleutelen van data (op basis van een algoritme).<br>
   Je hebt dus een code/sleutel nodig om de data te kunnen lezen/decrypten/decoderen.<br><br>
   Meeste OS's hebben een vorm van encryptie in hun FS.
@@ -245,7 +255,7 @@ ziet een hele kamer maar met vervormingen
 </details>
 
 <details>
-  <summary markdown="span">Geef 5 soorten malware (behalve die de vraag eronder bevatten). [Vorig jaar op examen geweest!]</summary>
+  <summary markdown="span">Geef 5 soorten malware (behalve die de vraag eronder bevatten). ‼️Vorig jaar op examen geweest‼️</summary>
 	Worms, (Trojan Horse), rootkits, (ransomware), spyware, adware, (logic bombs), zombies, botnets ...
 </details>
 
@@ -262,6 +272,9 @@ ziet een hele kamer maar met vervormingen
 </details>
 
 <details>
-  <summary markdown="span">Leg uit wat een grey hat hacker doet. [Vorig jaar op examen geweest (samen met andere hackers)!]</summary>
+  <summary markdown="span">Leg uit wat een grey hat hacker doet. [Vorig jaar op examen geweest (samen met andere hackers)‼️]</summary>
 	Werkt vanuit overtuiging (kan dus ethisch zijn), overschrijdt wettelijke grenzen.
+  
+  [Soorten hackers/crackers](/en/Information_Security/samenvatting#soorten-hackerscrackers)
+  
 </details>
