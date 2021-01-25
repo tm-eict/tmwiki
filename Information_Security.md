@@ -2,7 +2,7 @@
 title: Information Security
 description: 
 published: true
-date: 2021-01-25T17:06:11.903Z
+date: 2021-01-25T17:07:19.067Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-20T21:15:25.761Z
@@ -17,7 +17,7 @@ remoet kontent
 ## Index
 
 - [Begrippen en afkortingen *Een volledige lijst van te kennen begrippen en afkortingen*](/en/Information_Security/woorden)
-- [Poorten *Fysieke poorten*](/en/Information_Security/ports)
+- [Poorten *Uitleg over fysieke poorten en hun gevaren (ook vaak voorkomende netwerk poorten)*](/en/Information_Security/ports)
 - [OSI-Model *Open Systems Interconnection model*](/en/Information_Security/OSI-model)
 {.links-list}
 ---
