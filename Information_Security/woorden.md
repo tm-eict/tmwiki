@@ -2,8 +2,8 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-26T14:00:56.935Z
-tags: 
+date: 2021-01-26T14:01:44.808Z
+tags: afkortingen
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
 ---
