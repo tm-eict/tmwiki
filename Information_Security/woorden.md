@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-23T16:23:43.124Z
+date: 2021-01-26T10:58:11.210Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -12,6 +12,7 @@ dateCreated: 2021-01-23T11:20:08.993Z
 |:-- |:-- |:-- |
 | NIST | National Institute of Standards and Technology| |
 | RAID | Redundant Array of Independent Disks (inexpensive) | |
+|Non-repudiation|-|**(onweerlegbaarheid):** is de waarborg dat ontvangst en/of verzending van een contract of een bericht niet kan worden ontkend door de beide betrokken partijen, respectievelijk de ontvanger en de verzender(alles kan worden bevestigd en gecontroleerd, logs).|
 | CIA traid | Confidentiality, Integrity, Availability | |
 | tailgating |- | Iemand dat door de deur glipt na iemand er door is gegaan |
 | ingress |- | Right to enter |
