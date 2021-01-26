@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: Vraagjes zodat je je kan voorbereiden op het examen. Hier staan te kunnen vragen benadrukt door de leerkracht en wat extra vragen die mogelijk gevraagd kunnen worden.
 published: true
-date: 2021-01-26T15:18:25.932Z
+date: 2021-01-26T15:20:00.905Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -16,6 +16,7 @@ Te kunnen examen vragen zijn vragen (/vragen over leerstof) die leerkracht benad
 **Theorie examen zijn open vragen, geen meerkeuze.**
 Je moet alles kennen t.e.m. hoofdstuk 15.
 [samenvatting](/en/Information_Security/samenvatting) en het orgineel [samenvatting_info_sec_pieter_vanderdeen.pdf](/information_security/samenvatting_info_sec_pieter_vanderdeen.pdf).
+Begrippen en woorden ook te kennen: [woorden](/en/Information_Security/woorden), [perimeters](/en/Information_Security/perimeters), [OSI-model](/en/Information_Security/OSI-model), [ports](/en/Information_Security/ports)
 
 **De vragen kan je open doen voor het antwoord door er op te klikken.**
 <details>
