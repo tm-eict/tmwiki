@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-26T17:19:04.143Z
+date: 2021-01-26T17:45:23.862Z
 tags: info-sec, afkortingen
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -51,7 +51,7 @@ Zie ook gerelateerde pagina's: [poorten](/en/Information_Security/ports), [OSI-m
 | FMS | File Management System | |
 | NOS | Network Operating System | |
 | NX/XD bit | No-Execute/Execute-Disable bit | Permisies voor execution |
-| DEP mode | Data Execution Prevention | |
+| DEP mode | Data Execution Prevention |Elke applicatie krijgt een geïsoleerd stukje geheugen dat als virtueel geheugen gezien kan worden. Enkel de applicatie zelf kan in de virtueel afgeschermde zone werken. |
 | ACL | Access Control List | Permissies van gebruikers en groepen regelen |
 | MAC | Mandatory Access Control | Gebruikt door Linux/Unix: Regels van OS worden nagekeken wanneer een gebruiker iets wilt doen. Admin kiest deze regels/access rights (Gebuikt administrator policy als bron). |
 | RBAC | Role-Based Access Control | Gebruikt door Windows: Gebruikt rollen van gebruikers als bron. Werkt met permissies. |
