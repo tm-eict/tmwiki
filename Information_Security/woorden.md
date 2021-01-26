@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-26T17:45:23.862Z
+date: 2021-01-26T18:25:10.700Z
 tags: info-sec, afkortingen
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -137,6 +137,7 @@ Zie ook gerelateerde pagina's: [poorten](/en/Information_Security/ports), [OSI-m
 | FOUO | For Official Use Only | |
 | The User Password |- | BIOS option that (normal) user must enter before the OS reaches a usable state. |
 | Supervisory password |- | BIOS option that makes the user/admin required to enter a password before they can change settings in the CMOS Setup utility. |
+|CAM|Content Addressable Memory|E.g.: MAC addresses  in a switch are stored in CAM|
 <br>
 
 ### Hackers/crackers
