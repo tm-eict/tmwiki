@@ -2,9 +2,9 @@
 title: Hoofdstuk 1-5
 description: 
 published: true
-date: 2021-01-21T18:27:46.897Z
-tags: 
-editor: undefined
+date: 2021-01-26T16:14:43.137Z
+tags: info-sec
+editor: markdown
 dateCreated: 2021-01-21T17:13:23.163Z
 ---
 
