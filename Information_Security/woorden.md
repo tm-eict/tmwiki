@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-26T15:45:48.662Z
+date: 2021-01-26T15:49:31.914Z
 tags: info-sec, afkortingen
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -131,7 +131,8 @@ Zie ook gerelateerde pagina's: [poorten](/en/Information_Security/ports), [OSI-m
 | IPsec | Internet Protocol security | |
 | PPTP | Point-To-Point Tunneling Protocol | |
 | ISA | instruction set architecture | |
-| FSB | front-side bus |
+| FSB | front-side bus | |
+| CRM | Customer relationship management | |
 <br>
 
 ### Hackers/crackers
