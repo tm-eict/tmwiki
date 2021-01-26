@@ -2,11 +2,14 @@
 title: Voorbeeld examen
 description: Vraagjes zodat je je kan voorbereiden op het examen. Hier staan te kunnen vragen benadrukt door de leerkracht en wat extra vragen die mogelijk gevraagd kunnen worden.
 published: true
-date: 2021-01-26T14:21:58.810Z
+date: 2021-01-26T15:18:25.932Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
 ---
+
+> ![typenvragen.png](/information_security/assets/typenvragen.png)
+{.is-info}
 
 Te kunnen examen vragen zijn vragen (/vragen over leerstof) die leerkracht benadrukt heeft tijdens de les. Extra vragen zijn vragen gemaakt door leerlingen.
 
