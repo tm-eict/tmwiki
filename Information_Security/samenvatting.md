@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-26T14:22:03.367Z
+date: 2021-01-26T15:42:27.636Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -428,6 +428,7 @@ Belangrijke pagina/samenvating over poorten kan je hier vinden: [ports](/en/Info
 | ThunderBolt 3 | 2x 20 Gbit/s | 2x 2500 MB/s |
       
 * ![all-ports](/information_security/assets/ports/all-ports.png)
+	^https://recompute.co.zw/buying-guides/a-complete-guide-of-every-type-of-computer-port/^
 * DE-15 heb je in 2 rijen en 3 rijen
 * M = male; F = female
 * BNC connector
