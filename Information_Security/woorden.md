@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-26T10:58:11.210Z
+date: 2021-01-26T13:23:59.297Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -76,7 +76,7 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | RISC | Reduced Instruction Set Computing | |
 | CISC | Complex Instruction Set Computing | |
 | ARM | Advanced RISC Machine | |
-| TPM | trusted platform module | |
+| TPM | trusted platform module | Is hardware: chip with for instance encryption keys, TPM chip is fixed on motherboard |
 | HTTPS | Hypertext Transfer Protocol Secure | |
 | SSID | Service set ID | |
 | MAC | media access contro | |
