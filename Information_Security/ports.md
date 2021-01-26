@@ -2,7 +2,7 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-26T20:33:54.349Z
+date: 2021-01-26T20:47:11.791Z
 tags: info-sec, network, ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -69,7 +69,7 @@ Deze kunnen zeker een gevaar zijn. Ze kunnen data transporteren en sommige (eSAT
 Is geen gevaarlijk (in principe [Rubber Ducky](https://www.plurilock.com/answers/rubber-ducky-attack-what-does-rubber-ducky-attack-mean/) achtige aanvallen wel mogelijk).
 |Port picture|name|extra|
 |:--|:--|:--|
-|![port_ps2.png](/information_security/assets/ports/port_ps2.png =100x)| PS/2 | Weinig tot geen. (werkt met interrupts|
+|![port_ps2.png](/information_security/assets/ports/port_ps2.png =100x)| PS/2 | Weinig tot geen. (werkt met interrupts) |
 |![port_atkeyboard.png](/information_security/assets/ports/port_atkeyboard.png)|AT Keyboard|Weinig tot geen.|
 |![port_da-15-macvideo.png](/information_security/assets/ports/port_da-15-macvideo.png)|Mac Video/Midi/gameport/AUI<br>DA-15| Input + output + connectie met de north/south bridge is een risico. https://en.wikipedia.org/wiki/Game_port|
 
@@ -134,6 +134,7 @@ Versies en snelheidsnamen te kennen. **Snelheden** zelf **niet**.
 | HTTPS | 443 |
 | PPTP | 1723 |
 | IRC | 6667 |
+<br>
 
 ### Poorten en services per range
 |Range|Services|
