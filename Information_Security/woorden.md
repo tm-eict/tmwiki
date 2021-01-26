@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-26T15:07:22.223Z
+date: 2021-01-26T15:11:40.000Z
 tags: info-sec, afkortingen
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -99,8 +99,8 @@ Zie ook gerelateerde pagina's: [poorten](/en/Information_Security/ports), [OSI-m
 | OSI | Open systems interconnection | [Open Systems Interconnection-model](/en/Information\_Security/OSI-model) |
 | LLC | Logic Link Control | [Sublaag van laag 2 (data link)](/en/Information_Security/OSI-model#layer-2-data-link-layer). Communicatie tussen software en fysieke hardware.|
 | MAC | media access control | [Sublaag van laag 2 (data link)](/en/Information_Security/OSI-model#layer-2-data-link-layer). Is verantwoordelijk voor het encapsulerenvan de data die afkomstig is van de bovenliggende lagen|
-| AH | Authentication Headers | [Extra info]https://tmwiki.be/en/Information_Security/samenvatting#labo |
-| SAs | Security Associations | [Extra info]https://tmwiki.be/en/Information_Security/samenvatting#labo |
+| AH | Authentication Headers | [Extra info](https://tmwiki.be/en/Information_Security/samenvatting#labo) |
+| SAs | Security Associations | [Extra info](https://tmwiki.be/en/Information_Security/samenvatting#labo) |
 | ESP | Encapsulating Security Payloads | |
 | IKE | Internet Key Exchange | Wordt gebruikt om een beveiligde verbinding op te zetten met IPsec. |
 | SSL | Secure Sockets Layer | |
