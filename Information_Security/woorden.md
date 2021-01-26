@@ -2,31 +2,33 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-26T14:22:13.942Z
+date: 2021-01-26T15:07:22.223Z
 tags: info-sec, afkortingen
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
 ---
 
+Zie ook gerelateerde pagina's: [poorten](/en/Information_Security/ports), [OSI-model](/en/Information_Security/OSI-model), [perimeters](/en/Information_Security/perimeters)
+## Afkortingen en begrippen
 | Begrippen | Voluit | Betekenis |
 |:-- |:-- |:-- |
-| NIST | National Institute of Standards and Technology| |
-| RAID | Redundant Array of Independent Disks (inexpensive) | |
+| NIST | National Institute of Standards and Technology| Framework |
+| RAID | Redundant Array of Independent Disks (inexpensive) | Je kan hiermee drive performance omhoog doen of redundantie van drives. |
 |Non-repudiation|-|**(onweerlegbaarheid):** is de waarborg dat ontvangst en/of verzending van een contract of een bericht niet kan worden ontkend door de beide betrokken partijen, respectievelijk de ontvanger en de verzender(alles kan worden bevestigd en gecontroleerd, logs).|
-| CIA traid | Confidentiality, Integrity, Availability | |
+| CIA traid | Confidentiality, Integrity, Availability triad | Volgorde van toepassing is AIC. |
 | tailgating |- | Iemand dat door de deur glipt na iemand er door is gegaan |
 | ingress |- | Right to enter |
 | egress |- | Right to leave |
 | regress |- | Right to reenter |
-| CPTED | Crime Prevention Through Environmental Design | |
-| RFID | Radio-frequency identification | |
-| PII | Personal Identifiable Information | |
-| PIR | Passive infrared | |
-| CCD camera | Charged Coupled Device | |
-| PoE | Power over Ethernet | |
-| lux |- | lux waarde voor hoeveelheid licht |
+| CPTED | Crime Prevention Through Environmental Design | A.d.h.v. evironmental design inbraak en criminelen afweren en ontmoedigen. |
+| RFID | Radio-frequency identification | RFID badge heeft bijvoorbeeld een chip. Met een radio signaal kan je dan identificeren |
+| PII | Personal Identifiable Information | B.v.: een identiteitskaart heeft PII|
+| PIR | Passive infrared |Een PIR sensor is een motion detector dat infrared light meet van objecten in zijn Field Of View. |
+| CCD camera | Charged Coupled Device | Achter de lens van een digitale camera. |
+| PoE | Power over Ethernet | Je kan hiermee IP camera's stroom leveren via de Ethernet cable |
+| lux waarde |- | lux waarde voor hoeveelheid licht. Hoe lager hoe beter. |
 | DVR | Digital Video Recorder | |
-| VCR | videocassette recorder | |
+| VCR | videocassette recorder | Ouder, tegenwoordig DVR |
 | NVR | Network Video Recorder | |
 | VPN | Virtual Private Network | |
 | DAS |Direct-attached storage | |
@@ -34,25 +36,25 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | SAN | Storage area network | |
 | CSO | Chief Security Officer | |
 | BIOS | Basic Input/Output System | |
-| UEFI | Unified Extensible Firmware Interface | |
+| UEFI | Unified Extensible Firmware Interface | Zelfde functies als BIOS en kan meer |
 | CMOS |complementary metal-oxide-semiconductor | |
 | Hardening |- | Een systeem beveiligen |
 | IC | Integrated circuit | |
-| Chipset |- | |
-| PCIe | Peripheral Component Interconnect Express | |
+| Chipset |- |IC's die de connectieve tussen randapparatuur, de CPU en het geheugen verzorgen|
+| PCIe | Peripheral Component Interconnect Express | PCIe verbonden met northbridge |
 | CPU | Central Processing Unit | |
 | USB | Universal Serial Bus | |
-| PATA | Parallel AT Attachment | |
+| PATA | Parallel Advanced Technology Attachment | =IDE |
 | SATA | Serial ATA | |
 | eSATA | external SATA | |
-| IDE | Integrated Drive Electronics | |
+| IDE | Integrated Drive Electronics | Nu PATA genoemd. |
 | FMS | File Management System | |
 | NOS | Network Operating System | |
-| NX/XD bit | No-Execute/Execute-Disable bit | |
+| NX/XD bit | No-Execute/Execute-Disable bit | Permisies voor execution |
 | DEP mode | Data Execution Prevention | |
-| ACL | Access Control List | |
-| MAC | Mandatory Access Control | |
-| RBAC | Role-Based Access Control | |
+| ACL | Access Control List | Permissies van gebruikers en groepen regelen |
+| MAC | Mandatory Access Control | Gebruikt door Linux/Unix: Regels van OS worden nagekeken wanneer een gebruiker iets wilt doen. Admin kiest deze regels/access rights (Gebuikt administrator policy als bron). |
+| RBAC | Role-Based Access Control | Gebruikt door Windows: Gebruikt rollen van gebruikers als bron. Werkt met permissies. |
 | OS | Operating System | |
 | POSIX | Portable Operating System Interface | |
 | ADS |Alternative Date Streams | |
@@ -71,23 +73,21 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | NAT | network address translation | |
 | PAT | port address translation | |
 | HSF | Hierarchical File System | |
-| SMBFS | Server Message Block File System | |
-| CIFS | Common Internet File System | |
+| SMBFS | Server Message Block File System | Voor gebruik van gemeenschappelijke toegang tot bestanden |
+| CIFS | Common Internet File System | Voor gebruik van gemeenschappelijke toegang tot bestanden |
 | RISC | Reduced Instruction Set Computing | |
 | CISC | Complex Instruction Set Computing | |
 | ARM | Advanced RISC Machine | |
 | TPM | trusted platform module | Is hardware: chip with for instance encryption keys, TPM chip is fixed on motherboard |
-| HTTPS | Hypertext Transfer Protocol Secure | |
-| SSID | Service set ID | |
-| MAC | media access contro | |
-| IRC | Internet Relay Chat | |
-| POP | Post Office Protocol | |
+| HTTPS | Hypertext Transfer Protocol Secure | Secure betekent met encryptie (a.d.h.v. TLS vroeger met SSL). |
+| SSID | Service set Identifier | Eingelijk naam van Wi-Fi. |
+| IRC | Internet Relay Chat | Port 6667 |
+| POP | Post Office Protocol | Port 110 for POP3 |
 | IDS | intrusion detection systems | |
 | NIDS | Network-based IDS | |
 | HIDS | Host-based IDS | |
 | IPS/IDPS | intrusion (Detection) and Prevention System | |
 | Grayware |- | Niet gewenst, maar moet niet kwaadaardig zijn |
-| DoS | Denial Of Service | |
 | IP | Intellectual Property/Internet Protocol | |
 | LAN | Local Area Network | |
 | WAN | widearea network | |
@@ -97,34 +97,46 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | VLAN | Virtual local area network | |
 | LoRaWAN | Long Range WAN | |
 | OSI | Open systems interconnection | [Open Systems Interconnection-model](/en/Information\_Security/OSI-model) |
-| LLC | Logic Link Control | |
-| AH | Authentication Headers | |
-| SAs | Security Associations | |
+| LLC | Logic Link Control | [Sublaag van laag 2 (data link)](/en/Information_Security/OSI-model#layer-2-data-link-layer). Communicatie tussen software en fysieke hardware.|
+| MAC | media access control | [Sublaag van laag 2 (data link)](/en/Information_Security/OSI-model#layer-2-data-link-layer). Is verantwoordelijk voor het encapsulerenvan de data die afkomstig is van de bovenliggende lagen|
+| AH | Authentication Headers | [Extra info]https://tmwiki.be/en/Information_Security/samenvatting#labo |
+| SAs | Security Associations | [Extra info]https://tmwiki.be/en/Information_Security/samenvatting#labo |
 | ESP | Encapsulating Security Payloads | |
-| IKE | Internet Key Exchange | |
+| IKE | Internet Key Exchange | Wordt gebruikt om een beveiligde verbinding op te zetten met IPsec. |
 | SSL | Secure Sockets Layer | |
 | NIC | network interface card | |
 | IP | Internet Protocol | |
 | TCP | Transmission Control Protocol | |
-| Spoofing |- ||
-| SYN | Synchronise | |
-| ACK | Acknowledge | |
+| Spoofing |- | Vervalsen van kenmerken et als doel om tijdelijk een valse identiteit aan te nemen. Dit kan bijvoorbeeld gaan om e-mail, website, IP-adres, telefoonnummer en biometrische kenmerken. [Wiki](https://nl.wikipedia.org/wiki/Spoofing)|
+| SYN | Synchronise |Onderdeel van een three-way handshake. Syn-flood is een DoS. Hacker stuurt vele SYN requests naar een server en spoofs IP-adres of houdt ACK packet bij, waardoor er op de server allemaal connecties blijven openstaan en geheugen server volloopt|
+| ACK | Acknowledge |Onderdeel van een three-way handshake. |
 | DHCP | dynamic host configuration protocol | |
-| ARP | Address Resolution Protocol | |
-| LSO | Least significant bit | |
-| MSO | Most significant bit | |
+| ARP | Address Resolution Protocol | Een protocol instaat om het hardware/MAC-adres van een PC binnen het netwerk te leren a.d.h.v. het IP-adres. |
+| LSB | Least significant bit | |
+| MSB | Most significant bit | |
 | CSMA/CD | carrier sense multiple-access with collision detection | |
 | KMO |- | Algemeen gebruik-server |
 | RAS | remote access system | |
-| FTP | File Transfer Protocol | |
-| brouter | bridged router | |
+| FTP | File Transfer Protocol | Port 20, 21 |
+| brouter | bridged router | Voorloper van switch. |
 | CLI | Command Line Interface | |
-| SNMP | Simple Network Management Protocol | |
+| SNMP | Simple Network Management Protocol | Web based interface voor routers in te stellen. |
+| SMTP | Simple Mail Transfer Protocol | Port 25 |
 | PnP | Plug and Play | |
-| IOS | Cisco Systems Internetwork Operating System | |
+| IOS | Cisco Systems Internetwork Operating System | Router operating system|
 | iOS |- | Apple's mobile OS |
-| DoS | Denial of Service | |
-| DDoS | Distributed DoS | |
+| DoS | Denial of Service | Vb.: Syn flood (zie SYN). |
+| DDoS | Distributed DoS | Dus met meerdere mensen/computer 1 service aanvallen |
 | SSH | Secure Shell | |
 | IPsec | Internet Protocol security | |
 | PPTP | Point-To-Point Tunneling Protocol | |
+
+### Hackers/crackers
+Ook te kennen. Als je een verhaaltje krijgt moet je de juiste hacker/cracker kunnen linken.
+|Hacker/cracker|Betekenis|
+|:--|:--|
+|White hat|ethisch hacker met contract|
+|Black hat|cracker of criminal hacker|
+|Grey hat|werkt vanuit overtuiging, overschrijdt wettelijke grenzen|
+|Red hat|valt black hats aan|
+|Scriptkiddies|werkt met bestaand material en scripts, geen kennis van zaken|
