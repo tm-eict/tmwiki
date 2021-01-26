@@ -2,7 +2,7 @@
 title: OSI-model
 description: 
 published: true
-date: 2021-01-26T17:56:17.498Z
+date: 2021-01-26T17:57:47.624Z
 tags: info-sec, network
 editor: markdown
 dateCreated: 2021-01-21T15:09:52.659Z
@@ -94,6 +94,7 @@ Switches operate at this layer
 
 Example:
 - Maybe the switch has gone bad?
+- Is there a MAC broadcast flood attack?
 
 ## Layer 1: Physical layer
 carries data across physical hardware.
