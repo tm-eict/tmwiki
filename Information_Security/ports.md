@@ -2,23 +2,30 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-25T15:59:53.271Z
+date: 2021-01-26T14:16:56.662Z
 tags: ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
 ---
 
-> Joris heeft nog niet geantwoord op de mail met vragen. Er zijn mogelijk fouten over de gevaren met poorten.
-{.is-warning}
+> Joris zijn antwoord!
+![poortvragenjoris.png](/information_security/assets/ports/poortvragenjoris.png)
+{.is-info}
 
 ## Te kunnen/kennen
 - Alle poorten (op deze pagina) kunnen herkennen en benoemen.
-- Of ze gevaarlijk zijn of niet. [^1]
+- Of ze gevaarlijk zijn of niet.
 - USB versies en namen moet je kennen **(snelheden zijn niet te kennen).**
 
 Veel poorten zijn oud en niet meer in gebruik. Soms zelfs maar 1 keer gebruikt. Het is dus moeilijk om voor alle poorten te weten of ze gevaarlijk zijn. Joris Geens heeft nog geen antwoord gegeven op de vragen hierover
 
 ## Dangers
+Alles wat 2 weg communicatie heeft (dus input en output) vormt een gevaar. Sommige poorten hebben ook directe connectie met systeem bussen, deze zijn nog gevaarlijker.
+Andere zoals USB zijn nu eenmaal klein en hebben I/O.
+
+Enkel input devices kunnen geautomatiseerd worden, maar deze gevaren zijn vaak niet meer van toepassing (volgens Joris)
+Enkel output devices zijn over het algemeen veilig, maar afkijken is in principe mogelijk.
+
 You can find this information at p131-134.
 
 ### USB ports and devices
@@ -51,7 +58,7 @@ Deze kunnen zeker een gevaar zijn. Ze kunnen data transporteren en sommige (eSAT
 |![port_db25_serial_com_port.png](/information_security/assets/ports/port_db25_serial_com_port.png =100x) | DB-25 Serial/COM port | Ja. Ze kunnen two-way communication voeren met system internal devices. 25 Staat voor aantal pins|
 |![port_de9rs232.png](/information_security/assets/ports/port_de9rs232.png)|DE-9 Serial RS232|Ja. Ze kunnen two-way communication voeren met system internal devices. 9 staat vr pins.|
 |![port_esata.png](/information_security/assets/ports/port_esata.png)|e-SATA|Ja. Ze hebben access tot de bussen van de diskdrives in een systeem.|
-|![port_centronics_parallel_36_pin.png](/information_security/assets/ports/port_centronics_parallel_36_pin.png)|Centronics Parallel 36 pin|(niet zeker) Ja. Ze kunnen two-way communication voeren met system internal devices.|
+|![port_centronics_parallel_36_pin.png](/information_security/assets/ports/port_centronics_parallel_36_pin.png)|Centronics Parallel 36 pin|Ja. Ze kunnen two-way communication voeren met system internal devices.|
 |![port_centronics_scsi_50pin.png](/information_security/assets/ports/port_centronics_scsi_50pin.png)|Centronics SCSI 50pin|Ja. Ze kunnen two-way communication voeren met system internal devices.|
 |![port_50_pin_scsi_2.png](/information_security/assets/ports/port_50_pin_scsi_2.png)|50 pin SCSI 2|Ja. Ze kunnen two-way communication voeren met system internal devices.|
 |![port_aaui.png](/information_security/assets/ports/port_aaui.png)|AAUI|(niet zeker) Deel van FriendlyNet en gefaald. Zelfde risco als rj-45.|
@@ -62,12 +69,12 @@ Deze kunnen zeker een gevaar zijn. Ze kunnen data transporteren en sommige (eSAT
 Is geen gevaarlijk (in principe [Rubber Ducky](https://www.plurilock.com/answers/rubber-ducky-attack-what-does-rubber-ducky-attack-mean/) achtige aanvallen wel mogelijk).
 |Port picture|name|extra|
 |:--|:--|:--|
-|![port_ps2.png](/information_security/assets/ports/port_ps2.png =100x)| PS/2 | Nee. Enkel input via interupts|
-|![port_atkeyboard.png](/information_security/assets/ports/port_atkeyboard.png)|AT Keyboard|Nee.|
-|![port_da-15-macvideo.png](/information_security/assets/ports/port_da-15-macvideo.png)|Mac Video/Midi/gameport/AUI<br>DA-15| ??? Heeft input, later geintrigreerd met soundcards. https://en.wikipedia.org/wiki/Game_port|
+|![port_ps2.png](/information_security/assets/ports/port_ps2.png =100x)| PS/2 | Weinig tot geen. (werkt met interrupts|
+|![port_atkeyboard.png](/information_security/assets/ports/port_atkeyboard.png)|AT Keyboard|Weinig tot geen.|
+|![port_da-15-macvideo.png](/information_security/assets/ports/port_da-15-macvideo.png)|Mac Video/Midi/gameport/AUI<br>DA-15| Input + output + connectie met de north/south bridge is een risico. https://en.wikipedia.org/wiki/Game_port|
 
 ## Video/Audio
-Deze hebben over het algemeen geen gevaar. *Tenzij je afkijken meetelt*.
+Deze hebben over het algemeen weinig gevaar. Afkijken kan een vorm van risico zijn.
 |Port picture|name|dangers|
 |:--|:--|:--|
 |![port_optical_audio.png](/information_security/assets/ports/port_optical_audio.png =100x)| Optical Audio "TosLink" | Neen. Vooral enkel voor audio.|
@@ -77,10 +84,10 @@ Deze hebben over het algemeen geen gevaar. *Tenzij je afkijken meetelt*.
 |![port_compositeaudiovideo.png](/information_security/assets/ports/port_compositeaudiovideo.png)|Composite Audio/Video|Nee.|
 |![port_svideo.png](/information_security/assets/ports/port_svideo.png)|S-Video|Nee.|
 |![port_componentvideo.png](/information_security/assets/ports/port_componentvideo.png)|Component Video<br>Tip: RGB of RBG in dit geval|Nee.|
-|![port_minidisplayport.png](/information_security/assets/ports/port_minidisplayport.png)|Mini DisplayPort|Nee. Enkel output voor displays.|
-|![port_mini-dvi.png](/information_security/assets/ports/port_mini-dvi.png)|Mini-DVI|idem|
-|![port_mini-vga.png](/information_security/assets/ports/port_mini-vga.png)|Mini-VGA|idem|
-|![port_hdi-45.png](/information_security/assets/ports/port_hdi-45.png)|Apple Hi-Density Video HDI-45|Idem. Deze plug heeft ook maar gediend voor wel één display van Apple.|
+|![port_minidisplayport.png](/information_security/assets/ports/port_minidisplayport.png)|Mini DisplayPort|Nee.|
+|![port_mini-dvi.png](/information_security/assets/ports/port_mini-dvi.png)|Mini-DVI|Nee.|
+|![port_mini-vga.png](/information_security/assets/ports/port_mini-vga.png)|Mini-VGA|Nee.|
+|![port_hdi-45.png](/information_security/assets/ports/port_hdi-45.png)|Apple Hi-Density Video HDI-45|Nee. Deze plug heeft ook maar gediend voor wel één display van Apple.|
 |![port_adc.png](/information_security/assets/ports/port_adc.png)|Apple Display Connector – ADC|Nee.|
 |![port_lfh60.png](/information_security/assets/ports/port_lfh60.png)|LFH60 (dual DVI-D)|Nee.|
 |![port_dms59.png](/information_security/assets/ports/port_dms59.png)|DMS59 (Dual DVI-D)|Nee.|
@@ -115,7 +122,7 @@ Versies en snelheidsnamen te kennen. **Snelheden** zelf **niet**.
 ![port_usbversions.png](/information_security/assets/ports/port_usbversions.png)
 
 ## Network ports
-Dit zijn vaak voorkomende netwerk poorten:
+### Dit zijn vaak voorkomende netwerk poorten
 | Service | Well-known Port Number |
 | :-- | :-- |
 | FTP | 20, 21 |
@@ -128,6 +135,9 @@ Dit zijn vaak voorkomende netwerk poorten:
 | PPTP | 1723 |
 | IRC | 6667 |
 
-
-[^1]: Veel poorten zijn oud en niet meer in gebruik. Soms zelfs maar 1 keer gebruikt. Het is dus moeilijk om voor alle poorten te weten of ze gevaarlijk zijn. Joris Geens heeft nog geen antwoord gegeven op de vragen hierover.
-Mocht je zelf weten of ze gevaarlijk zijn mag je het toevoegen.
+### Poorten en services per range
+|Range|Services|
+|:--|:--|
+|0 - 1023|Specifieke services|
+|1024 - 49151|Softwarehuizen|
+|49152 - 65535|Dynamische en tussen computersoftware onderling
