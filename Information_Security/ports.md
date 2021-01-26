@@ -2,7 +2,7 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-26T18:03:41.829Z
+date: 2021-01-26T20:20:20.684Z
 tags: info-sec, network, ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -51,8 +51,8 @@ Deze kunnen zeker een gevaar zijn. Ze kunnen data transporteren en sommige (eSAT
 |![port_firewire_4_pin_ilink.png](/information_security/assets/ports/port_firewire_4_pin_ilink.png =100x)| Firewire 4 pin iLink | Ja. Vergelijkbaar met USB. Support input en output|
 |![port_firewire_800_3200.png](/information_security/assets/ports/port_firewire_800_3200.png =100x)| Firewire 800/3200 1394b/c | Ja. Vergelijkbaar met USB. Support input en output|
 |![port_ethernet_8p8c_rj45.png](/information_security/assets/ports/port_ethernet_8p8c_rj45.png =100x)| Ethernet 8P8C RJ-45 | Ja. I/O voor communicatie. Kan je verbinden met een netwerk.|
-|![port_modem_rj11.png](/information_security/assets/ports/port_modem_rj11.png =100x)| Modem RJ-11 | (niet zeker) Voor modem en telefonie. Niet echt.|
-|![port_apple_desktop_bus_adb.png](/information_security/assets/ports/port_apple_desktop_bus_adb.png =100x)| Apple Desktop Bus/ADB | (niet zeker) Nee. Low-speed devices. Vervangen door USB. Voor kb/m.|
+|![port_modem_rj11.png](/information_security/assets/ports/port_modem_rj11.png =100x)| Modem RJ-11 | Voor modem en telefonie.|
+|![port_apple_desktop_bus_adb.png](/information_security/assets/ports/port_apple_desktop_bus_adb.png =100x)| Apple Desktop Bus/ADB | Ja (wel extreem traag). Low-speed devices. Vervangen door USB. Voor kb/m.|
 |![port_mac_serial.png](/information_security/assets/ports/port_mac_serial.png =100x)| Mac Serial | (niet zeker) Communicatie via printers|
 |![port_de9f.png](/information_security/assets/ports/port_de9f.png =100x)| DE-9F | Ja. Ze kunnen two-way communication voeren met system internal devices. 9 staat voor aantal pins.|
 |![port_db25_serial_com_port.png](/information_security/assets/ports/port_db25_serial_com_port.png =100x) | DB-25 Serial/COM port | Ja. Ze kunnen two-way communication voeren met system internal devices. 25 Staat voor aantal pins|
