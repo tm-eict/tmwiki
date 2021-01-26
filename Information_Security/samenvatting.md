@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-26T15:42:27.636Z
+date: 2021-01-26T16:04:40.536Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -666,7 +666,7 @@ Nadat het OS is opgestart moeten stappen worden ondernomen om niet\-geauthentise
 		* Wachtwoorden
 			* Hoofdletters (A, B, C, D, ...)
 			* Kleine letters (a, b, c, d, ...)
-			* Getallen (0, 1, 2, 3, ...-
+			* Getallen (0, 1, 2, 3, ...)
 			* Speciale tekens (?, !, &, |, ...)
 		* Wachtwoordentechnieken
 			* Lengte: hoe langer hoe beter
@@ -698,13 +698,13 @@ Nadat het OS is opgestart moeten stappen worden ondernomen om niet\-geauthentise
 	* Encryptie
 	* Monitoren van application software security
 * Remote access\-bescherming
-	* Firewall (H9)
+	* Firewall [(H9)](#H9)
 	* Browser beveiligingsopties
 * Bescherming tegen malicious software
 * Security updates en patches
 
 | Patch | Update |
-| :----- | :------ |
+| :-- | :-- |
 | Richt zich alleen op security  vulnerabilities |  Update de applicatie verandert funtionaliteit en hoogt de versie op |
 | Verandert niet aan funtionaliteit of dependencies | Breekt vaak plugin/theme/extensie/dependencies |
 | Verandert de applicatie versie niet, compatibel met latere update | In de meeste gevallen niet veilig te automatiseren |
@@ -780,17 +780,17 @@ Nadat het OS is opgestart moeten stappen worden ondernomen om niet\-geauthentise
 
 ### Lokale bescherming
 5 veel gebruikte tools
-1. Lokale firewell
+1. Lokale firewall
 	* Software, bedoeld voor individuele computers met dial\-up, LAN of andere rechtstreekse internetverbindingen
 	* Beheert het inkomend en uitgaand dataverkee
 	* Bewaken poorten en services
 		* 0 tot 1023: specifieke services
 		* 1024 tot 49151: geregistreerde poorten
 		* 49152 tot 65535: dynamisch en tussen computersoftware onderling
-  * News: oude service van het verleden
+	* Well known ports and services
+ 		* News: oude service van het verleden
 		* IRC: Internet Relay Chat
 		* POP: Post Office Protocol
-	* Well known ports and services
 
 | Service | Well-known Port Number |
 | :-- | :-- |
@@ -1073,8 +1073,8 @@ Enkele protocollen
 *	**MAC** en TCP/IP
 	*	MAC = laag 2, TCP/IP = laag 3
 	*	**DHCP** (dynamic host configuration protocol)past **ARP** (Address Resolution Protocol) toe om een MAC\-adres aan een IP\-adres te koppelen
-*	**IP\-adressen
-	*	IPv4\-adressen**
+*	**IP\-adressen**
+	*	**IPv4\-adressen**
 		*	32\-bits (232\= 4.294.967.296 adressen)
 		*	**Dotted decimal notation**
 			*	XXX.YYY.ZZZ.AAA (vier 8\-bits velden of octetten)
