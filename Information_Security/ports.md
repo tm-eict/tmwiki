@@ -2,7 +2,7 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-26T20:47:11.791Z
+date: 2021-01-26T20:48:16.405Z
 tags: info-sec, network, ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -122,7 +122,7 @@ Versies en snelheidsnamen te kennen. **Snelheden** zelf **niet**.
 ![port_usbversions.png](/information_security/assets/ports/port_usbversions.png)
 
 ## Network ports
-### Dit zijn vaak voorkomende netwerk poorten
+### Vaak voorkomende netwerk poorten
 | Service | Well-known Port Number |
 | :-- | :-- |
 | FTP | 20, 21 |
