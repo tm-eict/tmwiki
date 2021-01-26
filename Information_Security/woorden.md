@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-26T15:55:46.952Z
+date: 2021-01-26T16:05:54.156Z
 tags: info-sec, afkortingen
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -133,6 +133,8 @@ Zie ook gerelateerde pagina's: [poorten](/en/Information_Security/ports), [OSI-m
 | ISA | instruction set architecture | |
 | FSB | front-side bus | |
 | CRM | Customer relationship management | |
+| SBU | Sensitive But Unclassified  | |
+| FOUO | For Official Use Only | |
 <br>
 
 ### Hackers/crackers
