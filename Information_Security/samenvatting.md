@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-26T09:46:00.358Z
+date: 2021-01-26T10:17:11.452Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -958,7 +958,7 @@ OSI layer security
 		* Beveiligen van datakabels en netwerkapparatuur
 	2. Inner perimeter
 		* Laag 2 (data link)
-		* Data kan hier aanvaard worden, geweigerd of doorgestuurdop basis van de identiteit
+		* Data kan hier aanvaard worden, geweigerd of doorgestuurd op basis van de identiteit
 	3. Interior perimeter
 		* Laag 3-7
 		* Bijvoorbeeld: laag 4 met het blokkeren van poorten
