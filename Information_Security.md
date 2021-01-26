@@ -2,7 +2,7 @@
 title: Information Security
 description: 
 published: true
-date: 2021-01-26T13:29:03.894Z
+date: 2021-01-26T14:21:45.367Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-20T21:15:25.761Z
@@ -17,7 +17,7 @@ remoet kontent
 ## Index
 
 - [Begrippen en afkortingen](/en/Information_Security/woorden) Een volledige lijst van te kennen begrippen en afkortingen
-- [Poorten](/en/Information_Security/ports) Uitleg over fysieke poorten en hun gevaren (ook vaak voorkomende netwerk poorten)*
+- [Poorten](/en/Information_Security/ports) Uitleg over fysieke poorten en hun gevaren (ook vaak voorkomende netwerk poorten)
 - [OSI-Model](/en/Information_Security/OSI-model) Open Systems Interconnection model
 - [Perimeters](/en/Information_Security/perimeters) The three perimeters
 - [Camera's](/en/Information_Security/camera) Uitleg over verschillen
@@ -25,8 +25,8 @@ remoet kontent
 
 ---
 
-- [Samenvatting *Volledige samenvatting van Pieter*](/en/Information_Security/samenvatting)
-- [Voorbeeld examen *Voorbeeld vragen met antwoorden en lijst van te kennen onderdelen*](/en/Information_Security/testexam)
+- [Samenvatting](/en/Information_Security/samenvatting)Volledige samenvatting van Pieter
+- [Voorbeeld examen](/en/Information_Security/testexam)Voorbeeld vragen met antwoorden en lijst van te kennen onderdelen
 {.links-list}
 
 ## Boek
