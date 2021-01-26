@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-26T13:23:59.297Z
+date: 2021-01-26T14:00:56.935Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -105,7 +105,7 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | SSL | Secure Sockets Layer | |
 | NIC | network interface card | |
 | IP | Internet Protocol | |
-| TCP | Transmission Control Protoco | |
+| TCP | Transmission Control Protocol | |
 | Spoofing |- ||
 | SYN | Synchronise | |
 | ACK | Acknowledge | |
@@ -125,3 +125,6 @@ dateCreated: 2021-01-23T11:20:08.993Z
 | iOS |- | Apple's mobile OS |
 | DoS | Denial of Service | |
 | DDoS | Distributed DoS | |
+| SSH | Secure Shell | |
+| IPsec | Internet Protocol security | |
+| PPTP | Point-To-Point Tunneling Protocol | |
