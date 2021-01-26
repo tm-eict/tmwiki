@@ -2,7 +2,7 @@
 title: Information Security
 description: 
 published: true
-date: 2021-01-26T14:21:45.367Z
+date: 2021-01-26T15:16:16.556Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-20T21:15:25.761Z
@@ -16,17 +16,17 @@ remoet kontent
 
 ## Index
 
-- [Begrippen en afkortingen](/en/Information_Security/woorden) Een volledige lijst van te kennen begrippen en afkortingen
-- [Poorten](/en/Information_Security/ports) Uitleg over fysieke poorten en hun gevaren (ook vaak voorkomende netwerk poorten)
-- [OSI-Model](/en/Information_Security/OSI-model) Open Systems Interconnection model
-- [Perimeters](/en/Information_Security/perimeters) The three perimeters
-- [Camera's](/en/Information_Security/camera) Uitleg over verschillen
+- [Begrippen en afkortingen *Een volledige lijst van te kennen begrippen en afkortingen*](/en/Information_Security/woorden)
+- [Poorten *Uitleg over fysieke poorten en hun gevaren (ook vaak voorkomende netwerk poorten)*](/en/Information_Security/ports)
+- [OSI-Model *Open Systems Interconnection model*](/en/Information_Security/OSI-model)
+- [Perimeters *The three perimeters*](/en/Information_Security/perimeters) 
+- [Camera's *Uitleg over verschillen*](/en/Information_Security/camera) 
 {.links-list}
 
 ---
 
-- [Samenvatting](/en/Information_Security/samenvatting)Volledige samenvatting van Pieter
-- [Voorbeeld examen](/en/Information_Security/testexam)Voorbeeld vragen met antwoorden en lijst van te kennen onderdelen
+- [Samenvatting *Volledige samenvatting van Pieter*](/en/Information_Security/samenvatting)
+- [Voorbeeld examen *Voorbeeld vragen met antwoorden en lijst van te kennen onderdelen*](/en/Information_Security/testexam)
 {.links-list}
 
 ## Boek
