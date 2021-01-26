@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-26T15:49:31.914Z
+date: 2021-01-26T15:55:46.952Z
 tags: info-sec, afkortingen
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -24,7 +24,7 @@ Zie ook gerelateerde pagina's: [poorten](/en/Information_Security/ports), [OSI-m
 | RFID | Radio-frequency identification | RFID badge heeft bijvoorbeeld een chip. Met een radio signaal kan je dan identificeren |
 | PII | Personal Identifiable Information | B.v.: een identiteitskaart heeft PII|
 | PIR | Passive infrared |Een PIR sensor is een motion detector dat infrared light meet van objecten in zijn Field Of View. |
-| CCD camera | Charged Coupled Device | Achter de lens van een digitale camera. |
+| CCD camera | Charged Coupled Device | De beste bewakingscamera's gebruiken CCD. Hoge resolutione, werken op laag licht, temperatuur bestendig en hoge betrouwbaarheid. |
 | PoE | Power over Ethernet | Je kan hiermee IP camera's stroom leveren via de Ethernet cable |
 | lux waarde |- | lux waarde voor hoeveelheid licht. Hoe lager hoe beter. |
 | DVR | Digital Video Recorder | |
