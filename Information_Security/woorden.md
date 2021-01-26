@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-26T18:25:10.700Z
+date: 2021-01-26T19:11:26.682Z
 tags: info-sec, afkortingen
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -107,6 +107,7 @@ Zie ook gerelateerde pagina's: [poorten](/en/Information_Security/ports), [OSI-m
 | NIC | network interface card | |
 | IP | Internet Protocol | |
 | TCP | Transmission Control Protocol | |
+| UDP | User Datagram Protocol | |
 | Spoofing |- | Vervalsen van kenmerken et als doel om tijdelijk een valse identiteit aan te nemen. Dit kan bijvoorbeeld gaan om e-mail, website, IP-adres, telefoonnummer en biometrische kenmerken. [Wiki](https://nl.wikipedia.org/wiki/Spoofing)|
 | SYN | Synchronise |Onderdeel van een three-way handshake. Syn-flood is een DoS. Hacker stuurt vele SYN requests naar een server en spoofs IP-adres of houdt ACK packet bij, waardoor er op de server allemaal connecties blijven openstaan en geheugen server volloopt|
 | ACK | Acknowledge |Onderdeel van een three-way handshake. |
