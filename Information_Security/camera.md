@@ -2,8 +2,8 @@
 title: Camera's
 description: Verschillende camera's
 published: true
-date: 2021-01-26T12:15:23.923Z
-tags: 
+date: 2021-01-26T14:22:07.042Z
+tags: info-sec
 editor: markdown
 dateCreated: 2021-01-26T12:15:23.923Z
 ---
