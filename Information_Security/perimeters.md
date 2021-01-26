@@ -2,7 +2,7 @@
 title: Perimeters
 description: The three perimeters explained with examples
 published: true
-date: 2021-01-26T11:37:50.133Z
+date: 2021-01-26T13:41:21.456Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-26T11:26:34.149Z
@@ -14,8 +14,7 @@ dateCreated: 2021-01-26T11:26:34.149Z
 - Inner Perimeter: muren, deuren, ramen
 - Interior: binnenin het gebouw
 
-Access control is heel belangrijk [(ingress, egress, regress)
-ook CPTED helpt enorm](/en/Information_Security/woorden).
+Access control is heel belangrijk [(ingress, egress, regress), CPTED (Crime Prevention Through Environmental Design) helpt enorm](/en/Information_Security/woorden).
 ![3perimeters.png](/information_security/3perimeters.png =50%x)
 ### Outer perimeter
 - Natuurlijke elementen 
