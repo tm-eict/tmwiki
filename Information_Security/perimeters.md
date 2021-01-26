@@ -2,7 +2,7 @@
 title: Perimeters
 description: The three perimeters explained with examples
 published: true
-date: 2021-01-26T11:27:13.233Z
+date: 2021-01-26T11:37:50.133Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-26T11:26:34.149Z
@@ -26,6 +26,23 @@ ook CPTED helpt enorm](/en/Information_Security/woorden).
 - Territorial reinforcement
 	- Apparaten (access-control, camera’s, intrustion-detection, poorten)
 	- Borden
+  
+### Inner perimeter
+- Sloten
+	- cijfer
+	- manueel
+	- elektronisch
+	- ...
+
+### Interior
+- Alarm
+- receptionist
+- bewakingsagent (betere beslissingen en tijdig ingrijpen)
+- Authenticatie
+	- Knowledge
+	- Possession
+	- Inheritance
+	- Plaats
 
 ## Local host
 - Outer perimeter: Behuizing en hardware
