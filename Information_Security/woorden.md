@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-26T19:11:26.682Z
+date: 2021-01-26T19:26:51.888Z
 tags: info-sec, afkortingen
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -72,7 +72,7 @@ Zie ook gerelateerde pagina's: [poorten](/en/Information_Security/ports), [OSI-m
 | NFS | Network File System | |
 | NAT | network address translation | |
 | PAT | port address translation | |
-| HSF | Hierarchical File System | |
+| HFS | Hierarchical File System | |
 | SMBFS | Server Message Block File System | Voor gebruik van gemeenschappelijke toegang tot bestanden |
 | CIFS | Common Internet File System | Voor gebruik van gemeenschappelijke toegang tot bestanden |
 | RISC | Reduced Instruction Set Computing | |
