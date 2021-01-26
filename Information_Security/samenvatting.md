@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-26T10:17:11.452Z
+date: 2021-01-26T13:46:16.549Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -316,7 +316,7 @@ Local host Security in the real world
 	* NIST Respond (RS)
 		* Procedures om een aanval te behandelen
 			* Lagen in lekken
-	* NIST Recover 
+	* NIST Recover (RC)
 		* Welke schade moet hersteld worden?
 		* Backup
 		* Redundant hardware.
