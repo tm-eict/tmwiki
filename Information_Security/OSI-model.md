@@ -2,7 +2,7 @@
 title: OSI-model
 description: 
 published: true
-date: 2021-01-26T14:26:01.533Z
+date: 2021-01-26T17:56:17.498Z
 tags: info-sec, network
 editor: markdown
 dateCreated: 2021-01-21T15:09:52.659Z
@@ -106,6 +106,7 @@ Examples:
 - are all the cables plugged in?
 - Is the network card functioning?
 - Could it be a faulty cable?
+- What kind of connection is it? Star, bus, ring or mesh?
 
 ## Acronym
 Something to help you learn:
