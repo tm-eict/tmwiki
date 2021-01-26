@@ -2,8 +2,8 @@
 title: Perimeters
 description: The three perimeters explained with examples
 published: true
-date: 2021-01-26T13:41:21.456Z
-tags: 
+date: 2021-01-26T14:22:10.530Z
+tags: info-sec
 editor: markdown
 dateCreated: 2021-01-26T11:26:34.149Z
 ---
