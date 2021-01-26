@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-26T13:46:16.549Z
+date: 2021-01-26T14:00:54.727Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -400,7 +400,7 @@ Belangrijke pagina/samenvating over poorten kan je hier vinden: [ports](/en/Info
 	* Type A vooral gebruikt waar de kabel permanent bevestigd is (muis, toetsenbord, ...)
 	* Type B vooral gebruikt waar de kabel verwijderbaar is (printer, arduino, ...)
 	* USB 3.0 vaak blauw
-  Snelheden niet te kennen, **wel versie en snelheid naam**
+  Snelheden niet te kennen, **wel versie (Version) en snelheid naam (Speed)**
   
 | Version | Speed | Bits/sec | HD movie 25GB |
 | :----- | :----- | :----- | :----- |
@@ -450,7 +450,7 @@ Belangrijke pagina/samenvating over poorten kan je hier vinden: [ports](/en/Info
 * Taken:
 	* Resource managment (Ram, disk, printer, ...)
 	* Multi-user access
-	* Programme-uitvoer
+	* Programma-uitvoer
 	* Geheugenbeheer
 	* Disk management
 	* File Management System (FMS)
@@ -478,7 +478,7 @@ Een collectie van programma's die gebruikt worden om algemene operaties van een 
 		* Gewone terminals, heel dom, weinig geheugen, ...
 		* Hebben zelf geen OS
 * Server OS
-	* Server OS is basis  om network te beveiligen (H14)
+	* Server OS is basis  om network te beveiligen [(H14)](#H14)
 * NOS (Network Operating System)
 	* Voor de communicatie en data-uitwisseling tussen verschillend DOSen (Disk Operating Systems)
 	* Windows ServerOS, Linux server distributions, Unix
