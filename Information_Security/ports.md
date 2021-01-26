@@ -2,7 +2,7 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-26T20:48:16.405Z
+date: 2021-01-26T20:55:14.307Z
 tags: info-sec, network, ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -23,8 +23,8 @@ Veel poorten zijn oud en niet meer in gebruik. Soms zelfs maar 1 keer gebruikt. 
 Alles wat 2 weg communicatie heeft (dus input en output) vormt een gevaar. Sommige poorten hebben ook directe connectie met systeem bussen, deze zijn nog gevaarlijker.
 Andere zoals USB zijn nu eenmaal klein en hebben I/O.
 
-Enkel input devices kunnen geautomatiseerd worden, maar deze gevaren zijn vaak niet meer van toepassing (volgens Joris)
-Enkel output devices zijn over het algemeen veilig, maar afkijken is in principe mogelijk.
+Input-only devices kunnen geautomatiseerd worden, maar deze gevaren zijn vaak niet meer van toepassing (volgens Joris).
+Output-only devices zijn over het algemeen veilig, maar afkijken is in principe mogelijk.
 
 You can find this information at p131-134.
 
@@ -33,10 +33,10 @@ USB devices can be very small which means they are easy to hide and transport. T
 That's why its very important to protect USB ports in a computer, as well as controlling access of individuals.
 
 ### eSATA ports
-External SATA (Serial AT Attachment) are ports connected to the system's internal SATA bus. This bus is a standard for connecting hard drives to the computer system. Since they provide direct access to the buses that connect hard drives, they are security concern and might be worth covering up.
+External SATA (Serial Advanced Technology Attachment) are ports connected to the system's internal SATA bus. This bus is a standard for connecting hard drives to the computer system. Since they provide direct access to the buses that connect hard drives, they are security concern and might be worth covering up.
 
 ### Legacy ports
-Serial COM ports, Small Compuiter System Interface (SCSI) and LPT parallel printer ports pose a security risk since they are all capable of handling two-way communications with the system's internal devices
+Serial COM ports, Small Computer System Interface (SCSI) and LPT parallel printer ports pose a security risk since they are all capable of handling two-way communications with the system's internal devices
 
 ## Tips
 Tips om deze onnozele hoeveelheid van random oude poorten te leren:
