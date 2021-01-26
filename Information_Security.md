@@ -2,7 +2,7 @@
 title: Information Security
 description: 
 published: true
-date: 2021-01-26T12:28:57.288Z
+date: 2021-01-26T13:29:03.894Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-20T21:15:25.761Z
@@ -21,6 +21,7 @@ remoet kontent
 - [OSI-Model](/en/Information_Security/OSI-model) Open Systems Interconnection model
 - [Perimeters](/en/Information_Security/perimeters) The three perimeters
 - [Camera's](/en/Information_Security/camera) Uitleg over verschillen
+{.links-list}
 
 ---
 
