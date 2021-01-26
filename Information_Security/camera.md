@@ -2,7 +2,7 @@
 title: Camera's
 description: Verschillende camera's
 published: true
-date: 2021-01-26T14:22:07.042Z
+date: 2021-01-26T14:51:52.591Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-26T12:15:23.923Z
@@ -19,6 +19,12 @@ dateCreated: 2021-01-26T12:15:23.923Z
 Een CCTV (Closed Circuit) gebruikt een DVR (digital video recorder).
 
 ## Digital (IP camera)
+- CCD Camera (Charged Coupled Device) (dit is een alternatief van CMOS, maar wel heel oud)
+	- Hoge resolutie
+	- Weinig licht nodig
+	- Weinig temperatuurafhankelijk
+	- Hoge betrouwbaarheid
+	- IP camera is een digitale camera en is dus een CCD camera
 - IP camera kan rechtstreeks met een netwerk verbonden worden
 	- (+) Geen DVR nodig (je kan wel een NVR gebruiken)
 	- NVR (netwerk video recorder)
