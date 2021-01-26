@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-23T17:19:33.195Z
+date: 2021-01-26T09:46:00.358Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -1333,7 +1333,7 @@ Het framework bestaat uit drie delen
 	* Cisco IOS
 	* Andere Unix systemen
   
-* **[H5](#H5), [H10[(H10) en [H17](H17) zeker nakijken: samenvattingen\+ [testexam](/en/Information_Security/testexam)**
+* **[H5](#H5), [H10](#H10) en [H17](H17) zeker nakijken: samenvattingen\+ [testexam](/en/Information_Security/testexam)**
 
 ## Opdracht<a name="Opdracht"></a>
 Kernel attack slide 59
