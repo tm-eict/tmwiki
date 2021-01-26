@@ -2,7 +2,7 @@
 title: Home
 description: Waar je zelf de spellingsfouten mag verbeteren!
 published: true
-date: 2021-01-25T16:51:17.165Z
+date: 2021-01-26T18:04:56.013Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T21:12:05.187Z
@@ -14,7 +14,7 @@ dateCreated: 2021-01-20T21:12:05.187Z
 
 ## Courses
 
-- [Information Security *Een test is nu bezig voor dit vak.*](/Information_Security)
+- [Information Security *Joris Geens de security expert.*](/Information_Security)
 - [C Fundamentals *Github pagina met alle oefeningen.*](https://github.com/tm-eict/C-Fundamentals)
 {.links-list}
 
