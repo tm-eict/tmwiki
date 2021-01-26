@@ -2,7 +2,7 @@
 title: Voorbeeld examen
 description: Vraagjes zodat je je kan voorbereiden op het examen. Hier staan te kunnen vragen benadrukt door de leerkracht en wat extra vragen die mogelijk gevraagd kunnen worden.
 published: true
-date: 2021-01-26T15:20:00.905Z
+date: 2021-01-26T17:11:23.924Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-21T16:23:45.370Z
@@ -155,6 +155,12 @@ Total Mac Addresses for this criterion: 2
 
   Een operating system voor routers (er zijn nog andere UNIX OS's voor routers).
   Cisco Systems Internetwork Operating System. (Check afkortingen)
+</details>
+
+<details>
+  <summary markdown="span">Waarvoor staan de letters TPM? Veronderstel dat je een geblokkeerde computer hebt en je moet data uit de TPM-chip halen. Hoe pak je dat praktisch aan?</summary>
+  Trusted Platform Module.
+  (onzeker) Back-up van encryption keys gebruiken.
 </details>
 
 ## Vragen zonder antwoord
