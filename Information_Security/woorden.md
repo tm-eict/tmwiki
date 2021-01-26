@@ -2,7 +2,7 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-26T16:29:28.944Z
+date: 2021-01-26T17:19:04.143Z
 tags: info-sec, afkortingen
 editor: markdown
 dateCreated: 2021-01-23T11:20:08.993Z
@@ -78,7 +78,7 @@ Zie ook gerelateerde pagina's: [poorten](/en/Information_Security/ports), [OSI-m
 | RISC | Reduced Instruction Set Computing | |
 | CISC | Complex Instruction Set Computing | |
 | ARM | Advanced RISC Machine | |
-| TPM | trusted platform module | Is hardware: chip with for instance encryption keys, TPM chip is fixed on motherboard |
+| TPM | trusted platform module | Is hardware: chip with for instance encryption keys, TPM chip is fixed on motherboard. TPM is used to store cryptographic information such as the encryption key (aka start-up key). |
 | HTTPS | Hypertext Transfer Protocol Secure | Secure betekent met encryptie (a.d.h.v. TLS vroeger met SSL). |
 | SSID | Service set Identifier | Eingelijk naam van Wi-Fi. |
 | IRC | Internet Relay Chat | Port 6667 |
