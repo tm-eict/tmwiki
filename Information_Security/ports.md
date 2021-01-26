@@ -2,7 +2,7 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-26T20:32:03.297Z
+date: 2021-01-26T20:33:54.349Z
 tags: info-sec, network, ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -55,8 +55,8 @@ Deze kunnen zeker een gevaar zijn. Ze kunnen data transporteren en sommige (eSAT
 |![port_apple_desktop_bus_adb.png](/information_security/assets/ports/port_apple_desktop_bus_adb.png =100x)| Apple Desktop Bus/ADB | Ja (wel extreem traag). Low-speed devices. Vervangen door USB. Voor kb/m.|
 |![port_mac_serial.png](/information_security/assets/ports/port_mac_serial.png =100x)| Mac Serial | (niet zeker) Communicatie via printers|
 |![port_de9f.png](/information_security/assets/ports/port_de9f.png =100x)| DE-9F | Ja. Ze kunnen two-way communication voeren met system internal devices. 9 staat voor aantal pins, F = Female.|
-|![port_db25_serial_com_port.png](/information_security/assets/ports/port_db25_serial_com_port.png =100x) | DB-25 Serial/COM port | Ja. Ze kunnen two-way communication voeren met system internal devices. 25 Staat voor aantal pins. Male.|
-|![port_de9rs232.png](/information_security/assets/ports/port_de9rs232.png)|DE-9 Serial RS232|Ja. Ze kunnen two-way communication voeren met system internal devices. 9 staat vr pins. Male|
+|![port_db25_serial_com_port.png](/information_security/assets/ports/port_db25_serial_com_port.png =100x) | DB-25 Serial/COM port | Ja. Ze kunnen two-way communication voeren met system internal devices. 25 Staat voor aantal pins.|
+|![port_de9rs232.png](/information_security/assets/ports/port_de9rs232.png)|DE-9 Serial RS232|Ja. Ze kunnen two-way communication voeren met system internal devices. 9 staat vr pins.|
 |![port_esata.png](/information_security/assets/ports/port_esata.png)|e-SATA|Ja. Ze hebben access tot de bussen van de diskdrives in een systeem.|
 |![port_centronics_parallel_36_pin.png](/information_security/assets/ports/port_centronics_parallel_36_pin.png)|Centronics Parallel 36 pin|Ja. Ze kunnen two-way communication voeren met system internal devices.|
 |![port_centronics_scsi_50pin.png](/information_security/assets/ports/port_centronics_scsi_50pin.png)|Centronics SCSI 50pin|Ja. Ze kunnen two-way communication voeren met system internal devices.|
@@ -71,7 +71,7 @@ Is geen gevaarlijk (in principe [Rubber Ducky](https://www.plurilock.com/answers
 |:--|:--|:--|
 |![port_ps2.png](/information_security/assets/ports/port_ps2.png =100x)| PS/2 | Weinig tot geen. (werkt met interrupts|
 |![port_atkeyboard.png](/information_security/assets/ports/port_atkeyboard.png)|AT Keyboard|Weinig tot geen.|
-|![port_da-15-macvideo.png](/information_security/assets/ports/port_da-15-macvideo.png)|Mac Video/Midi/gameport/AUI<br>DA-15| Input + output + connectie met de north/south bridge is een risico. Male. https://en.wikipedia.org/wiki/Game_port|
+|![port_da-15-macvideo.png](/information_security/assets/ports/port_da-15-macvideo.png)|Mac Video/Midi/gameport/AUI<br>DA-15| Input + output + connectie met de north/south bridge is een risico. https://en.wikipedia.org/wiki/Game_port|
 
 ## Video/Audio
 Deze hebben over het algemeen weinig gevaar. Afkijken kan een vorm van risico zijn.
@@ -95,7 +95,7 @@ Deze hebben over het algemeen weinig gevaar. Afkijken kan een vorm van risico zi
 |![port_micro-dvi.png](/information_security/assets/ports/port_micro-dvi.png)|Micro-DVI|Nee.|
 |![port_displayport.png](/information_security/assets/ports/port_displayport.png)|DisplayPort|Nee.|
 |![port_dvivideo.png](/information_security/assets/ports/port_dvivideo.png)|DVI Video|Nee.|
-|![port_de15-vga.png](/information_security/assets/ports/port_de15-vga.png)|DE-15/HD-15/VGA/SVGA|Nee. 15 staat vr pins. Als het 15/blauw is -> VGA. Male.|
+|![port_de15-vga.png](/information_security/assets/ports/port_de15-vga.png)|DE-15/HD-15/VGA/SVGA|Nee. 15 staat vr pins. Als het 15/blauw is -> VGA.|
 
 ## USB
 Altijd gevaarlijk aangezien ze klein en makkelijk transporteerbaar zijn voor malicious intent.
