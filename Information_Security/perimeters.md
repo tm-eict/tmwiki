@@ -2,7 +2,7 @@
 title: Perimeters
 description: The three perimeters explained with examples
 published: true
-date: 2021-01-26T11:26:34.149Z
+date: 2021-01-26T11:27:13.233Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-26T11:26:34.149Z
@@ -16,7 +16,7 @@ dateCreated: 2021-01-26T11:26:34.149Z
 
 Access control is heel belangrijk [(ingress, egress, regress)
 ook CPTED helpt enorm](/en/Information_Security/woorden).
-![3perimeters.png](/information_security/3perimeters.png =70%x)
+![3perimeters.png](/information_security/3perimeters.png =50%x)
 ### Outer perimeter
 - Natuurlijke elementen 
 	- Hagen
