@@ -2,7 +2,7 @@
 title: OSI-model
 description: 
 published: true
-date: 2021-01-26T17:57:47.624Z
+date: 2021-01-26T18:02:55.296Z
 tags: info-sec, network
 editor: markdown
 dateCreated: 2021-01-21T15:09:52.659Z
@@ -73,7 +73,7 @@ and destination IP addresses are added.
 
 Example:
 - Is the router functioning?
-- Do i have the right IP address?
+- Do I have the right IP address?
 
 ## Layer 2: Data Link layer
 At this layer, the physical addresses are added to the data. This is source and
