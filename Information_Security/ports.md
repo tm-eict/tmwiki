@@ -2,7 +2,7 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-26T16:11:37.431Z
+date: 2021-01-26T18:03:31.356Z
 tags: info-sec, network, ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -62,7 +62,7 @@ Deze kunnen zeker een gevaar zijn. Ze kunnen data transporteren en sommige (eSAT
 |![port_centronics_scsi_50pin.png](/information_security/assets/ports/port_centronics_scsi_50pin.png)|Centronics SCSI 50pin|Ja. Ze kunnen two-way communication voeren met system internal devices.|
 |![port_50_pin_scsi_2.png](/information_security/assets/ports/port_50_pin_scsi_2.png)|50 pin SCSI 2|Ja. Ze kunnen two-way communication voeren met system internal devices.|
 |![port_aaui.png](/information_security/assets/ports/port_aaui.png)|AAUI|(niet zeker) Deel van FriendlyNet en gefaald. Zelfde risco als rj-45.|
-|![port_coax.png](/information_security/assets/ports/port_coax.png)|F-Connector RF/COAX|(niet zeker) Zelfde risco als rj-45|
+|![port_coax.png](/information_security/assets/ports/port_coax.png)|F-Connector RF/COAX|Zelfde risco als rj-45|
 |![port_db25f.png](/information_security/assets/ports/port_db25f.png)|Parallel Port/SCSI 1/DB-25F|Ja. Ze kunnen two-way communication voeren met system internal devices. 25 staat vr pins.|
 
 ## Other
