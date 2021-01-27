@@ -2,7 +2,7 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-26T20:55:14.307Z
+date: 2021-01-27T07:24:39.407Z
 tags: info-sec, network, ports
 editor: markdown
 dateCreated: 2021-01-21T16:14:13.582Z
@@ -64,6 +64,7 @@ Deze kunnen zeker een gevaar zijn. Ze kunnen data transporteren en sommige (eSAT
 |![port_aaui.png](/information_security/assets/ports/port_aaui.png)|AAUI|(niet zeker) Deel van FriendlyNet en gefaald. Zelfde risco als rj-45.|
 |![port_coax.png](/information_security/assets/ports/port_coax.png)|F-Connector RF/COAX|Zelfde risco als rj-45|
 |![port_db25f.png](/information_security/assets/ports/port_db25f.png)|Parallel Port/SCSI 1/DB-25F|Ja. Ze kunnen two-way communication voeren met system internal devices. 25 staat vr pins. F = Female|
+<br>
 
 ## Other
 Is geen gevaarlijk (in principe [Rubber Ducky](https://www.plurilock.com/answers/rubber-ducky-attack-what-does-rubber-ducky-attack-mean/) achtige aanvallen wel mogelijk).
@@ -72,6 +73,7 @@ Is geen gevaarlijk (in principe [Rubber Ducky](https://www.plurilock.com/answers
 |![port_ps2.png](/information_security/assets/ports/port_ps2.png =100x)| PS/2 | Weinig tot geen. (werkt met interrupts) |
 |![port_atkeyboard.png](/information_security/assets/ports/port_atkeyboard.png)|AT Keyboard|Weinig tot geen.|
 |![port_da-15-macvideo.png](/information_security/assets/ports/port_da-15-macvideo.png)|Mac Video/Midi/gameport/AUI<br>DA-15| Input + output + connectie met de north/south bridge is een risico. https://en.wikipedia.org/wiki/Game_port|
+<br>
 
 ## Video/Audio
 Deze hebben over het algemeen weinig gevaar. Afkijken kan een vorm van risico zijn.
@@ -96,6 +98,7 @@ Deze hebben over het algemeen weinig gevaar. Afkijken kan een vorm van risico zi
 |![port_displayport.png](/information_security/assets/ports/port_displayport.png)|DisplayPort|Nee.|
 |![port_dvivideo.png](/information_security/assets/ports/port_dvivideo.png)|DVI Video|Nee.|
 |![port_de15-vga.png](/information_security/assets/ports/port_de15-vga.png)|DE-15/HD-15/VGA/SVGA|Nee. 15 staat vr pins. Als het 15/blauw is -> VGA.|
+<br>
 
 ## USB
 Altijd gevaarlijk aangezien ze klein en makkelijk transporteerbaar zijn voor malicious intent.
