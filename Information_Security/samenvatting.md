@@ -2,7 +2,7 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-26T16:04:40.536Z
+date: 2021-01-27T07:11:22.997Z
 tags: info-sec
 editor: markdown
 dateCreated: 2021-01-21T21:04:57.092Z
@@ -197,7 +197,7 @@ Een aantal voorbeelden van een schendingvan de CIA-driehoek zijn:
 * Belangrijkste specificaties voor camera
 	* Lichtgevoeligheid
 		* lux waarde
-			* Hoe lager, hoe beter: De camera kan projecten zine in het donker
+			* Hoe lager, hoe beter: De camera kan projecten zien in het donker
 		* Resolutie
 			* Analoog: aantal horizontale lijnen
 			* digitaal aantal pixels
@@ -323,8 +323,8 @@ Local host Security in the real world
     
 ## Hoofdstuk 7<a name="H7"></a>
 * De drie zones van beveiliging
-	1. **Outer** perimter: behuizing en hardware (H7)
-	2. **Inner** perimter: operating system + programma's (H8)
+	1. **Outer** perimter: behuizing en hardware [(H7)](#H7)
+	2. **Inner** perimter: operating system + programma's [(H8)](#H8)
 	3. **Interior**: data opslag plaatsen op het toestel (encryptie?)
 
 ### Secure the local host
@@ -379,7 +379,7 @@ Local host Security in the real world
 					* Trager
 					* Niet rechtsreeks verbonden met de CPU
 				* BIOS/UEFI en OS bepalen wat wel is toegestaan met deze chipset
-	* Softwarepoorten op netwerkkaart (draadloos of UTP) (H12)
+	* Softwarepoorten op netwerkkaart (draadloos of UTP) [(H12)](#H12)
 
 ### Fysieke poorten
 
