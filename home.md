@@ -2,7 +2,7 @@
 title: Home
 description: Waar je zelf de spellingsfouten mag verbeteren!
 published: true
-date: 2021-01-29T14:41:51.694Z
+date: 2021-01-31T20:50:57.144Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T21:12:05.187Z
@@ -21,7 +21,8 @@ dateCreated: 2021-01-20T21:12:05.187Z
 
 ### 2020-2021 2^ste^ semester
 
-Smart-tech lets go
+- [Smart Technology *bleep bloop*](/en/Smart_Technology)
+{.links-list}
 
 ### Github
 
