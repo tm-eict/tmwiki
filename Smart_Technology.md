@@ -2,16 +2,18 @@
 title: Smart Technology
 description: 
 published: true
-date: 2021-01-31T19:23:12.365Z
+date: 2021-01-31T19:25:57.171Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-31T17:43:52.395Z
 ---
 
+[![tmwiki_v1_noback.png](/tmwiki_v1_noback.png){.align-abstopright}](https://tmwiki.be/en/home)
+
 # Tabs {.tabset}
 ## Index
 
-Any content here will go into the first tab...
+[ECTS Fiche](http://onderwijsaanbodmechelenantwerpen.thomasmore.be/2020/syllabi/n/YT0788N.htm#activetab=doelstellingen_idp6383216)
 
 ## Benodigheden
 [Arduino IDE](https://www.arduino.cc/en/software) > download Windows 7 and above.
