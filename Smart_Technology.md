@@ -2,7 +2,7 @@
 title: Smart Technology
 description: 
 published: true
-date: 2021-01-31T19:25:57.171Z
+date: 2021-01-31T19:28:25.277Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-31T17:43:52.395Z
@@ -11,13 +11,16 @@ dateCreated: 2021-01-31T17:43:52.395Z
 [![tmwiki_v1_noback.png](/tmwiki_v1_noback.png){.align-abstopright}](https://tmwiki.be/en/home)
 
 # Tabs {.tabset}
-## Index
+## Home
 
 [ECTS Fiche](http://onderwijsaanbodmechelenantwerpen.thomasmore.be/2020/syllabi/n/YT0788N.htm#activetab=doelstellingen_idp6383216)
+### Index
 
 ## Benodigheden
+### Arduino IDE
 [Arduino IDE](https://www.arduino.cc/en/software) > download Windows 7 and above.
 
+### Arduino kit
 **De arduino kit moet minsten deze zaken bevatten:**
 ```
 1 x Arduino UNO R3 Development Board of compatibel
@@ -52,10 +55,12 @@ Voorbeelden vind je via links:
 [Giftwebshop.com kitje](https://www.giftwebshop.com/arduino-compatible-basis-starters-kit-limited-edition-2018-inclusief-gebruikersdocumentatie-engels-arduino-uno-r3-set-extra-compleet-geupgraded-board)
 
 ## Extra
+### PDFs en code
 Bij de [bol.com kit](www.bol.com/nl/p/uigebreide-arduino-starter-kit-2020-uno-r3-atmega328-244-delig-in-plastic-opbergdoos/9200000123903330/?bltgh=pXGnry5KUlaK7Y4Zah1BmQ.1_15.24.ProductTitle) kwam een CD met instructie en code:
 - [Volledige CD uit Super Starter Kit](https://drive.google.com/file/d/1277gvZtldIbj_s6tyYcfgJWwbZpn7rTH/view?usp=sharing)
 	- [Enkel PDFs en code uit CD (nuttige deel)](https://drive.google.com/file/d/1Mtces9IvOF1hp8Cz9RwuheB3AY3yMXRv/view?usp=sharing)
-  
+
+### VSCode als IDE
 Je kan in **VSCode** werken i.p.v. de Arduino IDE, indien je dit wilt:
 - Zoek dan naar de [extentie Arduino](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino).
 - Je kan dit [artikel](https://maker.pro/arduino/tutorial/how-to-use-visual-studio-code-for-arduino) volgen voor hoe je deze extentie kan gebruiken.
