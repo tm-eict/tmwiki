@@ -2,7 +2,7 @@
 title: Smart Technology
 description: 
 published: true
-date: 2021-01-31T17:55:32.548Z
+date: 2021-01-31T19:23:12.365Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-31T17:43:52.395Z
@@ -14,7 +14,7 @@ dateCreated: 2021-01-31T17:43:52.395Z
 Any content here will go into the first tab...
 
 ## Benodigheden
-[Arduino IDE](https://www.arduino.cc/en/software) Download Windows 7 and above.
+[Arduino IDE](https://www.arduino.cc/en/software) > download Windows 7 and above.
 
 **De arduino kit moet minsten deze zaken bevatten:**
 ```
@@ -50,8 +50,12 @@ Voorbeelden vind je via links:
 [Giftwebshop.com kitje](https://www.giftwebshop.com/arduino-compatible-basis-starters-kit-limited-edition-2018-inclusief-gebruikersdocumentatie-engels-arduino-uno-r3-set-extra-compleet-geupgraded-board)
 
 ## Extra
+Bij de [bol.com kit](www.bol.com/nl/p/uigebreide-arduino-starter-kit-2020-uno-r3-atmega328-244-delig-in-plastic-opbergdoos/9200000123903330/?bltgh=pXGnry5KUlaK7Y4Zah1BmQ.1_15.24.ProductTitle) kwam een CD met instructie en code:
 - [Volledige CD uit Super Starter Kit](https://drive.google.com/file/d/1277gvZtldIbj_s6tyYcfgJWwbZpn7rTH/view?usp=sharing)
 	- [Enkel PDFs en code uit CD (nuttige deel)](https://drive.google.com/file/d/1Mtces9IvOF1hp8Cz9RwuheB3AY3yMXRv/view?usp=sharing)
   
-Je kan in VSCode werken i.p.v. de Arduino IDE, indien je dit wilt:
-- 
+Je kan in **VSCode** werken i.p.v. de Arduino IDE, indien je dit wilt:
+- Zoek dan naar de [extentie Arduino](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino).
+- Je kan dit [artikel](https://maker.pro/arduino/tutorial/how-to-use-visual-studio-code-for-arduino) volgen voor hoe je deze extentie kan gebruiken.
+
+VSCode arduino extentie heeft voordelen zoals intellisens en autofill.
