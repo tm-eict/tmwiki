@@ -2,7 +2,7 @@
 title: Thomas More ICT Wiki
 description: Waar je zelf de spellingsfouten mag verbeteren!
 published: true
-date: 2021-02-01T12:27:36.285Z
+date: 2021-02-01T12:47:28.816Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T21:12:05.187Z
@@ -13,8 +13,12 @@ dateCreated: 2021-01-20T21:12:05.187Z
 # Courses
 # Tabs {.tabset}
 ## 2020-2021 2^ste^ semester
-### 1^ste^ jaar
-- [Smart Technology *bleep bloop*](/en/Smart_Technology)
+### 1^ste^ jaar - 2^ste^ semester
+- [Computer System Architecture *The next Nvidia*](/en/Computer_System_Architecture)
+- [Network Fundamentals *Can we just stick with ipv4 a little longer?*](/en/Network_Fundamentals)
+- [OS Advanced *Very advanced^TM^*](/en/OS_Advanced)
+- [Smart Technology *Bleep bloop, hihi LED blinks*](/en/Smart_Technology)
+- [Web Engineering *How do I center in css?*](/en/Web_Engineering)
 {.links-list}
 
 ## Ouder
@@ -23,8 +27,6 @@ dateCreated: 2021-01-20T21:12:05.187Z
 - [Information Security *Joris Geens de security expert.*](/Information_Security)
 - [C Fundamentals *Github pagina met alle oefeningen.*](https://github.com/tm-eict/C-Fundamentals)
 {.links-list}
-
-
 
 # Github
 
