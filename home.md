@@ -2,7 +2,7 @@
 title: Thomas More ICT Wiki
 description: Waar je zelf de spellingsfouten mag verbeteren!
 published: true
-date: 2021-02-01T12:48:11.847Z
+date: 2021-02-01T14:03:55.505Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T21:12:05.187Z
@@ -12,7 +12,7 @@ dateCreated: 2021-01-20T21:12:05.187Z
 # Courses
 # Tabs {.tabset}
 ## 2020-2021 2^ste^ semester
-### 1^ste^ jaar - 2^ste^ semester
+### 1^ste^ jaar - 2^de^ semester
 - [Computer System Architecture *The next Nvidia*](/en/Computer_System_Architecture)
 - [Network Fundamentals *Can we just stick with ipv4 a little longer?*](/en/Network_Fundamentals)
 - [OS Advanced *Very advanced^TM^*](/en/OS_Advanced)
