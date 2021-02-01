@@ -2,14 +2,13 @@
 title: Thomas More ICT Wiki
 description: Waar je zelf de spellingsfouten mag verbeteren!
 published: true
-date: 2021-02-01T12:47:28.816Z
+date: 2021-02-01T12:47:52.261Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T21:12:05.187Z
 ---
 
 [![tmwiki_v1_noback.png](/tmwiki_v1_noback.png){.align-abstopright}](https://tmwiki.be/en/home)
-
 # Courses
 # Tabs {.tabset}
 ## 2020-2021 2^ste^ semester
