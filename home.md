@@ -1,8 +1,8 @@
 ---
-title: Home
+title: Thomas More ICT Wiki
 description: Waar je zelf de spellingsfouten mag verbeteren!
 published: true
-date: 2021-02-01T12:25:21.544Z
+date: 2021-02-01T12:27:36.285Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T21:12:05.187Z
@@ -10,8 +10,7 @@ dateCreated: 2021-01-20T21:12:05.187Z
 
 [![tmwiki_v1_noback.png](/tmwiki_v1_noback.png){.align-abstopright}](https://tmwiki.be/en/home)
 
-# Thomas More ICT Wiki
-## Courses
+# Courses
 # Tabs {.tabset}
 ## 2020-2021 2^ste^ semester
 ### 1^ste^ jaar
@@ -27,7 +26,7 @@ dateCreated: 2021-01-20T21:12:05.187Z
 
 
 
-## Github
+# Github
 
 Back-ups van pagina's en assets worden op Github gehouden.
 Ook vakken zoals C worden op Github geplaats omdat het logischer is dan code op een wiki te plaatsen.
@@ -36,8 +35,8 @@ Ook vakken zoals C worden op Github geplaats omdat het logischer is dan code op 
 {.links-list}
 
 Als je schrijfrechten nodig hebt mag je een berichtje sturen naar Xunafay#0001 **(Discord)**.
-#
-## Contributen
+
+# Contributen
 
 Meeste pagina's zijn in [Markdown](https://docs.requarks.io/en/editors/markdown) gemaakt. Helemaal niet moeilijk, makkelijk om zelf mee te schrijven.
 Onderaan de editor is er een cheatsheet voor als je iets vergeet en snel wilt opzoeken.
@@ -45,5 +44,5 @@ Onderaan de editor is er een cheatsheet voor als je iets vergeet en snel wilt op
 
 Figuren en bestanden in `/[course]/assets/` plaatsen zodat iedereen ze makkelijk terug vindt.
 
-## Settings
+# Settings
 You can change your username and theme at https://tmwiki.be/p/profile
