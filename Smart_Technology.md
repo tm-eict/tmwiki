@@ -2,8 +2,8 @@
 title: Smart Technology
 description: 
 published: true
-date: 2021-01-31T20:49:01.132Z
-tags: 
+date: 2021-02-01T09:52:03.196Z
+tags: smart-technology
 editor: markdown
 dateCreated: 2021-01-31T17:43:52.395Z
 ---
