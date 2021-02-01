@@ -2,7 +2,7 @@
 title: Thomas More ICT Wiki
 description: Waar je zelf de spellingsfouten mag verbeteren!
 published: true
-date: 2021-02-01T12:47:52.261Z
+date: 2021-02-01T12:48:11.847Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T21:12:05.187Z
@@ -28,7 +28,6 @@ dateCreated: 2021-01-20T21:12:05.187Z
 {.links-list}
 
 # Github
-
 Back-ups van pagina's en assets worden op Github gehouden.
 Ook vakken zoals C worden op Github geplaats omdat het logischer is dan code op een wiki te plaatsen.
 
@@ -38,7 +37,6 @@ Ook vakken zoals C worden op Github geplaats omdat het logischer is dan code op 
 Als je schrijfrechten nodig hebt mag je een berichtje sturen naar Xunafay#0001 **(Discord)**.
 
 # Contributen
-
 Meeste pagina's zijn in [Markdown](https://docs.requarks.io/en/editors/markdown) gemaakt. Helemaal niet moeilijk, makkelijk om zelf mee te schrijven.
 Onderaan de editor is er een cheatsheet voor als je iets vergeet en snel wilt opzoeken.
 **Om pagina's aan te passen en toe te voegen moet je ingelogd zijn, zeker doen!**
