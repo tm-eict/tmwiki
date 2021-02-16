@@ -2,7 +2,7 @@
 title: Web Engineering
 description: 
 published: true
-date: 2021-02-01T12:33:37.981Z
+date: 2021-02-16T18:16:55.847Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-01T12:33:37.981Z
@@ -18,3 +18,30 @@ dateCreated: 2021-02-01T12:33:37.981Z
 {.links-list}
 
 ---
+## Getting started
+Je mag elke IDE gebruiken die werkt, Sofie Beerens gebruikt VSCode:
+[VSCode downloaden](https://code.visualstudio.com/Download)
+Extentions voor VSCode:
+- Path Intellisense
+- IntelliSense for CSS class names in HTML
+- Live Server
+	- Rightclick op je html file en "Open Live Server".
+		Bij saven wordt site automatisch geupdate.
+
+## Template
+```html
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sjabloon titel</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <p>Een paragraaf.</p>
+</body>
+
+</html>
+```
