@@ -2,7 +2,7 @@
 title: Web Engineering
 description: 
 published: true
-date: 2021-02-16T18:16:55.847Z
+date: 2021-02-16T18:37:15.085Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-01T12:33:37.981Z
@@ -29,6 +29,7 @@ Extentions voor VSCode:
 		Bij saven wordt site automatisch geupdate.
 
 ## Template
+In VSCode kan je simpel weg html:5 typen en op enter drukken.
 ```html
 <!DOCTYPE html>
 <html>
