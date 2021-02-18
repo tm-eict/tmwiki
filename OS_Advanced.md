@@ -2,7 +2,7 @@
 title: OS Advanced
 description: Very advanced
 published: true
-date: 2021-02-18T18:18:24.964Z
+date: 2021-02-18T18:25:29.958Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-01T12:42:04.391Z
@@ -15,7 +15,7 @@ dateCreated: 2021-02-01T12:42:04.391Z
 
 ## Index
 
-- [DNS labo 1](https://tmwiki.be/en/OS_Advanced/DNS)
+- [DNS labo 1 *computingforgeeks saves the day*](https://tmwiki.be/en/OS_Advanced/DNS)
 {.links-list}
 
 ---
