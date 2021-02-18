@@ -2,7 +2,7 @@
 title: DNS
 description: Labo 1 informatie proberen bundelen
 published: true
-date: 2021-02-18T17:52:43.496Z
+date: 2021-02-18T17:58:52.977Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-18T17:52:43.495Z
@@ -19,4 +19,4 @@ Static ip's toekennen op windows server is hetzelfde als op windows 10 maar hier
 Open control panel > Network and Internet > Network and sharing center > change adapter settings
 Kies dan de juiste adapter, rechter muisklik > properties > kies ipv4/ipv6 > properties
 
-![static_ip](/os advanced/static_ip.png)
+![static_ip](/os_advanced/static_ip.png)
