@@ -2,7 +2,7 @@
 title: DNS
 description: Labo 1 informatie proberen bundelen
 published: true
-date: 2021-02-18T18:17:51.359Z
+date: 2021-02-18T18:24:58.419Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-18T17:52:43.495Z
@@ -40,3 +40,5 @@ Zie labo document
 ## DNS server setup
 [Deze site](https://computingforgeeks.com/install-and-configure-dns-server-in-windows-server/) heeft een handig stappenplan om een dns rol op te zetten in windows server 2019, je zal opnieuw waarschijnlijk niet zomaar kunnen kopiëren
 
+## DNS forward delegatie
+[Deze site](https://computingforgeeks.com/how-to-add-dns-forward-lookup-zone-in-windows-server/) heeft hier opnieuw een stappenplan voor
