@@ -2,7 +2,7 @@
 title: Afkortingen en begrippen
 description: 
 published: true
-date: 2021-02-20T16:52:05.645Z
+date: 2021-03-03T10:34:23.555Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-20T16:52:05.645Z
@@ -29,3 +29,13 @@ dateCreated: 2021-02-20T16:52:05.645Z
 | MTA | Mail Transfer Agent | |
 | Forwarding | | |
 | ISP | Internet Service provider | |
+| SSO | Single Sign-On | |
+| AD | Active Directory/Application Development | |
+| DC | Domain Controller | |
+| PBC | Primary Domain Controller | |
+| BPC | Backup Domain Controller | |
+| | Forest | |
+| | Sites | |
+| SID | | |
+| OU | Organizational Units | |
+| GPO | Group Policy Object | |
