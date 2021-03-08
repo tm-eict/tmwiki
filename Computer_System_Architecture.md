@@ -2,7 +2,7 @@
 title: Computer System Architecture
 description: 
 published: true
-date: 2021-02-15T12:38:26.123Z
+date: 2021-03-08T09:59:22.578Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-01T12:39:37.432Z
@@ -14,7 +14,7 @@ dateCreated: 2021-02-01T12:39:37.432Z
 
 ## Index
 
-- []()
+- [Afkortingen en begrippen *Woordjes*](/en/Computer_System_Architecture/words)
 {.links-list}
 
 ---
