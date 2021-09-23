@@ -2,10 +2,10 @@
 title: Woorden en afkortingen
 description: Elke afkorting kan gevraagd worden.
 published: true
-date: 2021-01-26T19:26:51.888Z
+date: 2021-04-22T13:12:39.684Z
 tags: info-sec, afkortingen
 editor: markdown
-dateCreated: 2021-01-23T11:20:08.993Z
+dateCreated: 2021-04-22T13:12:32.113Z
 ---
 
 Zie ook gerelateerde pagina's: [poorten](/en/Information_Security/ports), [OSI-model](/en/Information_Security/OSI-model), [perimeters](/en/Information_Security/perimeters)

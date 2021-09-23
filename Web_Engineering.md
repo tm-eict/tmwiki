@@ -2,10 +2,10 @@
 title: Web Engineering
 description: 
 published: true
-date: 2021-02-27T18:37:51.117Z
+date: 2021-05-31T13:07:37.919Z
 tags: 
 editor: markdown
-dateCreated: 2021-02-01T12:33:37.981Z
+dateCreated: 2021-04-22T13:11:19.926Z
 ---
 
 [![tmwiki_v1_noback.png](/tmwiki_v1_noback.png){.align-abstopright}](https://tmwiki.be/en/home)
@@ -13,7 +13,7 @@ dateCreated: 2021-02-01T12:33:37.981Z
 [ECTS Fiche](http://onderwijsaanbodmechelenantwerpen.thomasmore.be/2020/syllabi/n/YT0292N.htm#activetab=doelstellingen_idp2452528)
 
 ## Index
-
+- [Woorden en afkortingen *voluit met uitleg*](/en/Web_Engineering/words)
 - [Voorbeeld examen *Te kennen en voorbeeld vraagjes*](/en/Web_Engineering/exam)
 {.links-list}
 

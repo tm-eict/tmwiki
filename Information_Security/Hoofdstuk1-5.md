@@ -2,10 +2,10 @@
 title: Hoofdstuk 1-5
 description: 
 published: true
-date: 2021-01-26T16:14:43.137Z
+date: 2021-04-22T13:11:43.312Z
 tags: info-sec
 editor: markdown
-dateCreated: 2021-01-21T17:13:23.163Z
+dateCreated: 2021-04-22T13:11:37.948Z
 ---
 
 ## Cia Triad

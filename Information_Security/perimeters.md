@@ -2,10 +2,10 @@
 title: Perimeters
 description: The three perimeters explained with examples
 published: true
-date: 2021-01-26T15:57:59.893Z
+date: 2021-04-22T13:12:41.333Z
 tags: info-sec
 editor: markdown
-dateCreated: 2021-01-26T11:26:34.149Z
+dateCreated: 2021-04-22T13:11:58.681Z
 ---
 
 ![3perimeters.png](/information_security/3perimeters.png){.align-abstopright}

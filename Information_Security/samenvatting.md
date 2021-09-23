@@ -2,10 +2,10 @@
 title: Samenvatting Info Sec
 description: Samenvatting  Info Sec van 2020/2021 gemaakt door Pieter van der Deen
 published: true
-date: 2021-01-27T07:11:22.997Z
+date: 2021-04-22T13:12:41.333Z
 tags: info-sec
 editor: markdown
-dateCreated: 2021-01-21T21:04:57.092Z
+dateCreated: 2021-04-22T13:12:10.998Z
 ---
 
 <a name="TOP"></a>

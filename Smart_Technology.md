@@ -2,10 +2,10 @@
 title: Smart Technology
 description: 
 published: true
-date: 2021-02-01T14:03:26.070Z
+date: 2021-04-22T13:11:31.784Z
 tags: smart-technology
 editor: markdown
-dateCreated: 2021-01-31T17:43:52.395Z
+dateCreated: 2021-04-22T13:11:14.198Z
 ---
 
 [![tmwiki_v1_noback.png](/tmwiki_v1_noback.png){.align-abstopright}](https://tmwiki.be/en/home)

@@ -2,10 +2,10 @@
 title: Voorbeeld examen
 description: Vraagjes zodat je je kan voorbereiden op het examen. Hier staan te kunnen vragen benadrukt door de leerkracht en wat extra vragen die mogelijk gevraagd kunnen worden.
 published: true
-date: 2021-01-26T17:11:23.924Z
+date: 2021-04-22T13:12:41.333Z
 tags: info-sec
 editor: markdown
-dateCreated: 2021-01-21T16:23:45.370Z
+dateCreated: 2021-04-22T13:12:21.546Z
 ---
 
 > ![typenvragen.png](/information_security/assets/typenvragen.png)

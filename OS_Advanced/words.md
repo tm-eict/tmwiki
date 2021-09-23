@@ -2,10 +2,10 @@
 title: Afkortingen en begrippen
 description: 
 published: true
-date: 2021-04-05T18:16:01.868Z
+date: 2021-06-13T21:51:08.022Z
 tags: 
 editor: markdown
-dateCreated: 2021-02-20T16:52:05.645Z
+dateCreated: 2021-04-22T13:12:48.597Z
 ---
 
 ## Afkortingen en begrippen
@@ -26,7 +26,7 @@ dateCreated: 2021-02-20T16:52:05.645Z
 | PTR | Pointer | Returns a name, used for reverse DNS |
 | SRV  | Service | Generec record, can be used for any ne w protocol |
 | TXT | Text | General use, info |
-| MTA | Mail Transfer Agent | |
+| MTA | Message Transfer Agent | |
 | Forwarding | | |
 | ISP | Internet Service provider | |
 | SSO | Single Sign-On | |
@@ -49,7 +49,7 @@ dateCreated: 2021-02-20T16:52:05.645Z
 | DN | Distinguished Name | |
 | RDN | Relative Distinguished Name | |
 | NC | Naming Context | |
-| SAM | Account Manager | |
+| SAM | Security Account Manager | |
 | UPN | User Principal Name Security | |
 | RID | Relative Identifier | Identifier appended to SID |
 | ACE | Access Control Entry | |
@@ -57,6 +57,7 @@ dateCreated: 2021-02-20T16:52:05.645Z
 | VPN | Virtual Private Network | |
 | PPP | Point-to-Point | Protocol: Enables TCP/IP over a serial line |
 | RAS | Remote Access | |
+| IAS | Internet Authentication Service | |
 | CIA | Confidentiality Integrity Authentication | I know I know |
 | SSL | Secure Socket Layer | |
 | TLS | Transport Layer Security | |
@@ -73,3 +74,29 @@ dateCreated: 2021-02-20T16:52:05.645Z
 | HMAC | Hash-based Message Authentication Code | |
 | SA | Security Association? | |
 | UDP | User Datagram Protocol | |
+| UUCP | Unix-to-Unix Copy Program | intermittently connected computers (Usenet stillusesthis) |
+| SMTP | Simple Mail transfer Protocol | |
+| UA | User Agents | |
+| MTA | Mail Transfer Agent | |
+| ELM | ELectronic Mail | |
+| MAA | Message Access Agent | |
+| MX | Mail eXchange | |
+| SRV record | SeRVice record | |
+| POP | Post Office Protocol | |
+| UIDL | Unique IDentification Listong command | POP3 extension |
+| IMAP | INternet Message Access Protocol | |
+| MIME | Multipurpose Internet Mail Extensions | For converting Non-ASCII to ASCII |
+| PAS | Partial Attribute Set | |
+| FSMO | Flexible Single-master Operations |
+| TTP | Trusted Third Party | |
+| SS | Server Service | |
+| AS | Authenticating Service | |
+| TGS |TicketGRanting Server | |
+| TGT | Ticket Granting Ticket | |
+| KDC | Key Dristribution Service | |
+| PSO | Password Settings Object | |
+| ACL | Access Control List | |
+| ACE | Access Control Entries |
+| RODC | Read-Only Domain Controllers | |
+| UGMC | Universal Group Membership Caching | |
+| ARS | Administrator Role Seperation | |

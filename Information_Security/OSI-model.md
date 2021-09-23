@@ -2,10 +2,10 @@
 title: OSI-model
 description: 
 published: true
-date: 2021-01-26T18:02:55.296Z
+date: 2021-04-22T13:11:50.958Z
 tags: info-sec, network
 editor: markdown
-dateCreated: 2021-01-21T15:09:52.659Z
+dateCreated: 2021-04-22T13:11:45.102Z
 ---
 
 [Open Systems Interconnection-model](https://en.wikipedia.org/wiki/OSI-model) 

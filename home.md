@@ -2,10 +2,10 @@
 title: Thomas More ICT Wiki
 description: Waar je zelf de spellingsfouten mag verbeteren!
 published: true
-date: 2021-02-01T14:03:55.505Z
+date: 2021-04-22T13:11:31.784Z
 tags: 
 editor: markdown
-dateCreated: 2021-01-20T21:12:05.187Z
+dateCreated: 2021-04-22T13:11:25.646Z
 ---
 
 [![tmwiki_v1_noback.png](/tmwiki_v1_noback.png){.align-abstopright}](https://tmwiki.be/en/home)

@@ -2,10 +2,10 @@
 title: Ports
 description: Port names and pictures. Info whether they can pose a security risk or not.
 published: true
-date: 2021-01-27T07:24:39.407Z
+date: 2021-04-22T13:12:09.400Z
 tags: info-sec, network, ports
 editor: markdown
-dateCreated: 2021-01-21T16:14:13.582Z
+dateCreated: 2021-04-22T13:12:04.497Z
 ---
 
 > Joris zijn antwoord!

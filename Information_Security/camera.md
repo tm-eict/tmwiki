@@ -2,10 +2,10 @@
 title: Camera's
 description: Verschillende camera's
 published: true
-date: 2021-01-26T15:57:00.645Z
+date: 2021-04-22T13:11:57.036Z
 tags: info-sec
 editor: markdown
-dateCreated: 2021-01-26T12:15:23.923Z
+dateCreated: 2021-04-22T13:11:52.632Z
 ---
 
 ## Analogue (CCTV)
